@@ -1,0 +1,178 @@
+{
+  "slavery": {
+    "modelName": "slavery",
+    "icon": "food",
+    "type": "SOCIAL",
+    "politicalPointCost": 5,
+    "displayName": "TXT_STATE_INSTITUTE_SLAVERY",
+    "effectsWhenActive": []
+  },
+  "slavery2": {
+    "modelName": "slavery2",
+    "icon": "food",
+    "type": "SOCIAL",
+    "politicalPointCost": 5,
+    "displayName": "TXT_STATE_INSTITUTE_SLAVERY",
+    "effectsWhenActive": []
+  },
+  "slavery3": {
+    "modelName": "slavery3",
+    "icon": "food",
+    "type": "SOCIAL",
+    "politicalPointCost": 5,
+    "displayName": "TXT_STATE_INSTITUTE_SLAVERY",
+    "effectsWhenActive": []
+  },
+  "slavery4": {
+    "modelName": "slavery4",
+    "icon": "food",
+    "type": "SOCIAL",
+    "politicalPointCost": 5,
+    "displayName": "TXT_STATE_INSTITUTE_SLAVERY",
+    "effectsWhenActive": []
+  },
+  "slavery5": {
+    "modelName": "slavery5",
+    "icon": "food",
+    "type": "SOCIAL",
+    "politicalPointCost": 5,
+    "displayName": "TXT_STATE_INSTITUTE_SLAVERY",
+    "effectsWhenActive": []
+  },
+  "slavery6": {
+    "modelName": "slavery6",
+    "icon": "food",
+    "type": "SOCIAL",
+    "politicalPointCost": 5,
+    "displayName": "TXT_STATE_INSTITUTE_SLAVERY",
+    "effectsWhenActive": []
+  },
+  "slavery7": {
+    "modelName": "slavery7",
+    "icon": "food",
+    "type": "SOCIAL",
+    "politicalPointCost": 5,
+    "displayName": "TXT_STATE_INSTITUTE_SLAVERY",
+    "effectsWhenActive": []
+  },
+  "slavery8": {
+    "modelName": "slavery8",
+    "icon": "food",
+    "type": "SOCIAL",
+    "politicalPointCost": 5,
+    "displayName": "TXT_STATE_INSTITUTE_SLAVERY",
+    "effectsWhenActive": []
+  },
+  "slavery9": {
+    "modelName": "slavery9",
+    "icon": "food",
+    "type": "SOCIAL",
+    "politicalPointCost": 5,
+    "displayName": "TXT_STATE_INSTITUTE_SLAVERY",
+    "effectsWhenActive": []
+  },
+  "slavery11": {
+    "modelName": "slavery11",
+    "icon": "food",
+    "type": "SOCIAL",
+    "politicalPointCost": 5,
+    "displayName": "TXT_STATE_INSTITUTE_SLAVERY",
+    "effectsWhenActive": []
+  },
+  "slavery12": {
+    "modelName": "slavery12",
+    "icon": "food",
+    "type": "SOCIAL",
+    "politicalPointCost": 5,
+    "displayName": "TXT_STATE_INSTITUTE_SLAVERY",
+    "effectsWhenActive": []
+  },
+  "slavery10": {
+    "modelName": "slavery10",
+    "icon": "food",
+    "type": "SOCIAL",
+    "politicalPointCost": 5,
+    "displayName": "TXT_STATE_INSTITUTE_SLAVERY",
+    "effectsWhenActive": []
+  },
+  "slavery13": {
+    "modelName": "slavery13",
+    "icon": "food",
+    "type": "SOCIAL",
+    "politicalPointCost": 5,
+    "displayName": "TXT_STATE_INSTITUTE_SLAVERY",
+    "effectsWhenActive": []
+  },
+  "slavery14": {
+    "modelName": "slavery14",
+    "icon": "food",
+    "type": "SOCIAL",
+    "politicalPointCost": 5,
+    "displayName": "TXT_STATE_INSTITUTE_SLAVERY",
+    "effectsWhenActive": []
+  },
+  "slavery15": {
+    "modelName": "slavery15",
+    "icon": "food",
+    "type": "SOCIAL",
+    "politicalPointCost": 5,
+    "displayName": "TXT_STATE_INSTITUTE_SLAVERY",
+    "effectsWhenActive": []
+  },
+  "slavery17": {
+    "modelName": "slavery17",
+    "icon": "food",
+    "type": "SOCIAL",
+    "politicalPointCost": 5,
+    "displayName": "TXT_STATE_INSTITUTE_SLAVERY",
+    "effectsWhenActive": []
+  },
+  "slavery18": {
+    "modelName": "slavery18",
+    "icon": "food",
+    "type": "SOCIAL",
+    "politicalPointCost": 5,
+    "displayName": "TXT_STATE_INSTITUTE_SLAVERY",
+    "effectsWhenActive": []
+  },
+  "slavery19": {
+    "modelName": "slavery19",
+    "icon": "food",
+    "type": "SOCIAL",
+    "politicalPointCost": 5,
+    "displayName": "TXT_STATE_INSTITUTE_SLAVERY",
+    "effectsWhenActive": []
+  },
+  "slavery20": {
+    "modelName": "slavery20",
+    "icon": "food",
+    "type": "SOCIAL",
+    "politicalPointCost": 5,
+    "displayName": "TXT_STATE_INSTITUTE_SLAVERY",
+    "effectsWhenActive": []
+  },
+  "slavery21": {
+    "modelName": "slavery21",
+    "icon": "food",
+    "type": "SOCIAL",
+    "politicalPointCost": 5,
+    "displayName": "TXT_STATE_INSTITUTE_SLAVERY",
+    "effectsWhenActive": []
+  },
+  "slavery22": {
+    "modelName": "slavery22",
+    "icon": "food",
+    "type": "SOCIAL",
+    "politicalPointCost": 5,
+    "displayName": "TXT_STATE_INSTITUTE_SLAVERY",
+    "effectsWhenActive": []
+  },
+  "slavery23": {
+    "modelName": "slavery23",
+    "icon": "food",
+    "type": "SOCIAL",
+    "politicalPointCost": 5,
+    "displayName": "TXT_STATE_INSTITUTE_SLAVERY",
+    "effectsWhenActive": []
+  }
+}

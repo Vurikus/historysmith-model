@@ -1,0 +1,110 @@
+[
+  {
+    "modelName" : "migrant",
+    "atlas": "chip/default/infantry.atlas",
+    "culture": "none",
+    "epoch": 0,
+    "width": 0.34,
+    "height": 0.34,
+    "hasAnimation": true
+  },
+  {
+    "modelName" : "migrant",
+    "atlas": "chip/default/infantry.atlas",
+    "culture": "none",
+    "epoch": 1,
+    "width": 0.34,
+    "height": 0.34,
+    "hasAnimation": true
+  },
+  {
+    "modelName" : "migrant",
+    "atlas": "chip/default/infantry.atlas",
+    "culture": "none",
+    "epoch": 2,
+    "width": 0.34,
+    "height": 0.34,
+    "hasAnimation": true
+  },
+  {
+    "modelName" : "migrant",
+    "atlas": "chip/default/infantry.atlas",
+    "culture": "none",
+    "epoch": 3,
+    "width": 0.34,
+    "height": 0.34,
+    "hasAnimation": true
+  },
+  {
+    "modelName" : "migrant",
+    "atlas": "chip/default/infantry.atlas",
+    "culture": "none",
+    "epoch": 4,
+    "width": 0.34,
+    "height": 0.34,
+    "hasAnimation": true
+  },
+  {
+    "modelName" : "migrant",
+    "atlas": "chip/default/infantry.atlas",
+    "culture": "none",
+    "epoch": 5,
+    "width": 0.34,
+    "height": 0.34,
+    "hasAnimation": true
+  },
+  {
+    "modelName" : "infantry",
+    "atlas": "chip/default/infantry.atlas",
+    "culture": "none",
+    "epoch": 0,
+    "width": 0.34,
+    "height": 0.34,
+    "hasAnimation": true
+  },
+  {
+    "modelName" : "infantry",
+    "atlas": "chip/default/infantry.atlas",
+    "culture": "none",
+    "epoch": 1,
+    "width": 0.34,
+    "height": 0.34,
+    "hasAnimation": true
+  },
+  {
+    "modelName" : "infantry",
+    "atlas": "chip/default/infantry.atlas",
+    "culture": "none",
+    "epoch": 2,
+    "width": 0.34,
+    "height": 0.34,
+    "hasAnimation": true
+  },
+  {
+    "modelName" : "infantry",
+    "atlas": "chip/default/infantry.atlas",
+    "culture": "none",
+    "epoch": 3,
+    "width": 0.34,
+    "height": 0.34,
+    "hasAnimation": true
+  },
+  {
+    "modelName" : "infantry",
+    "atlas": "chip/default/infantry.atlas",
+    "culture": "none",
+    "epoch": 4,
+    "width": 0.34,
+    "height": 0.34,
+    "hasAnimation": true
+  },
+  {
+    "modelName" : "infantry",
+    "atlas": "chip/default/infantry.atlas",
+    "culture": "none",
+    "epoch": 5,
+    "width": 0.34,
+    "height": 0.34,
+    "hasAnimation": true
+  }
+]

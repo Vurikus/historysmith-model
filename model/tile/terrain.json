@@ -1,0 +1,52 @@
+[
+  {
+    "modelName": "grass",
+    "displayName": "TXT_TERRAIN_GRASS",
+    "defaultRelief": "plain",
+    "relief": [
+      "plain", "hill", "lake", "river"
+    ],
+    "isWater": false,
+    "cultivationCostMoney": 1
+  },
+  {
+    "modelName": "desert",
+    "displayName": "TXT_TERRAIN_DESERT",
+    "defaultRelief": "dune",
+    "relief": [
+      "plain", "dune", "lake", "river"
+    ],
+    "isWater": false,
+    "cultivationCostMoney": 2
+  },
+  {
+    "modelName": "swamp",
+    "displayName": "TXT_TERRAIN_SWAMP",
+    "defaultRelief": "marsh",
+    "relief": [
+      "plain", "marsh", "lake", "river"
+    ],
+    "isWater": false,
+    "cultivationCostMoney": 1.5
+  },
+  {
+    "modelName": "rocky",
+    "displayName": "TXT_TERRAIN_ROCKY",
+    "defaultRelief": "mountain",
+    "relief": [
+      "plain", "hill", "mountain", "lake", "volcano", "river"
+    ],
+    "isWater": false,
+    "cultivationCostMoney": 1
+  },
+  {
+    "modelName": "ocean",
+    "displayName": "TXT_TERRAIN_OCEAN",
+    "defaultRelief": "sea",
+    "relief": [
+      "sea", "reef", "rock", "iceberg", "island"
+    ],
+    "isWater": true,
+    "cultivationCostMoney": 0.5
+  }
+]

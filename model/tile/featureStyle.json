@@ -1,0 +1,308 @@
+[
+  {
+    "modelName": "field",
+    "texture": "none_none_none",
+    "culture": "none",
+    "epoch": "stone",
+    "width": 0.45,
+    "height": 0.45,
+    "hasAnimation": false
+  },
+  {
+    "modelName": "pastureCow",
+    "texture": "none_stone_pastureCow",
+    "culture": "none",
+    "epoch": "stone",
+    "width": 0.45,
+    "height": 0.45,
+    "hasAnimation": false
+  },
+  {
+    "modelName": "pasturePig",
+    "texture": "none_stone_pasturePig",
+    "culture": "none",
+    "epoch": "stone",
+    "width": 0.45,
+    "height": 0.45,
+    "hasAnimation": false
+  },
+  {
+    "modelName": "pastureDeer",
+    "texture": "none_stone_pastureDeer",
+    "culture": "none",
+    "epoch": "stone",
+    "width": 0.45,
+    "height": 0.45,
+    "hasAnimation": false
+  },
+  {
+    "modelName": "pastureCamel",
+    "texture": "none_stone_pastureCamel",
+    "culture": "none",
+    "epoch": "stone",
+    "width": 0.45,
+    "height": 0.45,
+    "hasAnimation": false
+  },
+  {
+    "modelName": "pastureLama",
+    "texture": "none_stone_pastureLama",
+    "culture": "none",
+    "epoch": "stone",
+    "width": 0.45,
+    "height": 0.45,
+    "hasAnimation": false
+  },
+  {
+    "modelName": "pastureHorse",
+    "texture": "none_stone_pastureHorse",
+    "culture": "none",
+    "epoch": "stone",
+    "width": 0.45,
+    "height": 0.45,
+    "hasAnimation": false
+  },
+  {
+    "modelName": "pastureSheep",
+    "texture": "none_stone_pastureSheep",
+    "culture": "none",
+    "epoch": "stone",
+    "width": 0.45,
+    "height": 0.45,
+    "hasAnimation": false
+  },
+  {
+    "modelName": "farmRice",
+    "texture": "none_stone_farmRice",
+    "culture": "none",
+    "epoch": "stone",
+    "width": 0.45,
+    "height": 0.45,
+    "hasAnimation": false
+  },
+  {
+    "modelName": "farmPotato",
+    "texture": "none_stone_farmPotato",
+    "culture": "none",
+    "epoch": "stone",
+    "width": 0.45,
+    "height": 0.45,
+    "hasAnimation": false
+  },
+  {
+    "modelName": "farmCorn",
+    "texture": "none_stone_farmCorn",
+    "culture": "none",
+    "epoch": "stone",
+    "width": 0.45,
+    "height": 0.45,
+    "hasAnimation": false
+  },
+  {
+    "modelName": "farmWheat",
+    "texture": "none_stone_farmWheat",
+    "culture": "none",
+    "epoch": "stone",
+    "width": 0.45,
+    "height": 0.45,
+    "hasAnimation": false
+  },
+  {
+    "modelName": "vineyard",
+    "texture": "none_stone_vineyard",
+    "culture": "none",
+    "epoch": "stone",
+    "width": 0.45,
+    "height": 0.45,
+    "hasAnimation": false
+  },
+  {
+    "modelName": "waterMill",
+    "texture": "none_stone_waterMill",
+    "culture": "none",
+    "epoch": "stone",
+    "width": 0.45,
+    "height": 0.45,
+    "hasAnimation": false
+  },
+  {
+    "modelName": "fortification",
+    "texture": "none_stone_fortification",
+    "culture": "none",
+    "epoch": "stone",
+    "width": 0.23,
+    "height": 0.23,
+    "hasAnimation": false
+  },
+  {
+    "modelName": "castle",
+    "texture": "none_stone_castle",
+    "culture": "none",
+    "epoch": "stone",
+    "width": 0.28,
+    "height": 0.28,
+    "hasAnimation": false
+  },
+  {
+    "modelName": "quarryStone",
+    "texture": "none_stone_quarryStone",
+    "culture": "none",
+    "epoch": "stone",
+    "width": 0.23,
+    "height": 0.23,
+    "hasAnimation": false
+  },
+  {
+    "modelName": "mine",
+    "texture": "none_stone_mine",
+    "culture": "none",
+    "epoch": "stone",
+    "width": 0.2,
+    "height": 0.2,
+    "hasAnimation": false
+  },
+  {
+    "modelName": "plantationCocoa",
+    "texture": "none_stone_plantationCocoa",
+    "culture": "none",
+    "epoch": "stone",
+    "width": 0.45,
+    "height": 0.45,
+    "hasAnimation": false
+  },
+  {
+    "modelName": "plantationCoffee",
+    "texture": "none_stone_plantationCoffee",
+    "culture": "none",
+    "epoch": "stone",
+    "width": 0.454,
+    "height": 0.454,
+    "hasAnimation": false
+  },
+  {
+    "modelName": "plantationOpium",
+    "texture": "none_stone_plantationOpium",
+    "culture": "none",
+    "epoch": "stone",
+    "width": 0.454,
+    "height": 0.454,
+    "hasAnimation": false
+  },
+  {
+    "modelName": "plantationSpice",
+    "texture": "none_stone_plantationSpice",
+    "culture": "none",
+    "epoch": "stone",
+    "width": 0.45,
+    "height": 0.45,
+    "hasAnimation": false
+  },
+  {
+    "modelName": "plantationTobacco",
+    "texture": "none_stone_plantationTobacco",
+    "culture": "none",
+    "epoch": "stone",
+    "width": 0.45,
+    "height": 0.45,
+    "hasAnimation": false
+  },
+  {
+    "modelName": "plantationTea",
+    "texture": "none_stone_plantationTea",
+    "culture": "none",
+    "epoch": "stone",
+    "width": 0.45,
+    "height": 0.45,
+    "hasAnimation": false
+  },
+  {
+    "modelName": "nomadSettlement",
+    "texture": "none_stone_nomadSettlement",
+    "culture": "none",
+    "epoch": "stone",
+    "width": 0.45,
+    "height": 0.45,
+    "hasAnimation": false
+  },
+  {
+    "modelName": "tribalCommunity",
+    "texture": "none_stone_nomadSettlement",
+    "culture": "none",
+    "epoch": "stone",
+    "width": 0.45,
+    "height": 0.45,
+    "hasAnimation": false
+  },
+  {
+    "modelName": "farm",
+    "texture": "none_stone_farm",
+    "culture": "none",
+    "epoch": "stone",
+    "width": 0.45,
+    "height": 0.45,
+    "hasAnimation": false
+  },
+  {
+    "modelName": "farm",
+    "texture": "none_industrial_farm",
+    "culture": "none",
+    "epoch": "bronze",
+    "width": 0.45,
+    "height": 0.45,
+    "hasAnimation": false
+  },
+  {
+    "modelName": "harbor",
+    "texture": "none_stone_farm",
+    "culture": "none",
+    "epoch": "stone",
+    "width": 0.45,
+    "height": 0.45,
+    "hasAnimation": false
+  },
+  {
+    "modelName": "forrest",
+    "texture": "none_none_forrest",
+    "culture": "none",
+    "epoch": "none",
+    "width": 0.45,
+    "height": 0.45,
+    "hasAnimation": false
+  },
+  {
+    "modelName": "settlement",
+    "texture": "none_stone_town",
+    "culture": "none",
+    "epoch": "stone",
+    "width": 0.45,
+    "height": 0.45,
+    "hasAnimation": false
+  },
+  {
+    "modelName": "town",
+    "texture": "none_stone_town",
+    "culture": "none",
+    "epoch": "stone",
+    "width": 0.45,
+    "height": 0.45,
+    "hasAnimation": false
+  },
+  {
+    "modelName": "town",
+    "texture": "none_bronze_town",
+    "culture": "none",
+    "epoch": "bronze",
+    "width": 0.45,
+    "height": 0.45,
+    "hasAnimation": false
+  },
+  {
+    "modelName": "churchyard",
+    "texture": "none_stone_nomadSettlement",
+    "culture": "none",
+    "epoch": "stone",
+    "width": 0.45,
+    "height": 0.45,
+    "hasAnimation": false
+  }
+]

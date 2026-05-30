@@ -1,0 +1,50 @@
+[
+  {
+    "modelName": "migrant",
+    "category": "FOOT",
+    "icon": "islam",
+    "displayName": "TXT_BAND_MANAGEABLE_MIGRANT",
+    "power": 2,
+    "defence": 20,
+    "step": 1,
+    "requiredResources": [],
+    "provision": {
+      "lifeSupport": [
+        {
+          "modelName": "cannedGoods",
+          "volume": 1
+        }
+      ],
+      "moving": [
+        {
+          "modelName": "clothes",
+          "volume": 1
+        }
+      ]
+    }
+  },
+  {
+    "modelName": "infantry",
+    "category": "FOOT",
+    "icon": "islam",
+    "displayName": "TXT_BAND_INFANTRY",
+    "power": 5,
+    "defence": 30,
+    "step": 1,
+    "requiredResources": [],
+    "provision": {
+      "lifeSupport": [
+        {
+          "modelName": "cannedGoods",
+          "volume": 1
+        }
+      ],
+      "moving": [
+        {
+          "modelName": "clothes",
+          "volume": 1
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "modelName": "arid",
+    "displayName": "TXT_CLIMATE_ARID",
+    "icon": "stock",
+    "borderCoefficientToEquator": 0.85,
+    "order": 4,
+    "clothingNeeds": 0.8
+  },
+  {
+    "modelName": "humid",
+    "displayName": "TXT_CLIMATE_HUMID",
+    "icon": "stock",
+    "borderCoefficientToEquator": 0.6,
+    "order": 3,
+    "clothingNeeds": 0.7
+  },
+  {
+    "modelName": "cold",
+    "displayName": "TXT_CLIMATE_COLD",
+    "icon": "stock",
+    "borderCoefficientToEquator": 0,
+    "order": 1,
+    "clothingNeeds": 1.5
+  },
+  {
+    "modelName": "temperate",
+    "displayName": "TXT_CLIMATE_TEMPERATE",
+    "icon": "stock",
+    "borderCoefficientToEquator": 0.2,
+    "order": 2,
+    "clothingNeeds": 1
+  }
+]

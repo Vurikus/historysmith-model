@@ -1,0 +1,17 @@
+[
+  {
+    "modelName": "club",
+    "icon": "islam",
+    "displayName": "TXT_WEAPON_CLUB",
+    "power": 2,
+    "canUseBandCategories": ["FOOT"],
+    "requiredStatePoints": [],
+    "requiredResources": [],
+    "battleResourcesCost": [
+      {
+        "modelName": "armor",
+        "volume": 1
+      }
+    ]
+  }
+]

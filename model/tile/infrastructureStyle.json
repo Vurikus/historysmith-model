@@ -1,0 +1,20 @@
+[
+  {
+    "modelName" : "road",
+    "texture": "EMPTY_STYLE",
+    "culture": "none",
+    "epoch": "none",
+    "width": 1,
+    "height": 1,
+    "hasAnimation": false
+  },
+  {
+    "modelName" : "road2",
+    "texture": "EMPTY_STYLE",
+    "culture": "none",
+    "epoch": "none",
+    "width": 1,
+    "height": 1,
+    "hasAnimation": false
+  }
+]

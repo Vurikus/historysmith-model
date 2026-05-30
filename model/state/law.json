@@ -1,0 +1,12 @@
+{
+  "refugeeAsylumLaw": {
+    "modelName": "refugeeAsylumLaw",
+    "displayName": "TXT_LAW_REFUGEE_ASYLUM_LAW",
+    "effectsWhenActive": []
+  },
+  "creatingArchives": {
+    "modelName": "creatingArchives",
+    "displayName": "TXT_LAW_WRITING_ARCHIVES",
+    "effectsWhenActive": []
+  }
+}

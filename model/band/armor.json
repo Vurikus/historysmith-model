@@ -1,0 +1,17 @@
+[
+  {
+    "modelName": "lightSkinArmor",
+    "icon": "islam",
+    "displayName": "TXT_ARMOR_LIGHT_SKIN_ARMOR",
+    "defence": 2,
+    "canUseBandCategories": ["FOOT","CAVALRY"],
+    "requiredStatePoints": [],
+    "requiredResources": [],
+    "battleResourcesCost": [
+      {
+        "modelName": "armor",
+        "volume": 1
+      }
+    ]
+  }
+]

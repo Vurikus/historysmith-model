@@ -1,0 +1,16 @@
+[
+  {
+    "modelName": "nomadStrategy",
+    "displayName": "TXT_CULTURE_STRATEGY_NOMAD",
+    "baseTileCost": 0.1,
+    "coefficientDistanceFromCapital": 15,
+    "powerCoefficientForCountAssignTiles": 1.8
+  },
+  {
+    "modelName": "sedentaryStrategy",
+    "displayName": "TXT_CULTURE_STRATEGY_SEDENTARY",
+    "baseTileCost": 0.3,
+    "coefficientDistanceFromCapital": 9,
+    "powerCoefficientForCountAssignTiles": 1.5
+  }
+]

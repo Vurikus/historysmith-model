@@ -1,0 +1,205 @@
+{
+  "source": {
+    "modelName": "source",
+    "displayName": "TXT_CASE_SOURCE",
+    "epochStart": 0,
+    "epochEnd": 1,
+    "chance": 10,
+    "descriptionFile": "source.json",
+    "tags": ["EXPANSION","SOCIAL"],
+    "images": [
+      "source.png"
+    ],
+    "actions": [
+      {
+        "displayTxtCode": "TXT_ACTION_1"
+      },
+      {
+        "displayTxtCode": "TXT_ACTION_2"
+      },
+      {
+        "displayTxtCode": "TXT_ACTION_3"
+      }
+    ]
+  },
+  "unusualFlower": {
+    "modelName": "unusualFlower",
+    "displayName": "TXT_CASE_UNUSUAL_FLOWER",
+    "epochStart": 0,
+    "epochEnd": 1,
+    "chance": 10,
+    "descriptionFile": "unusualFlower.json",
+    "tags": ["SOCIAL"],
+    "images": [
+      "unusualFlower.png"
+    ],
+    "actions": [
+      {
+        "displayTxtCode": "TXT_ACTION_1"
+      },
+      {
+        "displayTxtCode": "TXT_ACTION_2"
+      }
+    ]
+  },
+  "primitiveArtist": {
+    "modelName": "primitiveArtist",
+    "displayName": "TXT_CASE_PRIMITIVE_ARTIST",
+    "epochStart": 0,
+    "epochEnd": 1,
+    "chance": 10,
+    "descriptionFile": "primitiveArtist.json",
+    "tags": ["CULTURE"],
+    "images": [
+      "primitiveArtist.png"
+    ],
+    "actions": [
+      {
+        "displayTxtCode": "TXT_ACTION_1"
+      },
+      {
+        "displayTxtCode": "TXT_ACTION_2"
+      }
+    ]
+  },
+  "anotherWorld": {
+    "modelName": "anotherWorld",
+    "displayName": "TXT_CASE_ANOTHER_WORLD",
+    "epochStart": 0,
+    "epochEnd": 1,
+    "chance": 10,
+    "descriptionFile": "anotherWorld.json",
+    "tags": ["RELIGION"],
+    "images": [
+      "anotherWorld.png"
+    ],
+    "actions": [
+      {
+        "displayTxtCode": "TXT_ACTION_1"
+      },
+      {
+        "displayTxtCode": "TXT_ACTION_2"
+      },
+      {
+        "displayTxtCode": "TXT_ACTION_3"
+      }
+    ]
+  },
+  "illness": {
+    "modelName": "illness",
+    "displayName": "TXT_CASE_ILLNESS",
+    "epochStart": 0,
+    "epochEnd": 1,
+    "chance": 5,
+    "descriptionFile": "illness.json",
+    "tags": ["SOCIAL"],
+    "images": [
+      "illness.png"
+    ],
+    "actions": [
+      {
+        "displayTxtCode": "TXT_ACTION_1",
+        "effects": [
+          {
+            "effectKey": "resourceEffect",
+            "resource": {
+              "modelName": "food",
+              "volume": 100
+            },
+            "turnDuration": 2,
+            "turnDelay": 0,
+            "scale": "LOCAL"
+          }
+        ]
+      },
+      {
+        "displayTxtCode": "TXT_ACTION_2",
+        "civConditions": {
+          "hasStateReligion": true,
+          "currentCivilizationEpoch": 0
+        }
+      },
+      {
+        "displayTxtCode": "TXT_ACTION_3"
+      },
+      {
+        "displayTxtCode": "TXT_ACTION_4"
+      }
+    ]
+  },
+  "flood": {
+    "modelName": "flood",
+    "displayName": "TXT_CASE_FLOOD",
+    "epochStart": 0,
+    "epochEnd": 1,
+    "chance": 15,
+    "descriptionFile": "flood.json",
+    "tags": ["SOCIAL"],
+    "images": [
+      "flood.png"
+    ],
+    "actions": [
+      {
+        "displayTxtCode": "TXT_ACTION_1",
+        "effects": [
+          {
+            "effectKey": "resourceEffect",
+            "resource": {
+              "modelName": "food",
+              "volume": 100
+            },
+            "turnDuration": 2,
+            "turnDelay": 0,
+            "scale": "LOCAL"
+          }
+        ]
+      }
+    ]
+  },
+  "squadInSwamp": {
+    "modelName": "squadInSwamp",
+    "displayName": "TXT_CASE_SQUAD_IN_SWAMP",
+    "epochStart": 0,
+    "epochEnd": 1,
+    "chance": 10,
+    "descriptionFile": "squadInSwamp.json",
+    "tags": ["EXPANSION", "MILITARY"],
+    "images": [
+      "squadInSwamp.png"
+    ],
+    "actions": [
+      {
+        "displayTxtCode": "TXT_ACTION_1",
+        "effects": [
+          {
+            "effectKey": "resourceEffect",
+            "resource": {
+              "modelName": "food",
+              "volume": 100
+            },
+            "turnDuration": 2,
+            "turnDelay": 0,
+            "scale": "LOCAL"
+          }
+        ]
+      }
+    ]
+  },
+  "scouting": {
+    "modelName": "scouting",
+    "displayName": "TXT_CASE_SCOUTING",
+    "epochStart": 0,
+    "epochEnd": 1,
+    "chance": 1,
+    "descriptionFile": "scouting.json",
+    "tags": ["DIPLOMATIC", "IMPERIALISM", "MILITARY"],
+    "images": [
+      "scouting.png"
+    ],
+    "actions": [
+      {
+        "displayTxtCode": "TXT_ACTION_1"
+      }
+    ]
+  }
+}

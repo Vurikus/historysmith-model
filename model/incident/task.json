@@ -1,0 +1,142 @@
+{
+  "dreamsOnWildHunting": {
+    "epoch": 1,
+    "availableWhenHappenedOutcome": ["NO_OUTCOME"],
+    "descriptionFile": "dreamsOnWildHunting.json",
+    "tags": ["BUILDING"],
+    "images": [
+      "dreamsOnWildHunting.png"
+    ],
+    "completeOnTurn": 2,
+    "chance": 5,
+    "goals": [
+      {
+        "goalType": "maxPercentCivilizationCulture",
+        "maxPercentCivilizationCulture": 90
+      }
+    ],
+    "effectsOnAchieved": [
+      {
+        "effectKey": "openConstructionEffect",
+        "features": [
+          {
+            "key": "forrest",
+            "scale": "CIVILIZATION"
+          }
+        ]
+      },
+      {
+        "effectKey": "resourceEffect",
+        "resource": {
+          "modelName": "food",
+          "volume": 100
+        },
+        "turnDuration": 2,
+        "scale": "LOCAL"
+      }
+    ],
+    "effectOnDismissCopyFromFail": true,
+    "effectOnDismiss": [],
+    "effectsOnFail": [
+      {
+        "effectKey": "resourceEffect",
+        "resource": {
+          "modelName": "food",
+          "volume": -6
+        },
+        "turnDuration": 3,
+        "scale": "CIVILIZATION"
+      }
+    ]
+  },
+  "dreamsOnWildHunting2": {
+    "epoch": 2,
+    "availableWhenHappenedOutcome": ["NO_OUTCOME"],
+    "descriptionFile": "dreamsOnWildHunting.json",
+    "images": [
+      "dreamsOnWildHunting.png"
+    ],
+    "completeOnTurn": 2,
+    "chance": 5,
+    "effectOnDismiss": [],
+    "effectOnDismissCopyFromFail": true,
+    "goals": [
+      {
+        "goalType": "maxPercentCivilizationCulture",
+        "maxPercentCivilizationCulture": 90
+      },
+      {
+        "goalType": "maxPercentCivilizationCulture",
+        "maxPercentCivilizationCulture": 90
+      },
+      {
+        "goalType": "maxPercentCivilizationCulture",
+        "maxPercentCivilizationCulture": 90
+      },
+      {
+        "goalType": "maxPercentCivilizationCulture",
+        "maxPercentCivilizationCulture": 90
+      },
+      {
+        "goalType": "maxPercentCivilizationCulture",
+        "maxPercentCivilizationCulture": 90
+      },
+      {
+        "goalType": "maxPercentCivilizationCulture",
+        "maxPercentCivilizationCulture": 90
+      },
+      {
+        "goalType": "maxPercentCivilizationCulture",
+        "maxPercentCivilizationCulture": 90
+      },
+      {
+        "goalType": "maxPercentCivilizationCulture",
+        "maxPercentCivilizationCulture": 90
+      },
+      {
+        "goalType": "maxPercentCivilizationCulture",
+        "maxPercentCivilizationCulture": 90
+      },
+      {
+        "goalType": "maxPercentCivilizationCulture",
+        "maxPercentCivilizationCulture": 90
+      }
+    ]
+  },
+  "dreamsOnWildHunting3": {
+    "epoch": 2,
+    "availableWhenHappenedOutcome": ["NO_OUTCOME"],
+    "descriptionFile": "dreamsOnWildHunting.json",
+    "images": [
+      "dreamsOnWildHunting.png"
+    ],
+    "completeOnTurn": 2,
+    "chance": 5,
+    "effectOnDismiss": [],
+    "effectOnDismissCopyFromFail": true,
+    "goals": [
+      {
+        "goalType": "maxPercentCivilizationCulture",
+        "maxPercentCivilizationCulture": 90
+      }
+    ]
+  },
+  "dreamsOnWildHunting4": {
+    "epoch": 2,
+    "availableWhenHappenedOutcome": ["NO_OUTCOME"],
+    "descriptionFile": "dreamsOnWildHunting.json",
+    "images": [
+      "dreamsOnWildHunting.png"
+    ],
+    "completeOnTurn": 2,
+    "chance": 5,
+    "effectOnDismiss": [],
+    "effectOnDismissCopyFromFail": true,
+    "goals": [
+      {
+        "goalType": "maxPercentCivilizationCulture",
+        "maxPercentCivilizationCulture": 90
+      }
+    ]
+  }
+}

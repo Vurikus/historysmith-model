@@ -1,0 +1,8 @@
+{
+  "barter": {
+    "modelName": "barter",
+    "displayName": "TXT_TAX_BARTER",
+    "icon": "food",
+    "effectsWhenActive": []
+  }
+}

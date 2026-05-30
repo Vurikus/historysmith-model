@@ -1,0 +1,119 @@
+[
+  {
+    "modelName" : "mountain",
+    "texture": "none_none_mountain",
+    "culture": "none",
+    "epoch": "none",
+    "width": 0.45,
+    "height": 0.45,
+    "hasAnimation": false
+  },
+  {
+    "modelName" : "volcano",
+    "texture": "none_none_mountain",
+    "culture": "none",
+    "epoch": "none",
+    "width": 0.45,
+    "height": 0.45,
+    "hasAnimation": false
+  },
+  {
+    "modelName" : "hill",
+    "texture": "none_none_hill",
+    "culture": "none",
+    "epoch": "none",
+    "width": 0.45,
+    "height": 0.45,
+    "hasAnimation": false
+  },
+  {
+    "modelName" : "plain",
+    "texture": "EMPTY_STYLE",
+    "culture": "none",
+    "epoch": "none",
+    "width": 0.45,
+    "height": 0.45,
+    "hasAnimation": false
+  },
+  {
+    "modelName" : "river",
+    "texture": "none_none_hill",
+    "culture": "none",
+    "epoch": "none",
+    "width": 0.45,
+    "height": 0.45,
+    "hasAnimation": false
+  },
+  {
+    "modelName" : "lake",
+    "texture": "none_none_hill",
+    "culture": "none",
+    "epoch": "none",
+    "width": 0.45,
+    "height": 0.45,
+    "hasAnimation": false
+  },
+  {
+    "modelName" : "dune",
+    "texture": "none_none_hill",
+    "culture": "none",
+    "epoch": "none",
+    "width": 0.45,
+    "height": 0.45,
+    "hasAnimation": false
+  },
+  {
+    "modelName" : "marsh",
+    "texture": "none_none_hill",
+    "culture": "none",
+    "epoch": "none",
+    "width": 0.45,
+    "height": 0.45,
+    "hasAnimation": false
+  },
+  {
+    "modelName" : "reef",
+    "texture": "none_none_hill",
+    "culture": "none",
+    "epoch": "none",
+    "width": 0.45,
+    "height": 0.45,
+    "hasAnimation": false
+  },
+  {
+    "modelName" : "rock",
+    "texture": "none_none_hill",
+    "culture": "none",
+    "epoch": "none",
+    "width": 0.45,
+    "height": 0.45,
+    "hasAnimation": false
+  },
+  {
+    "modelName" : "iceberg",
+    "texture": "none_none_hill",
+    "culture": "none",
+    "epoch": "none",
+    "width": 0.45,
+    "height": 0.45,
+    "hasAnimation": false
+  },
+  {
+    "modelName" : "island",
+    "texture": "none_none_hill",
+    "culture": "none",
+    "epoch": "none",
+    "width": 0.45,
+    "height": 0.45,
+    "hasAnimation": false
+  },
+  {
+    "modelName" : "sea",
+    "texture": "EMPTY_STYLE",
+    "culture": "none",
+    "epoch": "none",
+    "width": 0.45,
+    "height": 0.45,
+    "hasAnimation": false
+  }
+]

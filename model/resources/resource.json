@@ -1,0 +1,803 @@
+[
+  {
+    "modelName": "wood",
+    "displayName": "TXT_RESOURCE_WOOD",
+    "icon": "wood",
+    "category": "MATERIAL",
+    "satisfy": null,
+    "epoch": 0,
+    "requiredStatePoints": [],
+    "produceStatePoints": [],
+    "requiredResources": [],
+    "produce": []
+  },
+  {
+    "modelName": "cocoa",
+    "displayName": "TXT_RESOURCE_COCOA",
+    "icon": "cocoa",
+    "category": "LUXURY",
+    "satisfy": {
+      "coefficient": 0.5,
+      "maxConsume": 1
+    },
+    "epoch": 0,
+    "requiredStatePoints": [],
+    "produceStatePoints": [],
+    "requiredResources": [],
+    "produce": []
+  },
+  {
+    "modelName": "musicalInstrument",
+    "displayName": "TXT_RESOURCE_MUSICAL_INSTRUMENT",
+    "icon": "cocoa",
+    "category": "LUXURY",
+    "satisfy": {
+      "coefficient": 0.5,
+      "maxConsume": 1
+    },
+    "epoch": 0,
+    "requiredStatePoints": [],
+    "produceStatePoints": [],
+    "requiredResources": [],
+    "produce": []
+  },
+  {
+    "modelName": "stone",
+    "displayName": "TXT_RESOURCE_STONE",
+    "icon": "stone",
+    "category": "MATERIAL",
+    "satisfy": null,
+    "epoch": 0,
+    "requiredStatePoints": [],
+    "produceStatePoints": [],
+    "requiredResources": [],
+    "produce": []
+  },
+  {
+    "modelName": "quartzOre",
+    "displayName": "TXT_RESOURCE_QUARTZ_ORE",
+    "icon": "quartzOre",
+    "category": "MATERIAL",
+    "satisfy": null,
+    "epoch": 0,
+    "requiredStatePoints": [],
+    "produceStatePoints": [],
+    "requiredResources": [],
+    "produce": []
+  },
+  {
+    "modelName": "coffee",
+    "displayName": "TXT_RESOURCE_COFFEE",
+    "icon": "coffee",
+    "category": "LUXURY",
+    "satisfy": {
+      "coefficient": 0.5,
+      "maxConsume": 1
+    },
+    "epoch": 0,
+    "requiredStatePoints": [],
+    "produceStatePoints": [],
+    "requiredResources": [],
+    "produce": []
+  },
+  {
+    "modelName": "gas",
+    "displayName": "TXT_RESOURCE_GAS",
+    "icon": "gas",
+    "category": "MATERIAL",
+    "satisfy": null,
+    "epoch": 0,
+    "requiredStatePoints": [],
+    "produceStatePoints": [],
+    "requiredResources": [],
+    "produce": []
+  },
+  {
+    "modelName": "grain",
+    "displayName": "TXT_RESOURCE_GRAIN",
+    "icon": "grain",
+    "category": "FOOD",
+    "satisfy": {
+      "coefficient": 0.75,
+      "maxConsume": 999999999
+    },
+    "epoch": 0,
+    "requiredStatePoints": [],
+    "produceStatePoints": [],
+    "requiredResources": [],
+    "produce": []
+  },
+  {
+    "modelName": "petroleum",
+    "displayName": "TXT_RESOURCE_PETROLEUM",
+    "icon": "petroleum",
+    "category": "MATERIAL",
+    "satisfy": null,
+    "epoch": 0,
+    "requiredStatePoints": [],
+    "produceStatePoints": [],
+    "requiredResources": [],
+    "produce": []
+  },
+  {
+    "modelName": "opium",
+    "displayName": "TXT_RESOURCE_OPIUM",
+    "icon": "opium",
+    "category": "HEALTHY_GOOD",
+    "satisfy": {
+      "coefficient": 0.5,
+      "maxConsume": 1
+    },
+    "epoch": 0,
+    "requiredStatePoints": [],
+    "produceStatePoints": [],
+    "requiredResources": [],
+    "produce": []
+  },
+  {
+    "modelName": "sugar",
+    "displayName": "TXT_RESOURCE_SUGAR",
+    "icon": "sugar",
+    "category": "LUXURY",
+    "satisfy": {
+      "coefficient": 0.5,
+      "maxConsume": 1
+    },
+    "epoch": 0,
+    "requiredStatePoints": [],
+    "produceStatePoints": [],
+    "requiredResources": [],
+    "produce": []
+  },
+  {
+    "modelName": "salt",
+    "displayName": "TXT_RESOURCE_SALT",
+    "icon": "salt",
+    "category": "MATERIAL",
+    "satisfy": null,
+    "epoch": 0,
+    "requiredStatePoints": [],
+    "produceStatePoints": [],
+    "requiredResources": [],
+    "produce": []
+  },
+  {
+    "modelName": "spices",
+    "displayName": "TXT_RESOURCE_SPICES",
+    "icon": "spices",
+    "category": "LUXURY",
+    "satisfy": {
+      "coefficient": 0.5,
+      "maxConsume": 1
+    },
+    "epoch": 0,
+    "requiredStatePoints": [],
+    "produceStatePoints": [],
+    "requiredResources": [],
+    "produce": []
+  },
+  {
+    "modelName": "coal",
+    "displayName": "TXT_RESOURCE_COAL",
+    "icon": "coal",
+    "category": "STRATEGIC",
+    "satisfy": null,
+    "epoch": 0,
+    "requiredStatePoints": [],
+    "produceStatePoints": [],
+    "requiredResources": [],
+    "produce": []
+  },
+  {
+    "modelName": "cotton",
+    "displayName": "TXT_RESOURCE_COTTON",
+    "icon": "cotton",
+    "category": "MATERIAL",
+    "satisfy": null,
+    "epoch": 0,
+    "requiredStatePoints": [],
+    "produceStatePoints": [],
+    "requiredResources": [],
+    "produce": []
+  },
+  {
+    "modelName": "flowers",
+    "displayName": "TXT_RESOURCE_FLOWERS",
+    "icon": "flowers",
+    "category": "MATERIAL",
+    "satisfy": null,
+    "epoch": 0,
+    "requiredStatePoints": [],
+    "produceStatePoints": [],
+    "requiredResources": [],
+    "produce": []
+  },
+  {
+    "modelName": "herbs",
+    "displayName": "TXT_RESOURCE_HERBS",
+    "icon": "herbs",
+    "category": "HEALTHY_GOOD",
+    "satisfy": {
+      "coefficient": 0.5,
+      "maxConsume": 1
+    },
+    "epoch": 0,
+    "requiredStatePoints": [],
+    "produceStatePoints": [],
+    "requiredResources": [],
+    "produce": []
+  },
+  {
+    "modelName": "tea",
+    "displayName": "TXT_RESOURCE_TEA",
+    "icon": "tea",
+    "category": "LUXURY",
+    "satisfy": {
+      "coefficient": 0.5,
+      "maxConsume": 1
+    },
+    "epoch": 0,
+    "requiredStatePoints": [],
+    "produceStatePoints": [],
+    "requiredResources": [],
+    "produce": []
+  },
+  {
+    "modelName": "wool",
+    "displayName": "TXT_RESOURCE_WOOL",
+    "icon": "wool",
+    "category": "MATERIAL",
+    "satisfy": null,
+    "epoch": 0,
+    "requiredStatePoints": [],
+    "produceStatePoints": [],
+    "requiredResources": [],
+    "produce": []
+  },
+  {
+    "modelName": "skin",
+    "displayName": "TXT_RESOURCE_SKIN",
+    "icon": "skin",
+    "category": "CLOTHING",
+    "satisfy": {
+      "coefficient": 0.5,
+      "maxConsume": 999999999
+    },
+    "epoch": 0,
+    "requiredStatePoints": [],
+    "produceStatePoints": [],
+    "requiredResources": [],
+    "produce": []
+  },
+  {
+    "modelName": "meat",
+    "displayName": "TXT_RESOURCE_MEAT",
+    "icon": "meat",
+    "category": "FOOD",
+    "satisfy": {
+      "coefficient": 1,
+      "maxConsume": 999999999
+    },
+    "epoch": 0,
+    "requiredStatePoints": [],
+    "produceStatePoints": [],
+    "requiredResources": [],
+    "produce": []
+  },
+  {
+    "modelName": "tobacco",
+    "displayName": "TXT_RESOURCE_TOBACCO",
+    "icon": "tobacco",
+    "category": "LUXURY",
+    "satisfy": {
+      "coefficient": 0.5,
+      "maxConsume": 1
+    },
+    "epoch": 0,
+    "requiredStatePoints": [],
+    "produceStatePoints": [],
+    "requiredResources": [],
+    "produce": []
+  },
+  {
+    "modelName": "vehicle",
+    "displayName": "TXT_RESOURCE_VEHICLE",
+    "icon": "vehicle",
+    "category": "LUXURY",
+    "satisfy": {
+      "coefficient": 0.5,
+      "maxConsume": 1
+    },
+    "epoch": 0,
+    "turn": 1,
+    "requiredStatePoints": [],
+    "produceStatePoints": [],
+    "requiredResources": [],
+    "produce": []
+  },
+  {
+    "modelName": "battery",
+    "displayName": "TXT_RESOURCE_BATTERY",
+    "icon": "battery",
+    "category": "HIGH_TECH",
+    "satisfy": null,
+    "epoch": 0,
+    "turn": 1,
+    "requiredStatePoints": [],
+    "produceStatePoints": [],
+    "requiredResources": [],
+    "produce": []
+  },
+  {
+    "modelName": "diamond",
+    "displayName": "TXT_RESOURCE_DIAMOND",
+    "icon": "diamond",
+    "category": "MATERIAL",
+    "satisfy": null,
+    "epoch": 0,
+    "turn": 1,
+    "requiredStatePoints": [],
+    "produceStatePoints": [],
+    "requiredResources": [],
+    "produce": []
+  },
+  {
+    "modelName": "aluminumAlloy",
+    "displayName": "TXT_RESOURCE_ALUMINUM_ALLOY",
+    "icon": "aluminumAlloy",
+    "category": "MATERIAL",
+    "satisfy": null,
+    "epoch": 0,
+    "turn": 1,
+    "requiredStatePoints": [],
+    "produceStatePoints": [],
+    "requiredResources": [],
+    "produce": []
+  },
+  {
+    "modelName": "ammunition",
+    "displayName": "TXT_RESOURCE_AMMUNITION",
+    "icon": "ammunition",
+    "category": "MILITARY",
+    "satisfy": null,
+    "epoch": 0,
+    "turn": 1,
+    "requiredStatePoints": [],
+    "produceStatePoints": [],
+    "requiredResources": [],
+    "produce": []
+  },
+  {
+    "modelName": "paper",
+    "displayName": "TXT_RESOURCE_PAPER",
+    "icon": "paper",
+    "category": "MATERIAL",
+    "satisfy": null,
+    "epoch": 0,
+    "turn": 1,
+    "requiredStatePoints": [],
+    "produceStatePoints": [],
+    "requiredResources": [],
+    "produce": []
+  },
+  {
+    "modelName": "engine",
+    "displayName": "TXT_RESOURCE_ENGINE",
+    "icon": "engine",
+    "category": "STRATEGIC",
+    "satisfy": null,
+    "epoch": 0,
+    "turn": 1,
+    "requiredStatePoints": [],
+    "produceStatePoints": [],
+    "requiredResources": [],
+    "produce": []
+  },
+  {
+    "modelName": "armor",
+    "displayName": "TXT_RESOURCE_ARMOR",
+    "icon": "armor",
+    "category": "MILITARY",
+    "satisfy": null,
+    "epoch": 0,
+    "turn": 1,
+    "requiredStatePoints": [],
+    "produceStatePoints": [],
+    "requiredResources": [],
+    "produce": []
+  },
+  {
+    "modelName": "iron",
+    "displayName": "TXT_RESOURCE_IRON",
+    "icon": "iron",
+    "category": "MATERIAL",
+    "satisfy": null,
+    "epoch": 0,
+    "turn": 1,
+    "requiredStatePoints": [],
+    "produceStatePoints": [],
+    "requiredResources": [],
+    "produce": []
+  },
+  {
+    "modelName": "gold",
+    "displayName": "TXT_RESOURCE_GOLD",
+    "icon": "gold",
+    "category": "MATERIAL",
+    "satisfy": null,
+    "epoch": 0,
+    "turn": 1,
+    "requiredStatePoints": [],
+    "produceStatePoints": [],
+    "requiredResources": [],
+    "produce": []
+  },
+  {
+    "modelName": "cable",
+    "displayName": "TXT_RESOURCE_CABLE",
+    "icon": "cable",
+    "category": "STRATEGIC",
+    "satisfy": null,
+    "epoch": 0,
+    "turn": 1,
+    "requiredStatePoints": [],
+    "produceStatePoints": [],
+    "requiredResources": [],
+    "produce": []
+  },
+  {
+    "modelName": "makeup",
+    "displayName": "TXT_RESOURCE_MAKEUP",
+    "icon": "makeup",
+    "category": "LUXURY",
+    "satisfy": {
+      "coefficient": 0.5,
+      "maxConsume": 1
+    },
+    "epoch": 0,
+    "turn": 1,
+    "requiredStatePoints": [],
+    "produceStatePoints": [],
+    "requiredResources": [],
+    "produce": []
+  },
+  {
+    "modelName": "medicament",
+    "displayName": "TXT_RESOURCE_MEDICAMENT",
+    "icon": "medicament",
+    "category": "HEALTHY_GOOD",
+    "satisfy": {
+      "coefficient": 1,
+      "maxConsume": 3
+    },
+    "epoch": 0,
+    "turn": 1,
+    "requiredStatePoints": [],
+    "produceStatePoints": [],
+    "requiredResources": [],
+    "produce": []
+  },
+  {
+    "modelName": "lithium",
+    "displayName": "TXT_RESOURCE_LITHIUM",
+    "icon": "lithium",
+    "category": "MATERIAL",
+    "satisfy": null,
+    "epoch": 0,
+    "turn": 1,
+    "requiredStatePoints": [],
+    "produceStatePoints": [],
+    "requiredResources": [],
+    "produce": []
+  },
+  {
+    "modelName": "oil",
+    "displayName": "TXT_RESOURCE_OIL",
+    "icon": "oil",
+    "category": "MATERIAL",
+    "satisfy": null,
+    "epoch": 0,
+    "turn": 1,
+    "requiredStatePoints": [],
+    "produceStatePoints": [],
+    "requiredResources": [],
+    "produce": []
+  },
+  {
+    "modelName": "furniture",
+    "displayName": "TXT_RESOURCE_FURNITURE",
+    "icon": "furniture",
+    "category": "LUXURY",
+    "satisfy": {
+      "coefficient": 0.5,
+      "maxConsume": 1
+    },
+    "epoch": 0,
+    "turn": 1,
+    "requiredStatePoints": [],
+    "produceStatePoints": [],
+    "requiredResources": [],
+    "produce": []
+  },
+  {
+    "modelName": "copper",
+    "displayName": "TXT_RESOURCE_COPPER",
+    "icon": "copper",
+    "category": "MATERIAL",
+    "satisfy": null,
+    "epoch": 0,
+    "turn": 1,
+    "requiredStatePoints": [],
+    "produceStatePoints": [],
+    "requiredResources": [],
+    "produce": []
+  },
+  {
+    "modelName": "petroleumProducts",
+    "displayName": "TXT_RESOURCE_PETROLEUM_PRODUCTS",
+    "icon": "petroleumProducts",
+    "category": "STRATEGIC",
+    "satisfy": null,
+    "epoch": 0,
+    "turn": 1,
+    "requiredStatePoints": [],
+    "produceStatePoints": [],
+    "requiredResources": [],
+    "produce": []
+  },
+  {
+    "modelName": "clothes",
+    "displayName": "TXT_RESOURCE_CLOTHES",
+    "icon": "clothes",
+    "category": "CLOTHING",
+    "satisfy": {
+      "coefficient": 1,
+      "maxConsume": 999999999
+    },
+    "epoch": 0,
+    "turn": 1,
+    "requiredStatePoints": [],
+    "produceStatePoints": [],
+    "requiredResources": [],
+    "produce": []
+  },
+  {
+    "modelName": "plastic",
+    "displayName": "TXT_RESOURCE_PLASTIC",
+    "icon": "plastic",
+    "category": "MATERIAL",
+    "satisfy": null,
+    "epoch": 0,
+    "turn": 1,
+    "requiredStatePoints": [],
+    "produceStatePoints": [],
+    "requiredResources": [],
+    "produce": []
+  },
+  {
+    "modelName": "semiconductors",
+    "displayName": "TXT_RESOURCE_SEMICONDUCTORS",
+    "icon": "semiconductors",
+    "category": "HIGH_TECH",
+    "satisfy": null,
+    "epoch": 0,
+    "turn": 1,
+    "requiredStatePoints": [],
+    "produceStatePoints": [],
+    "requiredResources": [],
+    "produce": []
+  },
+  {
+    "modelName": "powder",
+    "displayName": "TXT_RESOURCE_POWDER",
+    "icon": "powder",
+    "category": "STRATEGIC",
+    "satisfy": null,
+    "epoch": 0,
+    "turn": 1,
+    "requiredStatePoints": [],
+    "produceStatePoints": [],
+    "requiredResources": [],
+    "produce": []
+  },
+  {
+    "modelName": "steel",
+    "displayName": "TXT_RESOURCE_STEEL",
+    "icon": "steel",
+    "category": "STRATEGIC",
+    "satisfy": null,
+    "epoch": 0,
+    "turn": 1,
+    "requiredStatePoints": [],
+    "produceStatePoints": [],
+    "requiredResources": [],
+    "produce": []
+  },
+  {
+    "modelName": "glass",
+    "displayName": "TXT_RESOURCE_GLASS",
+    "icon": "glass",
+    "category": "MATERIAL",
+    "satisfy": null,
+    "epoch": 0,
+    "turn": 1,
+    "requiredStatePoints": [],
+    "produceStatePoints": [],
+    "requiredResources": [],
+    "produce": []
+  },
+  {
+    "modelName": "fabrics",
+    "displayName": "TXT_RESOURCE_FABRICS",
+    "icon": "fabrics",
+    "category": "MATERIAL",
+    "satisfy": null,
+    "epoch": 0,
+    "turn": 1,
+    "requiredStatePoints": [],
+    "produceStatePoints": [],
+    "requiredResources": [],
+    "produce": []
+  },
+  {
+    "modelName": "fuel",
+    "displayName": "TXT_RESOURCE_FUEL",
+    "icon": "fuel",
+    "category": "STRATEGIC",
+    "satisfy": null,
+    "epoch": 0,
+    "turn": 1,
+    "requiredStatePoints": [],
+    "produceStatePoints": [],
+    "requiredResources": [],
+    "produce": []
+  },
+  {
+    "modelName": "decorations",
+    "displayName": "TXT_RESOURCE_DECORATIONS",
+    "icon": "decorations",
+    "category": "LUXURY",
+    "satisfy": {
+      "coefficient": 0.5,
+      "maxConsume": 1
+    },
+    "epoch": 0,
+    "turn": 1,
+    "requiredStatePoints": [],
+    "produceStatePoints": [],
+    "requiredResources": [],
+    "produce": []
+  },
+  {
+    "modelName": "cement",
+    "displayName": "TXT_RESOURCE_CEMENT",
+    "icon": "cement",
+    "category": "MATERIAL",
+    "satisfy": null,
+    "epoch": 0,
+    "turn": 1,
+    "requiredStatePoints": [],
+    "produceStatePoints": [],
+    "requiredResources": [],
+    "produce": []
+  },
+  {
+    "modelName": "chocolate",
+    "displayName": "TXT_RESOURCE_CHOCOLATE",
+    "icon": "chocolate",
+    "category": "LUXURY",
+    "satisfy": {
+      "coefficient": 0.5,
+      "maxConsume": 1
+    },
+    "epoch": 0,
+    "turn": 1,
+    "requiredStatePoints": [],
+    "produceStatePoints": [],
+    "requiredResources": [],
+    "produce": []
+  },
+  {
+    "modelName": "alcohol",
+    "displayName": "TXT_RESOURCE_ALCOHOL",
+    "icon": "chocolate",
+    "category": "LUXURY",
+    "satisfy": {
+      "coefficient": 0.5,
+      "maxConsume": 1
+    },
+    "epoch": 0,
+    "turn": 1,
+    "requiredStatePoints": [],
+    "produceStatePoints": [],
+    "requiredResources": [],
+    "produce": []
+  },
+  {
+    "modelName": "electronics",
+    "displayName": "TXT_RESOURCE_ELECTRONICS",
+    "icon": "electronics",
+    "category": "HIGH_TECH",
+    "satisfy": null,
+    "epoch": 0,
+    "turn": 1,
+    "requiredStatePoints": [],
+    "produceStatePoints": [],
+    "requiredResources": [],
+    "produce": []
+  },
+  {
+    "modelName": "poison",
+    "displayName": "TXT_RESOURCE_POISON",
+    "icon": "poison",
+    "category": "MATERIAL",
+    "satisfy": null,
+    "epoch": 0,
+    "turn": 1,
+    "requiredStatePoints": [],
+    "produceStatePoints": [],
+    "requiredResources": [],
+    "produce": []
+  },
+  {
+    "modelName": "nuclearFuel",
+    "displayName": "TXT_RESOURCE_NUCLEAR_FUEL",
+    "icon": "nuclearFuel",
+    "category": "STRATEGIC",
+    "satisfy": null,
+    "epoch": 0,
+    "turn": 1,
+    "requiredStatePoints": [],
+    "produceStatePoints": [],
+    "requiredResources": [],
+    "produce": []
+  },
+  {
+    "modelName": "hygieneProducts",
+    "displayName": "TXT_RESOURCE_HYGIENE_PRODUCTS",
+    "icon": "hygieneProducts",
+    "category": "HEALTHY_GOOD",
+    "satisfy": {
+      "coefficient": 0.5,
+      "maxConsume": 1
+    },
+    "epoch": 0,
+    "turn": 1,
+    "requiredStatePoints": [],
+    "produceStatePoints": [],
+    "requiredResources": [],
+    "produce": []
+  },
+  {
+    "modelName": "cannedGoods",
+    "displayName": "TXT_RESOURCE_CANNED_GOODS",
+    "icon": "food",
+    "category": "FOOD",
+    "satisfy": {
+      "coefficient": 1,
+      "maxConsume": 999999999
+    },
+    "epoch": 0,
+    "turn": 1,
+    "requiredStatePoints": [],
+    "produceStatePoints": [],
+    "requiredResources": [],
+    "produce": []
+  },
+  {
+    "modelName": "food",
+    "displayName": "TXT_RESOURCE_FOOD",
+    "icon": "food",
+    "category": "FOOD",
+    "satisfy": {
+      "coefficient": 1.25,
+      "maxConsume": 999999999
+    },
+    "epoch": 0,
+    "turn": 1,
+    "requiredStatePoints": [],
+    "produceStatePoints": [],
+    "requiredResources": [],
+    "produce": []
+  }
+]

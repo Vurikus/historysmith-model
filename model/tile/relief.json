@@ -1,0 +1,67 @@
+[
+  {
+    "modelName": "mountain",
+    "displayName": "TXT_RELIEF_MOUNTAIN",
+    "unlockNeighborTileForTrade": false
+  },
+  {
+    "modelName": "volcano",
+    "displayName": "TXT_RELIEF_VOLCANO",
+    "unlockNeighborTileForTrade": false
+  },
+  {
+    "modelName": "hill",
+    "displayName": "TXT_RELIEF_HILL",
+    "unlockNeighborTileForTrade": false
+  },
+  {
+    "modelName": "plain",
+    "displayName": "TXT_RELIEF_PLAIN",
+    "unlockNeighborTileForTrade": false
+  },
+  {
+    "modelName": "lake",
+    "displayName": "TXT_RELIEF_LAKE",
+    "unlockNeighborTileForTrade": false
+  },
+  {
+    "modelName": "river",
+    "displayName": "TXT_RELIEF_RIVER",
+    "unlockNeighborTileForTrade": true
+  },
+  {
+    "modelName": "dune",
+    "displayName": "TXT_RELIEF_DUNE",
+    "unlockNeighborTileForTrade": false
+  },
+  {
+    "modelName": "marsh",
+    "displayName": "TXT_RELIEF_MARSH",
+    "unlockNeighborTileForTrade": false
+  },
+  {
+    "modelName": "sea",
+    "displayName": "TXT_RELIEF_SEA",
+    "unlockNeighborTileForTrade": true
+  },
+  {
+    "modelName": "reef",
+    "displayName": "TXT_RELIEF_REEF",
+    "unlockNeighborTileForTrade": false
+  },
+  {
+    "modelName": "rock",
+    "displayName": "TXT_RELIEF_ROCK",
+    "unlockNeighborTileForTrade": false
+  },
+  {
+    "modelName": "iceberg",
+    "displayName": "TXT_RELIEF_ICEBERG",
+    "unlockNeighborTileForTrade": false
+  },
+  {
+    "modelName": "island",
+    "displayName": "TXT_RELIEF_ISLAND",
+    "unlockNeighborTileForTrade": false
+  }
+]

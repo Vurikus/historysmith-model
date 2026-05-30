@@ -1,0 +1,153 @@
+{
+  "formationState": {
+    "epoch": 0,
+    "descriptionFile": "formationState.json",
+    "images": [
+      "formationState.png"
+    ],
+    "goals": [
+      {
+        "goalType": "minPercentCivilizationCulture",
+        "minPercentCivilizationCulture": 90
+      },
+      {
+        "goalType": "countCitizenTotal",
+        "countCitizenTotal": 1500
+      },
+      {
+        "goalType": "oneFrom",
+        "oneFromGoals": [
+          {
+            "goalType": "minAssignTilesCount",
+            "minAssignTilesCount": 3
+          },
+          {
+            "goalType": "minAssignTilesCount",
+            "civConditions": {
+              "currentCivilizationEpoch": 1
+            },
+            "minAssignTilesCount": 6
+          },
+          {
+            "goalType": "minAssignTilesCount",
+            "civConditions": {
+              "currentCivilizationEpoch": 2
+            },
+            "minAssignTilesCount": 7
+          },
+          {
+            "goalType": "minAssignTilesCount",
+            "civConditions": {
+              "isWarWhenCivilizationDefender": true
+            },
+            "minAssignTilesCount": 4
+          },
+          {
+            "goalType": "minAssignTilesCount",
+            "civConditions": {
+              "minCountBordersCivilization": 2
+            },
+            "minAssignTilesCount": 5
+          }
+        ]
+      }
+    ],
+    "effectsOnAchieved": [
+      {
+        "effectKey": "openConstructionEffect",
+        "features": [
+          {
+            "key": "pastureCow",
+            "scale": "CIVILIZATION"
+          },
+          {
+            "key": "town",
+            "scale": "CIVILIZATION"
+          },
+          {
+            "key": "pastureSheep",
+            "scale": "CIVILIZATION"
+          },
+          {
+            "key": "pastureDeer",
+            "scale": "CIVILIZATION"
+          },
+          {
+            "key": "pastureCamel",
+            "scale": "CIVILIZATION"
+          },
+          {
+            "key": "pastureHorse",
+            "scale": "CIVILIZATION"
+          },
+          {
+            "key": "pasturePig",
+            "scale": "CIVILIZATION"
+          }
+        ]
+      }
+    ],
+    "effectsOnFail": [
+      {
+        "effectKey": "openConstructionEffect",
+        "features": [
+          {
+            "key": "forrest",
+            "scale": "CIVILIZATION"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "epoch": 1,
+    "descriptionFile": "expansion.json",
+    "images": [
+      "flood.png"
+    ],
+    "goals": [
+      {
+        "goalType": "maxPercentCivilizationCulture",
+        "maxPercentCivilizationCulture": 60
+      }
+    ],
+    "effectsOnAchieved": [
+      {
+        "effectKey": "potentialCaseEffect",
+        "caseKey": "squadInSwamp",
+        "chance": 50,
+        "duration": 10,
+        "turnDelay": 2
+      },
+      {
+        "effectKey": "potentialTaskEffect",
+        "availableWhenHappenedOutcome": null,
+        "taskKey": "dreamsOnWildHunting",
+        "chance": 70,
+        "duration": 5,
+        "turnDelay": 0
+      }
+    ],
+    "effectsOnFail": [
+      {
+        "effectKey": "resourceEffect",
+        "resource": {
+          "modelName": "food",
+          "volume": -46
+        },
+        "turnDuration": 3,
+        "turnDelay": 2,
+        "scale": "CIVILIZATION"
+      },
+      {
+        "effectKey": "resourceEffect",
+        "resource": {
+          "modelName": "stone",
+          "volume": -15
+        },
+        "turnDuration": 15,
+        "scale": "CIVILIZATION"
+      }
+    ]
+  }
+}

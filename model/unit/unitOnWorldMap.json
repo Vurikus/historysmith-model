@@ -1,0 +1,14 @@
+[
+  {
+    "id": 0,
+    "epoch": "stone",
+    "culture": "muslim",
+    "style": "stone-muslim"
+  },
+  {
+    "id": 1,
+    "epoch": "medieval",
+    "culture": "muslim",
+    "style": "medieval-muslim"
+  }
+]

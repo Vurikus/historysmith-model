@@ -1,0 +1,12 @@
+[
+  {
+    "modelName": "christianity",
+    "icon": "christianity",
+    "displayName": "TXT_CHRISTIANITY_CULTURE"
+  },
+  {
+    "modelName": "islam",
+    "icon": "islam",
+    "displayName": "TXT_ISLAM_CULTURE"
+  }
+]

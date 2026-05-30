@@ -1,0 +1,28 @@
+{
+  "despotism": {
+    "modelName": "despotism",
+    "icon": "food",
+    "institutes": [1,1,1,1],
+    "limitActionsToLawInTurn": 1,
+    "displayName": "TXT_POLITIC_SYSTEM_DESPOTISM",
+    "effectsWhenActive": [
+      {
+        "effectKey": "potentialCaseEffect",
+        "caseKey": "squadInSwamp",
+        "chance": 50,
+        "duration": 10,
+        "turnDelay": 2
+      },
+      {
+        "effectKey": "resourceEffect",
+        "resource": {
+          "modelName": "food",
+          "volume": 100
+        },
+        "turnDuration": 2,
+        "turnDelay": 0,
+        "scale": "LOCAL"
+      }
+    ]
+  }
+}

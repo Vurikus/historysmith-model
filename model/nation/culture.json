@@ -1,0 +1,12 @@
+[
+  {
+    "modelName": "russian",
+    "style": "muslim",
+    "displayName": "TXT_RUSSIAN_CULTURE"
+  },
+  {
+    "modelName": "arabian",
+    "style": "muslim",
+    "displayName": "TXT_ARABIAN_CULTURE"
+  }
+]

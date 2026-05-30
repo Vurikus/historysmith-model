@@ -1,0 +1,1551 @@
+{
+  "singAndDance": {
+    "modelName": "singAndDance",
+    "displayName": "TXT_KNOWLEDGE_SING_AND_DANCE",
+    "icon": "singAndDance",
+    "level": 1,
+    "images": [
+      "singAndDance.png"
+    ],
+    "requiredStatePoints": [
+      {
+        "modelName": "science",
+        "volume": 5
+      }
+    ],
+    "descriptionFile": "stoneTools.json",
+    "epoch": 0,
+    "visibleConditions": null,
+    "canSearchConditions": null,
+    "consolidateConditions": null,
+    "defaultEffectsOnSearch": [],
+    "optionEffects": [
+      {
+        "effectKey": "openConstructionEffect",
+        "turnDelay": 0,
+        "buildings" : [
+          {
+            "key": "totemCircle",
+            "scale" : "CIVILIZATION"
+          }
+        ],
+        "features": [],
+        "infrastructures": []
+      },
+      {
+        "effectKey": "openConstructionEffect",
+        "turnDelay": 0,
+        "buildings" : [
+          {
+            "key": "sacredFire",
+            "scale" : "CIVILIZATION"
+          }
+        ],
+        "features": [],
+        "infrastructures": []
+      }
+    ]
+  },
+  "simpleMusicalInstruments": {
+    "modelName": "simpleMusicalInstruments",
+    "displayName": "TXT_KNOWLEDGE_SIMPLE_MUSICAL_INSTRUMENTS",
+    "icon": "simpleMusicalInstruments",
+    "level": 2,
+    "images": [
+      "simpleMusicalInstruments.png"
+    ],
+    "requiredStatePoints": [
+      {
+        "modelName": "science",
+        "volume": 7
+      }
+    ],
+    "descriptionFile": "stoneTools.json",
+    "epoch": 0,
+    "visibleConditions": null,
+    "canSearchConditions": {
+      "isSearchedKnowledge": "singAndDance"
+    },
+    "consolidateConditions": null,
+    "defaultEffectsOnSearch": [
+      {
+        "effectKey": "openConstructionEffect",
+        "turnDelay": 0,
+        "buildings" : [
+          {
+            "key": "musicianHut",
+            "scale" : "CIVILIZATION"
+          }
+        ],
+        "features": [],
+        "infrastructures": []
+      }
+    ],
+    "optionEffects": []
+  },
+  "decorations": {
+    "modelName": "decorations",
+    "displayName": "TXT_KNOWLEDGE_DECORATIONS",
+    "icon": "decorations",
+    "level": 2,
+    "images": [],
+    "requiredStatePoints": [
+      {
+        "modelName": "science",
+        "volume": 6
+      }
+    ],
+    "descriptionFile": "stoneTools.json",
+    "epoch": 0,
+    "visibleConditions": null,
+    "canSearchConditions": {
+      "isSearchedKnowledge": "singAndDance"
+    },
+    "consolidateConditions": null,
+    "defaultEffectsOnSearch": [
+      {
+        "effectKey": "openConstructionEffect",
+        "turnDelay": 0,
+        "buildings" : [
+          {
+            "key": "jewelerShop",
+            "scale" : "CIVILIZATION"
+          }
+        ],
+        "features": [],
+        "infrastructures": []
+      }
+    ],
+    "optionEffects": []
+  },
+  "burial": {
+    "modelName": "burial",
+    "displayName": "TXT_KNOWLEDGE_BURIAL",
+    "icon": "burial",
+    "level": 1,
+    "images": [],
+    "requiredStatePoints": [
+      {
+        "modelName": "science",
+        "volume": 7
+      }
+    ],
+    "descriptionFile": "stoneTools.json",
+    "epoch": 0,
+    "visibleConditions": null,
+    "canSearchConditions": null,
+    "consolidateConditions": null,
+    "defaultEffectsOnSearch": [
+      {
+        "effectKey": "openConstructionEffect",
+        "turnDelay": 0,
+        "buildings" : [],
+        "features": [
+          {
+            "key": "churchyard",
+            "scale" : "CIVILIZATION"
+          }
+        ],
+        "infrastructures": []
+      }
+    ],
+    "optionEffects": []
+  },
+  "ritualsAndSacrifices": {
+    "modelName": "ritualsAndSacrifices",
+    "displayName": "TXT_KNOWLEDGE_RITUALS_AND_SACRIFICES",
+    "icon": "ritualsAndSacrifices",
+    "level": 2,
+    "images": [],
+    "requiredStatePoints": [
+      {
+        "modelName": "science",
+        "volume": 7
+      }
+    ],
+    "descriptionFile": "stoneTools.json",
+    "epoch": 0,
+    "visibleConditions": null,
+    "canSearchConditions": {
+      "isMultiSearchedKnowledge": ["singAndDance","burial"]
+    },
+    "consolidateConditions": null,
+    "defaultEffectsOnSearch": [
+      {
+        "effectKey": "openConstructionEffect",
+        "turnDelay": 0,
+        "buildings" : [
+          {
+            "key": "altar",
+            "scale" : "CIVILIZATION"
+          }
+        ],
+        "features": [],
+        "infrastructures": []
+      }
+    ],
+    "optionEffects": []
+  },
+  "beliefsInHigherPower": {
+    "modelName": "beliefsInHigherPower",
+    "displayName": "TXT_KNOWLEDGE_BELIEFS_IN_HIGHER_POWER",
+    "icon": "beliefsInHigherPower",
+    "level": 2,
+    "images": [],
+    "requiredStatePoints": [
+      {
+        "modelName": "science",
+        "volume": 7
+      }
+    ],
+    "descriptionFile": "stoneTools.json",
+    "epoch": 0,
+    "visibleConditions": null,
+    "canSearchConditions": {
+      "isSearchedKnowledge": "burial"
+    },
+    "consolidateConditions": null,
+    "defaultEffectsOnSearch": [],
+    "optionEffects": [
+      {
+        "effectKey": "openConstructionEffect",
+        "turnDelay": 0,
+        "buildings" : [],
+        "features": [
+          {
+            "key": "plantationOpium",
+            "scale" : "CIVILIZATION"
+          }
+        ],
+        "infrastructures": []
+      },
+      {
+        "effectKey": "openConstructionEffect",
+        "turnDelay": 0,
+        "buildings" : [],
+        "features": [
+          {
+            "key": "plantationTobacco",
+            "scale" : "CIVILIZATION"
+          }
+        ],
+        "infrastructures": []
+      }
+    ]
+  },
+  "philosophy": {
+    "modelName": "philosophy",
+    "displayName": "TXT_KNOWLEDGE_PHILOSOPHY",
+    "icon": "philosophy",
+    "level": 3,
+    "images": [],
+    "requiredStatePoints": [
+      {
+        "modelName": "science",
+        "volume": 15
+      }
+    ],
+    "descriptionFile": "stoneTools.json",
+    "epoch": 0,
+    "visibleConditions": null,
+    "canSearchConditions": {
+      "isSearchedKnowledge": "beliefsInHigherPower"
+    },
+    "consolidateConditions": null,
+    "defaultEffectsOnSearch": [],
+    "optionEffects": []
+  },
+  "rockPainting": {
+    "modelName": "rockPainting",
+    "displayName": "TXT_KNOWLEDGE_ROCK_PAINTING",
+    "icon": "rockPainting",
+    "level": 1,
+    "images": [],
+    "requiredStatePoints": [
+      {
+        "modelName": "science",
+        "volume": 5
+      }
+    ],
+    "descriptionFile": "stoneTools.json",
+    "epoch": 0,
+    "visibleConditions": null,
+    "canSearchConditions": null,
+    "consolidateConditions": null,
+    "defaultEffectsOnSearch": [],
+    "optionEffects": []
+  },
+  "cuneiform": {
+    "modelName": "cuneiform",
+    "displayName": "TXT_KNOWLEDGE_CUNEIFORM",
+    "icon": "cuneiform",
+    "level": 2,
+    "images": [],
+    "requiredStatePoints": [
+      {
+        "modelName": "science",
+        "volume": 8
+      }
+    ],
+    "descriptionFile": "stoneTools.json",
+    "epoch": 0,
+    "visibleConditions": null,
+    "canSearchConditions": {
+      "isSearchedKnowledge": "rockPainting"
+    },
+    "consolidateConditions": null,
+    "defaultEffectsOnSearch": [],
+    "optionEffects": []
+  },
+  "writing": {
+    "modelName": "writing",
+    "displayName": "TXT_KNOWLEDGE_WRITING",
+    "icon": "writing",
+    "level": 3,
+    "images": [],
+    "requiredStatePoints": [
+      {
+        "modelName": "science",
+        "volume": 25
+      }
+    ],
+    "descriptionFile": "stoneTools.json",
+    "epoch": 0,
+    "visibleConditions": null,
+    "canSearchConditions": {
+      "isSearchedKnowledge": "cuneiform"
+    },
+    "consolidateConditions": null,
+    "defaultEffectsOnSearch": [],
+    "optionEffects": []
+  },
+  "abacus": {
+    "modelName": "abacus",
+    "displayName": "TXT_KNOWLEDGE_ABACUS",
+    "icon": "abacus",
+    "level": 3,
+    "images": [],
+    "requiredStatePoints": [
+      {
+        "modelName": "science",
+        "volume": 15
+      }
+    ],
+    "descriptionFile": "stoneTools.json",
+    "epoch": 0,
+    "visibleConditions": null,
+    "canSearchConditions": {
+      "isSearchedKnowledge": "cuneiform"
+    },
+    "consolidateConditions": null,
+    "defaultEffectsOnSearch": [],
+    "optionEffects": []
+  },
+  "chess": {
+    "modelName": "chess",
+    "displayName": "TXT_KNOWLEDGE_CHESS",
+    "icon": "chess",
+    "level": 3,
+    "images": [],
+    "requiredStatePoints": [
+      {
+        "modelName": "science",
+        "volume": 15
+      }
+    ],
+    "descriptionFile": "stoneTools.json",
+    "epoch": 0,
+    "visibleConditions": null,
+    "canSearchConditions": {
+      "isMultiSearchedKnowledge": ["writing","abacus"]
+    },
+    "consolidateConditions": null,
+    "defaultEffectsOnSearch": [],
+    "optionEffects": []
+  },
+  "parchment": {
+    "modelName": "parchment",
+    "displayName": "TXT_KNOWLEDGE_PARCHMENT",
+    "icon": "parchment",
+    "level": 4,
+    "images": [],
+    "requiredStatePoints": [
+      {
+        "modelName": "science",
+        "volume": 25
+      }
+    ],
+    "descriptionFile": "stoneTools.json",
+    "epoch": 0,
+    "visibleConditions": null,
+    "canSearchConditions": {
+      "isSearchedKnowledge": "writing"
+    },
+    "consolidateConditions": null,
+    "defaultEffectsOnSearch": [],
+    "optionEffects": []
+  },
+  "primitiveTools": {
+    "modelName": "primitiveTools",
+    "displayName": "TXT_KNOWLEDGE_PRIMITIVE_TOOLS",
+    "icon": "primitiveTools",
+    "level": 1,
+    "images": [],
+    "requiredStatePoints": [
+      {
+        "modelName": "science",
+        "volume": 5
+      }
+    ],
+    "descriptionFile": "stoneTools.json",
+    "epoch": 0,
+    "visibleConditions": null,
+    "canSearchConditions": null,
+    "consolidateConditions": null,
+    "defaultEffectsOnSearch": [
+      {
+        "effectKey": "openConstructionEffect",
+        "turnDelay": 0,
+        "buildings" : [
+          {
+            "key": "lumberjackCamp",
+            "scale" : "CIVILIZATION"
+          }
+        ],
+        "features": [],
+        "infrastructures": []
+      }
+    ],
+    "optionEffects": []
+  },
+  "fishing": {
+    "modelName": "fishing",
+    "displayName": "TXT_KNOWLEDGE_FISHING",
+    "icon": "fishing",
+    "level": 2,
+    "images": [],
+    "requiredStatePoints": [
+      {
+        "modelName": "science",
+        "volume": 10
+      }
+    ],
+    "descriptionFile": "stoneTools.json",
+    "epoch": 0,
+    "visibleConditions": null,
+    "canSearchConditions": {
+      "isSearchedKnowledge": "primitiveTools"
+    },
+    "consolidateConditions": null,
+    "defaultEffectsOnSearch": [
+      {
+        "effectKey": "openConstructionEffect",
+        "turnDelay": 0,
+        "buildings" : [
+          {
+            "key": "fishery",
+            "scale" : "CIVILIZATION"
+          }
+        ],
+        "features": [],
+        "infrastructures": []
+      }
+    ],
+    "optionEffects": []
+  },
+  "outToSea": {
+    "modelName": "outToSea",
+    "displayName": "TXT_KNOWLEDGE_OUT_TO_SEA",
+    "icon": "outToSea",
+    "level": 3,
+    "images": [],
+    "requiredStatePoints": [
+      {
+        "modelName": "science",
+        "volume": 12
+      }
+    ],
+    "descriptionFile": "stoneTools.json",
+    "epoch": 0,
+    "visibleConditions": null,
+    "canSearchConditions": {
+      "isSearchedKnowledge": "fishing"
+    },
+    "consolidateConditions": null,
+    "defaultEffectsOnSearch": [
+      {
+        "effectKey": "openConstructionEffect",
+        "turnDelay": 0,
+        "buildings" : [],
+        "features": [
+          {
+            "key": "harbor",
+            "scale" : "CIVILIZATION"
+          }
+        ],
+        "infrastructures": []
+      }
+    ],
+    "optionEffects": []
+  },
+  "shipbuilding": {
+    "modelName": "shipbuilding",
+    "displayName": "TXT_KNOWLEDGE_SHIPBUILDING",
+    "icon": "shipbuilding",
+    "level": 4,
+    "images": [],
+    "requiredStatePoints": [
+      {
+        "modelName": "science",
+        "volume": 12
+      }
+    ],
+    "descriptionFile": "stoneTools.json",
+    "epoch": 0,
+    "visibleConditions": null,
+    "canSearchConditions": {
+      "isSearchedKnowledge": "outToSea"
+    },
+    "consolidateConditions": null,
+    "defaultEffectsOnSearch": [
+      {
+        "effectKey": "openConstructionEffect",
+        "turnDelay": 0,
+        "buildings" : [
+          {
+            "key": "shipyard",
+            "scale" : "CIVILIZATION"
+          }
+        ],
+        "features": [],
+        "infrastructures": []
+      }
+    ],
+    "optionEffects": []
+  },
+  "woodProcessing": {
+    "modelName": "woodProcessing",
+    "displayName": "TXT_KNOWLEDGE_WOOD_PROCESSING",
+    "icon": "woodProcessing",
+    "level": 2,
+    "images": [],
+    "requiredStatePoints": [
+      {
+        "modelName": "science",
+        "volume": 15
+      }
+    ],
+    "descriptionFile": "stoneTools.json",
+    "epoch": 0,
+    "visibleConditions": null,
+    "canSearchConditions": {
+      "isMultiSearchedKnowledge": ["primitiveTools","hearth"]
+    },
+    "consolidateConditions": null,
+    "defaultEffectsOnSearch": [
+      {
+        "effectKey": "openConstructionEffect",
+        "turnDelay": 0,
+        "buildings" : [
+          {
+            "key": "carpenterWorkshop",
+            "scale" : "CIVILIZATION"
+          }
+        ],
+        "features": [],
+        "infrastructures": []
+      }
+    ],
+    "optionEffects": []
+  },
+  "useStone": {
+    "modelName": "useStone",
+    "displayName": "TXT_KNOWLEDGE_USE_STONE",
+    "icon": "useStone",
+    "level": 2,
+    "images": [],
+    "requiredStatePoints": [
+      {
+        "modelName": "science",
+        "volume": 10
+      }
+    ],
+    "descriptionFile": "stoneTools.json",
+    "epoch": 0,
+    "visibleConditions": null,
+    "canSearchConditions": {
+      "isSearchedKnowledge": "primitiveTools"
+    },
+    "consolidateConditions": null,
+    "defaultEffectsOnSearch": [
+      {
+        "effectKey": "openConstructionEffect",
+        "turnDelay": 0,
+        "buildings" : [
+          {
+            "key": "musicalGarden",
+            "scale" : "CIVILIZATION"
+          }
+        ],
+        "features": [
+          {
+            "key": "quarryStone",
+            "scale" : "CIVILIZATION"
+          }
+        ],
+        "infrastructures": []
+      }
+    ],
+    "optionEffects": []
+  },
+  "mining": {
+    "modelName": "mining",
+    "displayName": "TXT_KNOWLEDGE_MINING",
+    "icon": "mining",
+    "level": 3,
+    "images": [],
+    "requiredStatePoints": [
+      {
+        "modelName": "science",
+        "volume": 25
+      }
+    ],
+    "descriptionFile": "stoneTools.json",
+    "epoch": 0,
+    "visibleConditions": null,
+    "canSearchConditions": {
+      "isMultiSearchedKnowledge": ["useStone","hearth"]
+    },
+    "consolidateConditions": null,
+    "defaultEffectsOnSearch": [
+      {
+        "effectKey": "openConstructionEffect",
+        "turnDelay": 0,
+        "buildings" : [],
+        "features": [
+          {
+            "key": "mine",
+            "scale" : "CIVILIZATION"
+          }
+        ],
+        "infrastructures": []
+      }
+    ],
+    "optionEffects": []
+  },
+  "glassWork": {
+    "modelName": "glassWork",
+    "displayName": "TXT_KNOWLEDGE_GLASS_WORK",
+    "icon": "glassWork",
+    "level": 4,
+    "images": [],
+    "requiredStatePoints": [
+      {
+        "modelName": "science",
+        "volume": 40
+      }
+    ],
+    "descriptionFile": "stoneTools.json",
+    "epoch": 0,
+    "visibleConditions": {
+      "isSearchedKnowledge": "mining"
+    },
+    "canSearchConditions": null,
+    "consolidateConditions": null,
+    "defaultEffectsOnSearch": [],
+    "optionEffects": []
+  },
+  "wheel": {
+    "modelName": "wheel",
+    "displayName": "TXT_KNOWLEDGE_WHEEL",
+    "icon": "wheel",
+    "level": 3,
+    "images": [],
+    "requiredStatePoints": [
+      {
+        "modelName": "science",
+        "volume": 20
+      }
+    ],
+    "descriptionFile": "stoneTools.json",
+    "epoch": 0,
+    "visibleConditions": null,
+    "canSearchConditions": {
+      "isSearchedKnowledge": "useStone"
+    },
+    "consolidateConditions": null,
+    "defaultEffectsOnSearch": [],
+    "optionEffects": []
+  },
+  "roadPaving": {
+    "modelName": "roadPaving",
+    "displayName": "TXT_KNOWLEDGE_ROAD_PAVING",
+    "icon": "roadPaving",
+    "level": 4,
+    "images": [],
+    "requiredStatePoints": [
+      {
+        "modelName": "science",
+        "volume": 20
+      }
+    ],
+    "descriptionFile": "stoneTools.json",
+    "epoch": 0,
+    "visibleConditions": null,
+    "canSearchConditions": {
+      "isSearchedKnowledge": "wheel"
+    },
+    "consolidateConditions": null,
+    "defaultEffectsOnSearch": [],
+    "optionEffects": []
+  },
+  "defensiveFortifications": {
+    "modelName": "defensiveFortifications",
+    "displayName": "TXT_KNOWLEDGE_DEFENCE_FORTIFICATIONS",
+    "icon": "defensiveFortifications",
+    "level": 3,
+    "images": [],
+    "requiredStatePoints": [
+      {
+        "modelName": "science",
+        "volume": 12
+      }
+    ],
+    "descriptionFile": "stoneTools.json",
+    "epoch": 0,
+    "visibleConditions": null,
+    "canSearchConditions": {
+      "isSearchedKnowledge": "useStone"
+    },
+    "consolidateConditions": null,
+    "defaultEffectsOnSearch": [
+      {
+        "effectKey": "openConstructionEffect",
+        "turnDelay": 0,
+        "buildings" : [],
+        "features": [
+          {
+            "key": "fortification",
+            "scale" : "CIVILIZATION"
+          }
+        ],
+        "infrastructures": []
+      }
+    ],
+    "optionEffects": []
+  },
+  "sewingNeedle": {
+    "modelName": "sewingNeedle",
+    "displayName": "TXT_KNOWLEDGE_SEWING_NEEDLE",
+    "icon": "sewingNeedle",
+    "level": 2,
+    "images": [],
+    "requiredStatePoints": [
+      {
+        "modelName": "science",
+        "volume": 10
+      },
+    ],
+    "descriptionFile": "stoneTools.json",
+    "epoch": 0,
+    "visibleConditions": null,
+    "canSearchConditions": {
+      "isSearchedKnowledge": "primitiveTools"
+    },
+    "consolidateConditions": null,
+    "defaultEffectsOnSearch": [
+      {
+        "effectKey": "openConstructionEffect",
+        "turnDelay": 0,
+        "buildings" : [
+          {
+            "key": "tailorWorkshop",
+            "scale" : "CIVILIZATION"
+          }
+        ],
+        "features": [],
+        "infrastructures": []
+      }
+    ],
+    "optionEffects": []
+  },
+  "tailoring": {
+    "modelName": "tailoring",
+    "displayName": "TXT_KNOWLEDGE_TAILORING",
+    "icon": "tailoring",
+    "level": 3,
+    "images": [],
+    "requiredStatePoints": [
+      {
+        "modelName": "science",
+        "volume": 14
+      }
+    ],
+    "descriptionFile": "stoneTools.json",
+    "epoch": 0,
+    "visibleConditions": null,
+    "canSearchConditions": {
+      "isMultiSearchedKnowledge": ["sewingNeedle","livestockBreeding"]
+    },
+    "consolidateConditions": null,
+    "defaultEffectsOnSearch": [],
+    "optionEffects": []
+  },
+  "landCultivation": {
+    "modelName": "landCultivation",
+    "displayName": "TXT_KNOWLEDGE_LAND_CULTIVATION",
+    "icon": "landCultivation",
+    "level": 2,
+    "images": [],
+    "requiredStatePoints": [
+      {
+        "modelName": "science",
+        "volume": 20
+      }
+    ],
+    "descriptionFile": "stoneTools.json",
+    "epoch": 0,
+    "visibleConditions": null,
+    "canSearchConditions": {
+      "isMultiSearchedKnowledge": ["primitiveTools","herbsCollection"]
+    },
+    "consolidateConditions": null,
+    "defaultEffectsOnSearch": [
+      {
+        "effectKey": "openConstructionEffect",
+        "turnDelay": 0,
+        "buildings" : [],
+        "features": [
+          {
+            "key": "settlement",
+            "scale" : "CIVILIZATION"
+          }
+        ],
+        "infrastructures": []
+      }
+    ],
+    "optionEffects": [
+      {
+        "effectKey": "openConstructionEffect",
+        "turnDelay": 0,
+        "buildings" : [],
+        "features": [
+          {
+            "key": "farmWheat",
+            "scale" : "CIVILIZATION"
+          }
+        ],
+        "infrastructures": []
+      },
+      {
+        "effectKey": "openConstructionEffect",
+        "turnDelay": 0,
+        "buildings" : [],
+        "features": [
+          {
+            "key": "farmRice",
+            "scale" : "CIVILIZATION"
+          }
+        ],
+        "infrastructures": []
+      }
+    ]
+  },
+  "gardening": {
+    "modelName": "gardening",
+    "displayName": "TXT_KNOWLEDGE_GARDENING",
+    "icon": "gardening",
+    "level": 3,
+    "images": [],
+    "requiredStatePoints": [
+      {
+        "modelName": "science",
+        "volume": 10
+      }
+    ],
+    "descriptionFile": "stoneTools.json",
+    "epoch": 0,
+    "visibleConditions": {
+      "isSearchedKnowledge": "landCultivation"
+    },
+    "canSearchConditions": {
+      "isSearchedKnowledge": "landCultivation"
+    },
+    "consolidateConditions": null,
+    "defaultEffectsOnSearch": [],
+    "optionEffects": [
+      {
+        "effectKey": "openConstructionEffect",
+        "turnDelay": 0,
+        "buildings" : [],
+        "features": [
+          {
+            "key": "plantationSpice",
+            "scale" : "CIVILIZATION"
+          }
+        ],
+        "infrastructures": []
+      },
+      {
+        "effectKey": "openConstructionEffect",
+        "turnDelay": 0,
+        "buildings" : [],
+        "features": [
+          {
+            "key": "plantationTea",
+            "scale" : "CIVILIZATION"
+          }
+        ],
+        "infrastructures": []
+      }
+    ]
+  },
+  "beekeeping": {
+    "modelName": "beekeeping",
+    "displayName": "TXT_KNOWLEDGE_BEEKEEPING",
+    "icon": "beekeeping",
+    "level": 3,
+    "images": [],
+    "requiredStatePoints": [
+      {
+        "modelName": "science",
+        "volume": 8
+      }
+    ],
+    "descriptionFile": "stoneTools.json",
+    "epoch": 0,
+    "visibleConditions": {
+      "isSearchedKnowledge": "landCultivation"
+    },
+    "canSearchConditions": {
+      "isSearchedKnowledge": "gardening"
+    },
+    "consolidateConditions": null,
+    "defaultEffectsOnSearch": [],
+    "optionEffects": []
+  },
+  "settlements": {
+    "modelName": "settlements",
+    "displayName": "TXT_KNOWLEDGE_SETTLEMENTS",
+    "icon": "settlements",
+    "level": 4,
+    "images": [],
+    "requiredStatePoints": [
+      {
+        "modelName": "science",
+        "volume": 25
+      }
+    ],
+    "descriptionFile": "stoneTools.json",
+    "epoch": 0,
+    "visibleConditions": null,
+    "canSearchConditions": {
+      "isMultiSearchedKnowledge": ["landCultivation","useStone"],
+      "hasCountPeopleInCivilization": 50000
+    },
+    "consolidateConditions": null,
+    "defaultEffectsOnSearch": [
+      {
+        "effectKey": "openConstructionEffect",
+        "turnDelay": 0,
+        "buildings" : [],
+        "features": [
+          {
+            "key": "town",
+            "scale" : "CIVILIZATION"
+          }
+        ],
+        "infrastructures": []
+      }
+    ],
+    "optionEffects": []
+  },
+  "solarCalendar": {
+    "modelName": "solarCalendar",
+    "displayName": "TXT_KNOWLEDGE_SOLAR_CALENDAR",
+    "icon": "solarCalendar",
+    "level": 3,
+    "images": [],
+    "requiredStatePoints": [
+      {
+        "modelName": "science",
+        "volume": 25
+      }
+    ],
+    "descriptionFile": "stoneTools.json",
+    "epoch": 0,
+    "visibleConditions": null,
+    "canSearchConditions": {
+      "isSearchedKnowledge": "landCultivation"
+    },
+    "consolidateConditions": null,
+    "defaultEffectsOnSearch": [
+      {
+        "effectKey": "openConstructionEffect",
+        "turnDelay": 0,
+        "buildings" : [],
+        "features": [
+          {
+            "key": "farmPotato",
+            "scale" : "CIVILIZATION"
+          },
+          {
+            "key": "farmCorn",
+            "scale" : "CIVILIZATION"
+          }
+        ],
+        "infrastructures": []
+      }
+    ],
+    "optionEffects": []
+  },
+  "fermentation": {
+    "modelName": "fermentation",
+    "displayName": "TXT_KNOWLEDGE_FERMENTATION",
+    "icon": "fermentation",
+    "level": 3,
+    "images": [],
+    "requiredStatePoints": [
+      {
+        "modelName": "science",
+        "volume": 15
+      }
+    ],
+    "descriptionFile": "stoneTools.json",
+    "epoch": 0,
+    "visibleConditions": null,
+    "canSearchConditions": {
+      "isSearchedKnowledge": "landCultivation"
+    },
+    "consolidateConditions": null,
+    "defaultEffectsOnSearch": [
+      {
+        "effectKey": "openConstructionEffect",
+        "turnDelay": 0,
+        "buildings" : [
+          {
+            "key": "winery",
+            "scale" : "CIVILIZATION"
+          },
+          {
+            "key": "bakerShop",
+            "scale" : "CIVILIZATION"
+          }
+        ],
+        "features": [
+          {
+            "key": "vineyard",
+            "scale" : "CIVILIZATION"
+          }
+        ],
+        "infrastructures": []
+      }
+    ],
+    "optionEffects": [
+      {
+        "effectKey": "openConstructionEffect",
+        "turnDelay": 0,
+        "buildings" : [
+          {
+            "key": "tavern",
+            "scale" : "CIVILIZATION"
+          }
+        ],
+        "features": [],
+        "infrastructures": []
+      },
+      {
+        "effectKey": "openConstructionEffect",
+        "turnDelay": 0,
+        "buildings" : [
+          {
+            "key": "thermopoly",
+            "scale" : "CIVILIZATION"
+          }
+        ],
+        "features": [],
+        "infrastructures": []
+      }
+    ]
+  },
+  "hearth": {
+    "modelName": "hearth",
+    "displayName": "TXT_KNOWLEDGE_HEARTH",
+    "icon": "hearth",
+    "level": 1,
+    "images": [],
+    "requiredStatePoints": [
+      {
+        "modelName": "science",
+        "volume": 5
+      }
+    ],
+    "descriptionFile": "stoneTools.json",
+    "epoch": 0,
+    "visibleConditions": null,
+    "canSearchConditions": null,
+    "consolidateConditions": null,
+    "defaultEffectsOnSearch": [],
+    "optionEffects": []
+  },
+  "hunting": {
+    "modelName": "hunting",
+    "displayName": "TXT_KNOWLEDGE_HUNTING",
+    "icon": "hunting",
+    "level": 1,
+    "images": [],
+    "requiredStatePoints": [
+      {
+        "modelName": "science",
+        "volume": 2
+      }
+    ],
+    "descriptionFile": "stoneTools.json",
+    "epoch": 0,
+    "visibleConditions": null,
+    "canSearchConditions": null,
+    "consolidateConditions": null,
+    "defaultEffectsOnSearch": [
+      {
+        "effectKey": "openConstructionEffect",
+        "turnDelay": 0,
+        "buildings" : [
+          {
+            "key": "huntingCamp",
+            "scale" : "CIVILIZATION"
+          }
+        ],
+        "features": [],
+        "infrastructures": []
+      }
+    ],
+    "optionEffects": []
+  },
+  "traps": {
+    "modelName": "traps",
+    "displayName": "TXT_KNOWLEDGE_TRAPS",
+    "icon": "traps",
+    "level": 2,
+    "images": [],
+    "requiredStatePoints": [
+      {
+        "modelName": "science",
+        "volume": 5
+      }
+    ],
+    "descriptionFile": "stoneTools.json",
+    "epoch": 0,
+    "visibleConditions": null,
+    "canSearchConditions": {
+      "isSearchedKnowledge": "hunting"
+    },
+    "consolidateConditions": null,
+    "defaultEffectsOnSearch": [],
+    "optionEffects": []
+  },
+  "weaponAndSpear": {
+    "modelName": "weaponAndSpear",
+    "displayName": "TXT_KNOWLEDGE_WEAPON_AND_SPEAR",
+    "icon": "weaponAndSpear",
+    "level": 2,
+    "images": [],
+    "requiredStatePoints": [
+      {
+        "modelName": "science",
+        "volume": 7
+      }
+    ],
+    "descriptionFile": "stoneTools.json",
+    "epoch": 0,
+    "visibleConditions": null,
+    "canSearchConditions": {
+      "isSearchedKnowledge": "hunting"
+    },
+    "consolidateConditions": null,
+    "defaultEffectsOnSearch": [],
+    "optionEffects": []
+  },
+  "copperProcessing": {
+    "modelName": "copperProcessing",
+    "displayName": "TXT_KNOWLEDGE_COPPER_PROCESSING",
+    "icon": "copperProcessing",
+    "level": 3,
+    "images": [],
+    "requiredStatePoints": [
+      {
+        "modelName": "science",
+        "volume": 20
+      }
+    ],
+    "descriptionFile": "stoneTools.json",
+    "epoch": 0,
+    "visibleConditions": null,
+    "canSearchConditions": {
+      "isMultiSearchedKnowledge": ["weaponAndSpear","ceramicTableware"]
+    },
+    "consolidateConditions": null,
+    "defaultEffectsOnSearch": [],
+    "optionEffects": []
+  },
+  "ironProcessing": {
+    "modelName": "ironProcessing",
+    "displayName": "TXT_KNOWLEDGE_IRON_PROCESSING",
+    "icon": "ironProcessing",
+    "level": 4,
+    "images": [],
+    "requiredStatePoints": [
+      {
+        "modelName": "science",
+        "volume": 40
+      }
+    ],
+    "descriptionFile": "stoneTools.json",
+    "epoch": 0,
+    "visibleConditions": null,
+    "canSearchConditions": {
+      "isMultiSearchedKnowledge": ["copperProcessing","useStone"]
+    },
+    "consolidateConditions": null,
+    "defaultEffectsOnSearch": [],
+    "optionEffects": []
+  },
+  "inventionBow": {
+    "modelName": "inventionBow",
+    "displayName": "TXT_KNOWLEDGE_INVENTION_BOW",
+    "icon": "inventionBow",
+    "level": 2,
+    "images": [],
+    "requiredStatePoints": [
+      {
+        "modelName": "science",
+        "volume": 12
+      }
+    ],
+    "descriptionFile": "stoneTools.json",
+    "epoch": 0,
+    "visibleConditions": null,
+    "canSearchConditions": {
+      "isSearchedKnowledge": "hunting"
+    },
+    "consolidateConditions": null,
+    "defaultEffectsOnSearch": [],
+    "optionEffects": []
+  },
+  "herbsCollection": {
+    "modelName": "herbsCollection",
+    "displayName": "TXT_KNOWLEDGE_HERBS_COLLECTION",
+    "icon": "herbsCollection",
+    "level": 2,
+    "images": [],
+    "requiredStatePoints": [
+      {
+        "modelName": "science",
+        "volume": 10
+      }
+    ],
+    "descriptionFile": "stoneTools.json",
+    "epoch": 0,
+    "visibleConditions": null,
+    "canSearchConditions": null,
+    "consolidateConditions": null,
+    "defaultEffectsOnSearch": [
+      {
+        "effectKey": "openConstructionEffect",
+        "turnDelay": 0,
+        "buildings" : [
+          {
+            "key": "herbalistHut",
+            "scale" : "CIVILIZATION"
+          }
+        ],
+        "features": [],
+        "infrastructures": []
+      }
+    ],
+    "optionEffects": []
+  },
+  "poisons": {
+    "modelName": "poisons",
+    "displayName": "TXT_KNOWLEDGE_POISONS",
+    "icon": "poisons",
+    "level": 3,
+    "images": [],
+    "requiredStatePoints": [
+      {
+        "modelName": "science",
+        "volume": 10
+      }
+    ],
+    "descriptionFile": "stoneTools.json",
+    "epoch": 0,
+    "visibleConditions": null,
+    "canSearchConditions": {
+      "isMultiSearchedKnowledge": ["herbsCollection","hunting"]
+    },
+    "consolidateConditions": null,
+    "defaultEffectsOnSearch": [],
+    "optionEffects": []
+  },
+  "tamingAnimals": {
+    "modelName": "tamingAnimals",
+    "displayName": "TXT_KNOWLEDGE_TAMING_ANIMALS",
+    "icon": "tamingAnimals",
+    "level": 2,
+    "images": [
+      "tamingAnimals.png"
+    ],
+    "requiredStatePoints": [
+      {
+        "modelName": "science",
+        "volume": 10
+      }
+    ],
+    "descriptionFile": "stoneTools.json",
+    "epoch": 0,
+    "visibleConditions": null,
+    "canSearchConditions": {
+      "isSearchedKnowledge": "hunting"
+    },
+    "consolidateConditions": null,
+    "defaultEffectsOnSearch": [
+      {
+        "effectKey": "openConstructionEffect",
+        "turnDelay": 0,
+        "buildings" : [],
+        "features": [
+          {
+            "key": "pastureSheep",
+            "scale" : "CIVILIZATION"
+          }
+        ],
+        "infrastructures": []
+      },
+      {
+        "effectKey": "openConstructionEffect",
+        "turnDelay": 0,
+        "buildings" : [],
+        "features": [
+          {
+            "key": "nomadSettlement",
+            "scale" : "CIVILIZATION"
+          }
+        ],
+        "infrastructures": []
+      }
+    ],
+    "optionEffects": [
+      {
+        "effectKey": "openConstructionEffect",
+        "turnDelay": 0,
+        "buildings" : [],
+        "features": [
+          {
+            "key": "pastureCow",
+            "scale" : "CIVILIZATION"
+          }
+        ],
+        "infrastructures": []
+      },
+      {
+        "effectKey": "openConstructionEffect",
+        "turnDelay": 0,
+        "buildings" : [],
+        "features": [
+          {
+            "key": "pasturePig",
+            "scale" : "CIVILIZATION"
+          }
+        ],
+        "infrastructures": []
+      }
+    ]
+  },
+  "livestockBreeding": {
+    "modelName": "livestockBreeding",
+    "displayName": "TXT_KNOWLEDGE_LIVESTOCK_BREEDING",
+    "icon": "livestockBreeding",
+    "level": 3,
+    "images": [],
+    "requiredStatePoints": [
+      {
+        "modelName": "science",
+        "volume": 15
+      }
+    ],
+    "descriptionFile": "stoneTools.json",
+    "epoch": 0,
+    "visibleConditions": null,
+    "canSearchConditions": {
+      "isSearchedKnowledge": "tamingAnimals"
+    },
+    "consolidateConditions": null,
+    "defaultEffectsOnSearch": [],
+    "optionEffects": [
+      {
+        "effectKey": "openConstructionEffect",
+        "turnDelay": 0,
+        "buildings" : [],
+        "features": [
+          {
+            "key": "pastureDeer",
+            "scale" : "CIVILIZATION"
+          }
+        ],
+        "infrastructures": []
+      },
+      {
+        "effectKey": "openConstructionEffect",
+        "turnDelay": 0,
+        "buildings" : [],
+        "features": [
+          {
+            "key": "pastureLama",
+            "scale" : "CIVILIZATION"
+          }
+        ],
+        "infrastructures": []
+      }
+    ]
+  },
+  "domesticationHorse": {
+    "modelName": "domesticationHorse",
+    "displayName": "TXT_KNOWLEDGE_DOMESTICATION_HORSE",
+    "icon": "domesticationHorse",
+    "level": 5,
+    "images": [],
+    "requiredStatePoints": [
+      {
+        "modelName": "science",
+        "volume": 45
+      }
+    ],
+    "descriptionFile": "stoneTools.json",
+    "epoch": 0,
+    "visibleConditions": null,
+    "canSearchConditions": {
+      "isSearchedKnowledge": "livestockBreeding"
+    },
+    "consolidateConditions": null,
+    "defaultEffectsOnSearch": [
+      {
+        "effectKey": "openConstructionEffect",
+        "turnDelay": 0,
+        "buildings" : [],
+        "features": [
+          {
+            "key": "pastureHorse",
+            "scale" : "CIVILIZATION"
+          },
+          {
+            "key": "pastureCamel",
+            "scale" : "CIVILIZATION"
+          }
+        ],
+        "infrastructures": []
+      }
+    ],
+    "optionEffects": []
+  },
+  "ceramicTableware": {
+    "modelName": "ceramicTableware",
+    "displayName": "TXT_KNOWLEDGE_CERAMIC_TABLEWARE",
+    "icon": "ceramicTableware",
+    "level": 2,
+    "images": [],
+    "requiredStatePoints": [
+      {
+        "modelName": "science",
+        "volume": 15
+      }
+    ],
+    "descriptionFile": "stoneTools.json",
+    "epoch": 0,
+    "visibleConditions": null,
+    "canSearchConditions": {
+      "isSearchedKnowledge": "hearth"
+    },
+    "consolidateConditions": null,
+    "defaultEffectsOnSearch": [
+      {
+        "effectKey": "openConstructionEffect",
+        "turnDelay": 0,
+        "buildings" : [
+          {
+            "key": "potteryWorkshop",
+            "scale" : "CIVILIZATION"
+          }
+        ],
+        "features": [],
+        "infrastructures": []
+      }
+    ],
+    "optionEffects": []
+  },
+
+  "currency": {
+    "modelName": "currency",
+    "displayName": "TXT_KNOWLEDGE_CURRENCY",
+    "icon": "currency",
+    "level": 1,
+    "images": [],
+    "requiredStatePoints": [
+      {
+        "modelName": "science",
+        "volume": 25
+      }
+    ],
+    "descriptionFile": "stoneTools.json",
+    "epoch": 1,
+    "visibleConditions": null,
+    "canSearchConditions": {
+      "isSearchedKnowledge": "writing"
+    },
+    "consolidateConditions": null,
+    "defaultEffectsOnSearch": [],
+    "optionEffects": []
+  },
+  "irrigation": {
+    "modelName": "irrigation",
+    "displayName": "TXT_KNOWLEDGE_IRRIGATION",
+    "icon": "irrigation",
+    "level": 1,
+    "images": [],
+    "requiredStatePoints": [
+      {
+        "modelName": "science",
+        "volume": 55
+      }
+    ],
+    "descriptionFile": "stoneTools.json",
+    "epoch": 1,
+    "visibleConditions": null,
+    "canSearchConditions": {
+      "isSearchedKnowledge": "landCultivation"
+    },
+    "consolidateConditions": null,
+    "defaultEffectsOnSearch": [],
+    "optionEffects": []
+  },
+  "soapMaking": {
+    "modelName": "soapMaking",
+    "displayName": "TXT_KNOWLEDGE_SOAP_MAKING",
+    "icon": "soapMaking",
+    "level": 2,
+    "images": [],
+    "requiredStatePoints": [
+      {
+        "modelName": "science",
+        "volume": 45
+      }
+    ],
+    "descriptionFile": "stoneTools.json",
+    "epoch": 1,
+    "visibleConditions": null,
+    "canSearchConditions": {
+      "isSearchedKnowledge": "settlements"
+    },
+    "consolidateConditions": null,
+    "defaultEffectsOnSearch": [],
+    "optionEffects": []
+  }
+}

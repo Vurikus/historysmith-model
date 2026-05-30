@@ -1,0 +1,32 @@
+[
+  {
+    "modelName": "stone",
+    "displayName": "TXT_EPOCH_1",
+    "index": 0
+  },
+  {
+    "modelName": "bronze",
+    "displayName": "TXT_EPOCH_2",
+    "index": 1
+  },
+  {
+    "modelName": "earlyMedieval",
+    "displayName": "TXT_EPOCH_3",
+    "index": 2
+  },
+  {
+    "modelName": "medieval",
+    "displayName": "TXT_EPOCH_3",
+    "index": 3
+  },
+  {
+    "modelName": "oldMedieval",
+    "displayName": "TXT_EPOCH_3",
+    "index": 4
+  },
+  {
+    "modelName": "industrial",
+    "displayName": "TXT_EPOCH_4",
+    "index": 5
+  }
+]

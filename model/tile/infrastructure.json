@@ -1,0 +1,71 @@
+[
+  {
+    "modelName": "road",
+    "buildOnTile": [
+      {
+        "modelName": "desert",
+        "penaltyCoefficient": 1
+      },
+      {
+        "modelName": "grass",
+        "penaltyCoefficient": 1
+      },
+      {
+        "modelName": "swamp",
+        "penaltyCoefficient": 1
+      },
+      {
+        "modelName": "steppe",
+        "penaltyCoefficient": 1
+      }
+    ],
+    "icon": "stock",
+    "capacity": 1,
+    "prosperity": 0,
+    "entertainment": 0,
+    "safety": 0,
+    "educated": 0,
+    "requiredStatePoints": [],
+    "produceStatePoints": [],
+    "requiredResources": [],
+    "maxOutput": 0,
+    "produce": [],
+    "unlockNeighborTileForTrade": true,
+    "displayName": "TXT_BUILDING_ROAD"
+  },
+  {
+    "modelName": "road2",
+    "buildOnTile": [
+      {
+        "modelName": "desert",
+        "penaltyCoefficient": 1
+      },
+      {
+        "modelName": "grass",
+        "penaltyCoefficient": 1
+      },
+      {
+        "modelName": "swamp",
+        "penaltyCoefficient": 1
+      },
+      {
+        "modelName": "steppe",
+        "penaltyCoefficient": 1
+      }
+    ],
+    "icon": "stock",
+    "discount": 0.4,
+    "capacity": 1989,
+    "prosperity": 0,
+    "entertainment": 0,
+    "safety": 0,
+    "educated": 0,
+    "requiredStatePoints": [],
+    "produceStatePoints": [],
+    "requiredResources": [],
+    "maxOutput": 0,
+    "produce": [],
+    "unlockNeighborTileForTrade": true,
+    "displayName": "TXT_BUILDING_ROAD"
+  }
+]

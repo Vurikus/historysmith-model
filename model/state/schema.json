@@ -1,0 +1,23 @@
+{
+  "law": {
+    "modelName": "lawKey",
+    "displayName": "string",
+    "effectsWhenActive": ["effect"]
+  },
+  "politicSystem": {
+    "modelName": "politicSystemKey",
+    "icon": "string",
+    "institutes": ["integer"],
+    "limitActionsToLawInTurn": "integer",
+    "displayName": "string",
+    "effectsWhenActive": ["effect"]
+  },
+  "stateInstitute": {
+    "modelName": "stateInstituteKey",
+    "icon": "string",
+    "politicalPointCost": "float2",
+    "type": "StateInstituteTypeEnum",
+    "displayName": "string",
+    "effectsWhenActive": ["effect"]
+  }
+}

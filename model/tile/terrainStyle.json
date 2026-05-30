@@ -1,0 +1,47 @@
+[
+  {
+    "modelName": "grass",
+    "texture": "grass",
+    "culture": "none",
+    "epoch": "none",
+    "width": 1,
+    "height": 1,
+    "hasAnimation": false
+  },
+  {
+    "modelName": "desert",
+    "texture": "desert",
+    "culture": "none",
+    "epoch": "none",
+    "width": 1,
+    "height": 1,
+    "hasAnimation": false
+  },
+  {
+    "modelName": "rocky",
+    "texture": "steppe",
+    "culture": "none",
+    "epoch": "none",
+    "width": 1,
+    "height": 1,
+    "hasAnimation": false
+  },
+  {
+    "modelName": "swamp",
+    "texture": "swamp",
+    "culture": "none",
+    "epoch": "none",
+    "width": 1,
+    "height": 1,
+    "hasAnimation": false
+  },
+  {
+    "modelName": "ocean",
+    "texture": "ocean",
+    "culture": "none",
+    "epoch": "none",
+    "width": 1,
+    "height": 1,
+    "hasAnimation": false
+  }
+]

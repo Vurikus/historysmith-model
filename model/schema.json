@@ -1,0 +1,297 @@
+{
+  "infrastructure": {
+    "modelName": "key",
+    "displayName": "string",
+    "prosperity": "integer",
+    "lifestyle": "lifestyleEnum or null",
+    "discount": "integer",
+    "attributes": ["Attribute"]
+  },
+  "building": {
+    "modelName": "key",
+    "displayName": "string",
+    "prosperity": "integer",
+    "lifestyle": "lifestyleEnum or null",
+    "attributes": ["Attribute"],
+    "passiveProduction": "production",
+    "workerProduction": {
+      "workers": "int",
+      "default": "production",
+      "<specializationModelName>": "production"
+    },
+    "maintenance": "float"
+  },
+  "feature": {
+    "modelName": "key",
+    "displayName": "string",
+    "buildOnRelief": "key - reliefModelName",
+    "hasWarehouse": "boolean",
+    "attributes": ["Attribute"],
+    "isWild": "boolean",
+    "icon": "string",
+    "turn": "integer",
+    "prosperity": "integer",
+    "lifestyle": "lifestyleEnum or null",
+    "requiredStatePoints": [
+      "objectWithVolume<statePoint>"
+    ],
+    "requiredResources": [
+      "objectWithVolume<raw>"
+    ],
+    "openGoods": [
+      "objectWithVolume<good>"
+    ],
+    "produce": [
+      "objectWithVolume<good>"
+    ],
+    "produceStatePoints": [
+      "objectWithVolume<statePoint>"
+    ]
+  },
+  "objectWithVolume": {
+    "modelName": "key - resourceModelName",
+    "volume": "integer",
+    "type": ["RAW", "STATE_POINT"]
+  },
+  "relief": {
+    "modelName": "key",
+    "displayName": "string",
+    "unlockNeighborTileForTrade": "boolean"
+  },
+  "terrain": {
+    "modelName": "key",
+    "displayName": "string",
+    "defaultRelief": "key - reliefModelName",
+    "relief": [
+      "key - reliefModelName"
+    ],
+    "isWater": "boolean",
+    "climate": ["TileClimateEnum"],
+    "cultivationCostMoney": "float"
+  },
+
+  "case": {
+    "caseId": "key",
+    "epochStart": "integer",
+    "epochEnd": "integer",
+    "chance": "percentScale2",
+    "lifestyle": "lifestyleEnum or null",
+    "descriptionFile": "string",
+    "tags": ["NotifiableTag"],
+    "images": [
+      "string"
+    ],
+    "actions": [
+      "caseAction"
+    ],
+    "effectsOnAchieved": [
+      "child from effect"
+    ],
+    "effectsOnFail": [
+      "child from effect"
+    ]
+  },
+  "caseAction": {
+    "displayName": "string",
+    "civConditions": "condition",
+    "effects": [
+      {
+        "effect": "child from effect"
+      }
+    ],
+    "generateEvent": [
+      {
+        "caseId": "key",
+        "chance": 1.5,
+        "delay": 10
+      },
+      {
+        "taskId": "key"
+      }
+    ]
+  },
+  "civConditions": {
+    "hasStateReligion": "boolean",
+    "currentCivilizationEpoch": "integer",
+    "isWarWhenCivilizationAggressor": "boolean",
+    "isWarWhenCivilizationDefender": "boolean",
+    "minCountBordersCivilization": "integer",
+    "maxCountBordersCivilization": "integer",
+    "hasCountPeopleInCivilization": "integer",
+    "isSearchedKnowledge": "knowledgeKey",
+    "isMultiSearchedKnowledge": ["knowledgeKey"],
+    "isNotSearchedKnowledge": "knowledgeKey",
+    "currentCivLifestyle": "lifestyleEnumKey"
+  },
+
+  "task": {
+    "taskId": "key",
+    "epoch": "integer",
+    "availableWhenHappenedOutcome": ["outcomeType"],
+    "descriptionFile": "string",
+    "tags": ["NotifiableTag"],
+    "lifestyle": "lifestyleEnum or null",
+    "images": [
+      "string"
+    ],
+    "completeOnTurn": "integer",
+    "chance": "percentScale2",
+    "goals": [
+      "child from goal"
+    ],
+    "effectsOnAchieved": [
+      "child from effect"
+    ],
+    "effectOnDismissCopyFromFail": "boolean",
+    "effectOnDismiss": [
+      "child from effect"
+    ],
+    "effectsOnFail": [
+      "child from effect"
+    ]
+  },
+  "scenario": {
+    "scenarioId": "key",
+    "epoch": "integer",
+    "descriptionFile": "string",
+    "tags": ["NotifiableTag"],
+    "images": [
+      "string"
+    ],
+    "goals": [
+      "child from goal"
+    ],
+    "effectsOnAchieved": [
+      "child from effect"
+    ],
+    "effectsOnFail": [
+      "child from effect"
+    ]
+  },
+  "goal": {
+    "goalType": "goalTypeKey",
+    "civConditions": "civConditions"
+  },
+  "oneFromGoal": {
+    "goalType": "oneFrom",
+    "civConditions": [],
+    "oneFromGoals": [
+      "child from Goal"
+    ]
+  },
+  "featureBuildingGoal": {
+    "goalType": "featureBuilding",
+    "template": "featureTemplateKey",
+    "totalCount": "integer",
+    "countOnTiles": "integer",
+    "countTilesWithFeature": "integer"
+  },
+  "minAssignTilesCountGoal": {
+    "goalType": "minAssignTilesCount",
+    "minAssignTilesCount": "integer"
+  },
+  "minPercentCivilizationCultureGoal": {
+    "goalType": "minPercentCivilizationCulture",
+    "minPercentCivilizationCulture": "integer"
+  },
+  "maxPercentCivilizationCultureGoal": {
+    "goalType": "maxPercentCivilizationCulture",
+    "maxPercentCivilizationCulture": "integer"
+  },
+  "countCitizenPerTileGoal": {
+    "goalType": "countCitizenPerTile",
+    "countCitizenPerTile": "integer"
+  },
+  "countCitizenTotalGoal": {
+    "goalType": "countCitizenTotal",
+    "countCitizenTotal": "integer"
+  },
+
+//  EFFECT
+  "openConstructionEffect": {
+    "effectKey": "openConstructionEffect",
+    "turnDelay": "integer",
+    "buildings" : [{"key": "buildingModelName", "scale" : "scaleValue"}],
+    "features": [{"key": "featureModelName", "scale" : "scaleValue"}],
+    "infrastructures": [{"key": "infrastructureModelName", "scale" : "scaleValue"}]
+  },
+  "deprecatedConstructionEffect": {
+    "effectKey": "deprecatedConstructionEffect",
+    "turnDelay": "integer",
+    "buildings" : ["buildingModelName"],
+    "features": ["featureModelName"],
+    "infrastructures": ["infrastructureModelName"]
+  },
+  "openTechEffect": {},
+  "diplomaticEffect": {
+    "effectKey": "diplomaticEffect",
+    "declareWar" : ["opponents"],
+    "declarePeace": ["opponents"]
+  },
+  "resourceEffect": {
+    "effectKey": "resourceEffect",
+    "resource": "objectWithVolume<raw>",
+    "turnDuration": "integer",
+    "turnDelay": "integer",
+    "scale": "scaleValue"
+  },
+  "potentialCaseEffect": {
+    "effectKey": "potentialCaseEffect",
+    "caseKey": "caseKey",
+    "chance": "percentScale2",
+    "duration": "integer",
+    "turnDelay": "integer"
+  },
+  "potentialTaskEffect": {
+    "effectKey": "potentialTaskEffect",
+    "taskKey": "taskKey",
+    "chance": "percentScale2",
+    "availableWhenHappenedOutcome": ["outcomeType"],
+    "duration": "integer",
+    "turnDelay": "integer"
+  },
+  "unlockAcceptLawEffect": {
+    "effectKey": "unlockAcceptLawEffect"
+  },
+  "blockLossTileEffect": {
+    "effectKey": "blockLossTileEffect",
+    "value": "boolean"
+  },
+  "modificationEffect": {},
+
+  "opponents": {
+    "initiator": "civId",
+    "participant": "civId"
+  },
+  "scale": ["LOCAL", "AREA", "CIVILIZATION", "NEIGHBOR_CIVILIZATION", "GLOBAL"],
+
+  "outcome": {
+    "outcomeId": "key",
+    "epochStart": "integer",
+    "epochEnd": "integer",
+    "descriptionFile": "string",
+    "images": [
+      "string"
+    ],
+    "mark": "string" //изображение поверх картинки
+  },
+
+  "knowledge": {
+    "techId": "key",
+    "icon": "string",
+    "descriptionFile": "string",
+    "epoch": "integer",
+    "visibleConditions": [
+//      Условия когда технология становится видна
+    ],
+    "canSearchConditions": [
+//      Условия когда технологию можно исследовать
+    ],
+    "consolidateConditions": [
+        //      Условия когда технология закрепляется
+    ],
+    "effectsOnSearch": [
+      "child from effect"
+    ]
+  }
+}
