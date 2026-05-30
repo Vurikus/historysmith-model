@@ -744,7 +744,7 @@
       {
         "modelName": "science",
         "volume": 10
-      },
+      }
     ],
     "descriptionFile": "stoneTools.json",
     "epoch": 0,
