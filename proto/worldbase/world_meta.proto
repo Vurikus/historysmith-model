@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package proto.worldbase;
+
+option java_multiple_files = true;
+option java_outer_classname = "WorldMetaProtoOuter";
+
+import "proto/worldbase/world_configuration.proto";
+
+message WorldMetaProto {
+  string id = 1;
+  proto.worldbase.WorldConfigurationProto configuration = 2;
+  int32 count_civ = 3;
+  int32 count_players = 4;
+}
