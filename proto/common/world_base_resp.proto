@@ -6,9 +6,11 @@ option java_multiple_files = true;
 option java_outer_classname = "WorldBaseResponseProtoOuter";
 
 import "proto/worldbase/world.proto";
+import "proto/common/world_meta_resp.proto";
 
 message WorldBaseResponseProto {
   oneof payload {
     proto.worldbase.WorldProto world = 1;
+    proto.common.WorldMetaListResponseProto world_meta_list = 2;
   }
 }
