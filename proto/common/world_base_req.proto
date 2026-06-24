@@ -6,9 +6,11 @@ option java_multiple_files = true;
 option java_outer_classname = "WorldBaseRequestProtoOuter";
 
 import "proto/worldbase/world_configuration.proto";
+import "proto/worldbase/world_connect.proto";
 
 message WorldBaseRequestProto {
   oneof payload {
     proto.worldbase.WorldConfigurationProto generation_config = 1;
+    proto.worldbase.WorldConnectProto world_connect = 2;
   }
 }

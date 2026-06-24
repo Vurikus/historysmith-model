@@ -8,6 +8,7 @@ option java_outer_classname = "EnvelopeResponseProtoOuter";
 import "proto/common/sync_state_resp.proto";
 import "proto/common/action_resp.proto";
 import "proto/common/error_resp.proto";
+import "proto/common/success_resp.proto";
 import "proto/common/intention_resp.proto";
 import "proto/common/world_base_resp.proto";
 
@@ -15,9 +16,11 @@ message EnvelopeResponseProto {
   int32 message_id = 1;
   oneof payload {
     proto.common.ErrorResponseProto error = 2;
-    proto.common.SyncStateResponseProto sync_state = 3;
-    proto.common.ActionResponseProto action = 4;
-    proto.common.IntentionResponseProto intention = 5;
-    proto.common.WorldBaseResponseProto world = 6;
+    proto.common.SuccessResponseProto success = 3;
+
+    proto.common.SyncStateResponseProto sync_state = 4;
+    proto.common.ActionResponseProto action = 5;
+    proto.common.IntentionResponseProto intention = 6;
+    proto.common.WorldBaseResponseProto world = 7;
   }
 }

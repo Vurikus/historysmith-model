@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package proto.worldbase;
+
+option java_multiple_files = true;
+option java_outer_classname = "WorldConnectProtoOuter";
+
+// Объект служит информацией о подключении игрока к игровому миру
+message WorldConnectProto {
+  string world_id = 1; // идентификатор игрового мира к которуму желает подключиться игрок
+  string civilization_id = 2; // идентификатор цивилизации за которую желает выступить игрок
+}

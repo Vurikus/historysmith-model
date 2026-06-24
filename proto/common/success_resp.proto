@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package proto.common;
+
+option java_multiple_files = true;
+option java_outer_classname = "ErrorResponseProtoOuter";
+
+//  Экземпляр объекта говорит об успешности действия отправленного на сервер.
+//  Отправляется в случае когда нет явного payload в виде объекта в ответе
+message SuccessResponseProto {
+}
