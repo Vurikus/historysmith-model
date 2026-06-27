@@ -7,12 +7,14 @@ option java_outer_classname = "WorldBaseResponseProtoOuter";
 
 import "proto/worldbase/world.proto";
 import "proto/common/world_meta_resp.proto";
-import "proto/common/civilization_meta_resp.proto";
+import "proto/worldbase/civilization_meta_list.proto";
+import "proto/worldbase/civilization_lock.proto";
 
 message WorldBaseResponseProto {
   oneof payload {
     proto.worldbase.WorldProto world = 1;
     proto.common.WorldMetaListResponseProto world_meta_list = 2;
     proto.common.CivilizationMetaListResponseProto civilization_meta_list = 3;
+    proto.common.CivilizationLockResponseProto civilization_lock = 4;
   }
 }

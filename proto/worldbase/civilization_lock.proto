@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package proto.common;
+
+option java_multiple_files = true;
+option java_outer_classname = "CivilizationLockResponseProtoOuter";
+
+// Сообщение отдает результат по блокировке цивилизации за конкретным игроком
+message CivilizationLockResponseProto {
+  int64 lock_date_until = 1; // Время до которого действует лок, unix timestamp в миллисекундах
+}
