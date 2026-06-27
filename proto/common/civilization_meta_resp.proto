@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package proto.common;
+
+option java_multiple_files = true;
+option java_outer_classname = "CivilizationMetaListResponseProtoOuter";
+
+import "proto/worldbase/civilization_meta.proto";
+
+message CivilizationMetaListResponseProto {
+  repeated proto.worldbase.CivilizationMetaProto metas = 1;
+}
