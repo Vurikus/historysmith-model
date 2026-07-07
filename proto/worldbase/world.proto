@@ -9,6 +9,7 @@ import "proto/worldbase/world_meta.proto";
 import "proto/world/tile.proto";
 
 message WorldProto {
-  proto.worldbase.WorldMetaProto meta = 1;
-  repeated proto.world.TileProto tiles = 2;
+  int32 version = 1; // номер версии объекта
+  proto.worldbase.WorldMetaProto meta = 2;
+  repeated proto.world.TileProto tiles = 3;
 }

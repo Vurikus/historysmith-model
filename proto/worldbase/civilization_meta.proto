@@ -7,10 +7,11 @@ option java_outer_classname = "CivilizationMetaProtoOuter";
 
 // Метаданные цивилизации игрового мира
 message CivilizationMetaProto {
-  string id = 1; // идентификатор цивилизации
-  string code_name = 2; // кодовое название цивилизации
-  string code_state = 3; // код государства цивилизации
-  string code_culture = 4; // код культуры цивилизации
-  string flag = 5; // флаг цивилизации
-  string color_hex = 6; // hex-цвет цивилизации без альфа-канала
+  int32 version = 1; // номер версии объекта
+  string id = 2; // идентификатор цивилизации
+  string code_name = 3; // кодовое название цивилизации
+  string code_state = 4; // код государства цивилизации
+  string code_culture = 5; // код культуры цивилизации
+  string flag = 6; // флаг цивилизации
+  string color_hex = 7; // hex-цвет цивилизации без альфа-канала
 }

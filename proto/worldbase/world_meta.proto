@@ -8,8 +8,10 @@ option java_outer_classname = "WorldMetaProtoOuter";
 import "proto/worldbase/world_configuration.proto";
 
 message WorldMetaProto {
-  string id = 1;
-  proto.worldbase.WorldConfigurationProto configuration = 2;
-  int32 count_civ = 3;
-  int32 count_players = 4;
+  int32 version = 1; // номер версии объекта
+  string id = 2;
+  proto.worldbase.WorldConfigurationProto configuration = 3;
+//  TODO это бы вынести куда то в отдельные объекты
+  int32 count_civ = 4;
+  int32 count_players = 5;
 }
