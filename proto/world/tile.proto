@@ -5,14 +5,12 @@ package proto.world;
 option java_multiple_files = true;
 option java_outer_classname = "TileProtoOuter";
 
-import "proto/world/terrain_type.proto";
-import "proto/world/relief_type.proto";
 import "proto/world/tile_key.proto";
 
 message TileProto {
   proto.world.TileKeyProto key = 1;
-  proto.world.ReliefTypeProto mt1_relief = 2;
-  proto.world.ReliefTypeProto mt2_relief = 3;
-  proto.world.ReliefTypeProto mt3_relief = 4;
-  proto.world.TerrainTypeProto terrain_type = 5;
+  string mt1_relief = 2;
+  string mt2_relief = 3;
+  string mt3_relief = 4;
+  string terrain_type = 5;
 }
