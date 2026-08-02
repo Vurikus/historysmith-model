@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package proto.common;
+
+option java_multiple_files = true;
+option java_outer_classname = "GameEventResponseProtoOuter";
+
+import "proto/gameevent/start_new_turn_game_event.proto";
+
+// Реализации GameEvent - серверные евенты, это некие события игры которые инициированы системой или другими игроками
+message GameEventResponseProto {
+  oneof payload {
+    proto.gameevent.StartNewTurnGameEventProto new_turn_game_event = 1; // Евент говорит о начале следующего хода
+  }
+}

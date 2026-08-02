@@ -5,5 +5,10 @@ package proto.common;
 option java_multiple_files = true;
 option java_outer_classname = "ActionRequestProtoOuter";
 
+import "proto/action/end_turn_player_action.proto";
+
 message ActionRequestProto {
+  oneof payload {
+    proto.common.EndTurnPlayerActionProto end_turn_player = 1; // Завершение игрового хода игроком
+  }
 }
