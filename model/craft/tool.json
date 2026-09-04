@@ -6,7 +6,7 @@
       "ANIMAL"
     ],
     "openProperties": [
-      "goesToFood"
+      "cattle"
     ],
     "costProductPerSingleUse": [],
     "costStatePointPerSingleUse": [],
@@ -19,7 +19,6 @@
       "ANIMAL"
     ],
     "openProperties": [
-      "goesToFood",
       "perishable"
     ],
     "costProductPerSingleUse": [],

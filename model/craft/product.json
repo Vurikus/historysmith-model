@@ -4,7 +4,10 @@
     "displayName": "TXT_RESOURCE_SHEEP",
     "category": "ANIMAL",
     "properties": [
-      "goesToFood"
+      {
+        "property": "cattle",
+        "volume": 1
+      }
     ]
   }
 ]

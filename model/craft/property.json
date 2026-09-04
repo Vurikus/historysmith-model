@@ -1,5 +1,9 @@
 [
   {
+    "modelName": "cattle",
+    "displayName": "TXT_CRAFT_PROPERTY_CATTLE"
+  },
+  {
     "modelName": "goesToFood",
     "displayName": "TXT_CRAFT_PROPERTY_GOES_TO_FOOD"
   },
