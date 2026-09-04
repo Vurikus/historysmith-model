@@ -53,6 +53,44 @@
     "volume": "integer",
     "type": ["RAW", "STATE_POINT"]
   },
+  "craftProperty": {
+    "modelName": "key",
+    "displayName": "string"
+  },
+  "productModel": {
+    "modelName": "key",
+    "displayName": "string",
+    "category": "string",
+    "properties": [
+      {
+        "property": "key - craftPropertyModelName",
+        "volume": "float"
+      }
+    ]
+  },
+  "craftTool": {
+    "modelName": "key",
+    "displayName": "string",
+    "canUseProductCategories": [
+      "string"
+    ],
+    "openProperties": [
+      "key - craftPropertyModelName"
+    ],
+    "costProductPerSingleUse": [
+      {
+        "modelName": "key - productModelName",
+        "volume": "float"
+      }
+    ],
+    "costStatePointPerSingleUse": [
+      {
+        "modelName": "key - statePointModelName",
+        "volume": "float"
+      }
+    ],
+    "turn": "integer"
+  },
   "relief": {
     "modelName": "key",
     "displayName": "string",

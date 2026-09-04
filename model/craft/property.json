@@ -1,0 +1,10 @@
+[
+  {
+    "modelName": "goesToFood",
+    "displayName": "TXT_CRAFT_PROPERTY_GOES_TO_FOOD"
+  },
+  {
+    "modelName": "perishable",
+    "displayName": "TXT_CRAFT_PROPERTY_PERISHABLE"
+  }
+]
