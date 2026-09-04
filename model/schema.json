@@ -57,7 +57,7 @@
     "modelName": "key",
     "displayName": "string"
   },
-  "productModel": {
+  "product": {
     "modelName": "key",
     "displayName": "string",
     "category": "string",

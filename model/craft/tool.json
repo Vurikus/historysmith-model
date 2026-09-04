@@ -1,1 +1,29 @@
-[]
+[
+  {
+    "modelName": "domesticateAnimal",
+    "displayName": "TXT_CRAFT_TOOL_DOMESTICATE_ANIMAL",
+    "canUseProductCategories": [
+      "ANIMAL"
+    ],
+    "openProperties": [
+      "goesToFood"
+    ],
+    "costProductPerSingleUse": [],
+    "costStatePointPerSingleUse": [],
+    "turn": 3
+  },
+  {
+    "modelName": "inspect",
+    "displayName": "TXT_CRAFT_TOOL_INSPECT",
+    "canUseProductCategories": [
+      "ANIMAL"
+    ],
+    "openProperties": [
+      "goesToFood",
+      "perishable"
+    ],
+    "costProductPerSingleUse": [],
+    "costStatePointPerSingleUse": [],
+    "turn": 2
+  }
+]

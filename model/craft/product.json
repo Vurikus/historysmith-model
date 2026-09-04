@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "modelName": "sheep",
+    "displayName": "TXT_RESOURCE_SHEEP",
+    "category": "ANIMAL",
+    "properties": [
+      "goesToFood"
+    ]
+  }
+]
