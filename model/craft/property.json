@@ -4,6 +4,14 @@
     "displayName": "TXT_CRAFT_PROPERTY_CATTLE"
   },
   {
+    "modelName": "untamable",
+    "displayName": "TXT_CRAFT_PROPERTY_UNTAMABLE"
+  },
+  {
+    "modelName": "wooly",
+    "displayName": "TXT_CRAFT_PROPERTY_WOOLY"
+  },
+  {
     "modelName": "goesToFood",
     "displayName": "TXT_CRAFT_PROPERTY_GOES_TO_FOOD"
   },

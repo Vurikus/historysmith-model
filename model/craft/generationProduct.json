@@ -1,0 +1,18 @@
+[
+  {
+    "category": "ANIMAL",
+    "maxCountPropertyPerProduct": 3,
+    "availablePropertyPool": [
+      "cattle",
+      "wooly",
+      "untamable"
+    ],
+    "necessaryPropertyOneOf": [
+      "cattle",
+      "untamable"
+    ],
+    "conflictProperty": [{
+      "cattle": "untamable"
+    }]
+  }
+]
