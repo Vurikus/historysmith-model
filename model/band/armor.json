@@ -8,10 +8,6 @@
     "requiredStatePoints": [],
     "requiredResources": [],
     "battleResourcesCost": [
-      {
-        "modelName": "armor",
-        "volume": 1
-      }
     ]
   }
 ]

@@ -4,7 +4,7 @@
     "displayName": "TXT_BUILDING_CONSTRUCTION_SITE",
     "icon": "stock",
     "maintenance": 1,
-    "capacity": 2,
+    "managerialPointCost": 2,
     "prosperity": 0,
     "entertainment": 0,
     "safety": 0,
@@ -19,7 +19,7 @@
     "displayName": "TXT_BUILDING_PASTURE",
     "icon": "stock",
     "maintenance": 1,
-    "capacity": 0,
+    "managerialPointCost": 2,
     "prosperity": 1,
     "entertainment": 0,
     "safety": -0.5,
@@ -39,32 +39,14 @@
       }
     ],
     "passiveProduction": null,
-    "workerProduction": {
-      "workers": 2,
-      "default": {
-        "produceRaws": [
-          {
-            "modelName": "skin",
-            "volume": 0.5
-          },
-          {
-            "modelName": "clothes",
-            "volume": 5
-          },
-          {
-            "modelName": "meat",
-            "volume": 1
-          }
-        ]
-      }
-    }
+    "workerProduction": null
   },
   {
     "modelName": "stock",
     "displayName": "TXT_BUILDING_STOCK",
     "icon": "stock",
     "maintenance": 1,
-    "capacity": 0,
+    "managerialPointCost": 2,
     "prosperity": 0,
     "entertainment": 0,
     "safety": 0,
@@ -79,7 +61,7 @@
     "displayName": "TXT_BUILDING_CULTIVATE_FIELD",
     "icon": "stock",
     "maintenance": 1,
-    "capacity": 0,
+    "managerialPointCost": 2,
     "prosperity": 1,
     "entertainment": 0,
     "safety": 0,
@@ -87,63 +69,29 @@
     "requiredStatePoints": [],
     "requiredResources": [],
     "passiveProduction": null,
-    "workerProduction": {
-      "workers": 3,
-      "default": {
-        "produceStatePoints": [],
-        "produceRaws": [
-          {
-            "modelName": "grain",
-            "volume": 2
-          }
-        ],
-        "consumeStatePoints": [],
-        "consumeRaws": []
-      }
-    }
+    "workerProduction": null
   },
   {
     "modelName": "vineyardField",
     "displayName": "TXT_BUILDING_VINEYARD_FIELD",
     "icon": "stock",
     "maintenance": 1,
-    "capacity": 0,
+    "managerialPointCost": 2,
     "prosperity": 1,
     "entertainment": 0,
     "safety": 0,
     "educated": 0,
     "requiredStatePoints": [],
     "requiredResources": [],
-    "passiveProduction": {
-      "produceStatePoints": [],
-      "produceRaws": [
-        {
-          "modelName": "sugar",
-          "volume": 0.2
-        }
-      ]
-    },
-    "workerProduction": {
-      "workers": 1,
-      "default": {
-        "produceStatePoints": [],
-        "produceRaws": [
-          {
-            "modelName": "sugar",
-            "volume": 2
-          }
-        ],
-        "consumeStatePoints": [],
-        "consumeRaws": []
-      }
-    }
+    "passiveProduction": null,
+    "workerProduction": null
   },
   {
     "modelName": "headquarters",
     "displayName": "TXT_BUILDING_HEADQUARTERS",
     "icon": "stock",
     "maintenance": 1,
-    "capacity": 0,
+    "managerialPointCost": 2,
     "prosperity": 3,
     "entertainment": 0,
     "safety": 0,
@@ -158,7 +106,7 @@
     "displayName": "TXT_BUILDING_QUARRY",
     "icon": "quarry",
     "maintenance": 1,
-    "capacity": 0,
+    "managerialPointCost": 2,
     "prosperity": 2,
     "entertainment": 0,
     "safety": -1,
@@ -166,27 +114,14 @@
     "requiredStatePoints": [],
     "requiredResources": [],
     "passiveProduction": null,
-    "workerProduction": {
-      "workers": 2,
-      "default": {
-        "produceStatePoints": [],
-        "produceRaws": [
-          {
-            "modelName": "stone",
-            "volume": 1
-          }
-        ],
-        "consumeStatePoints": [],
-        "consumeRaws": []
-      }
-    }
+    "workerProduction": null
   },
   {
     "modelName": "quarryElevator",
     "displayName": "TXT_BUILDING_QUARRY_ELEVATOR",
     "icon": "stone",
     "maintenance": 1,
-    "capacity": 8,
+    "managerialPointCost": 2,
     "prosperity": 1,
     "entertainment": 0,
     "safety": 0,
@@ -197,21 +132,8 @@
         "volume": 50
       }
     ],
-    "requiredResources": [
-      {
-        "modelName": "wood",
-        "volume": 25
-      }
-    ],
-    "passiveProduction": {
-      "produceStatePoints": [],
-      "produceRaws": [
-        {
-          "modelName": "stone",
-          "volume": 1
-        }
-      ]
-    },
+    "requiredResources": [],
+    "passiveProduction": null,
     "workerProduction": null
   },
   {
@@ -219,7 +141,7 @@
     "displayName": "TXT_BUILDING_MINE_ADIT",
     "icon": "stone",
     "maintenance": 1,
-    "capacity": 0,
+    "managerialPointCost": 2,
     "prosperity": 3,
     "entertainment": 0,
     "safety": -2,
@@ -227,251 +149,104 @@
     "requiredStatePoints": [],
     "requiredResources": [],
     "passiveProduction": null,
-    "workerProduction": {
-      "workers": 2,
-      "default": {
-        "produceStatePoints": [],
-        "produceRaws": [
-          {
-            "modelName": "stone",
-            "volume": 0.25
-          },
-          {
-            "modelName": "copper",
-            "volume": 0.1
-          }
-        ],
-        "consumeStatePoints": [],
-        "consumeRaws": []
-      }
-    }
+    "workerProduction": null
   },
   {
     "modelName": "cocoaTrees",
     "displayName": "TXT_BUILDING_COCOA_TREES",
     "icon": "cocoa",
     "maintenance": 1,
-    "capacity": 0,
+    "managerialPointCost": 2,
     "prosperity": 1,
     "entertainment": 0,
     "safety": 0,
     "educated": 0,
     "requiredStatePoints": [],
     "requiredResources": [],
-    "passiveProduction": {
-      "produceStatePoints": [],
-      "produceRaws": [
-        {
-          "modelName": "cocoa",
-          "volume": 0.5
-        }
-      ]
-    },
-    "workerProduction": {
-      "workers": 2,
-      "default": {
-        "produceStatePoints": [],
-        "produceRaws": [
-          {
-            "modelName": "cocoa",
-            "volume": 0.5
-          }
-        ],
-        "consumeStatePoints": [],
-        "consumeRaws": []
-      }
-    }
+    "passiveProduction": null,
+    "workerProduction": null
   },
   {
     "modelName": "coffeeTrees",
     "displayName": "TXT_BUILDING_COFFEE_TREES",
     "icon": "coffee",
     "maintenance": 1,
-    "capacity": 0,
+    "managerialPointCost": 2,
     "prosperity": 1,
     "entertainment": 0,
     "safety": 0,
     "educated": 0,
     "requiredStatePoints": [],
     "requiredResources": [],
-    "passiveProduction": {
-      "produceStatePoints": [],
-      "produceRaws": [
-        {
-          "modelName": "coffee",
-          "volume": 0.5
-        }
-      ],
-      "consumeStatePoints": [],
-      "consumeRaws": []
-    },
-    "workerProduction": {
-      "workers": 2,
-      "default": {
-        "produceStatePoints": [],
-        "produceRaws": [
-          {
-            "modelName": "coffee",
-            "volume": 0.5
-          }
-        ],
-        "consumeStatePoints": [],
-        "consumeRaws": []
-      }
-    }
+    "passiveProduction": null,
+    "workerProduction": null
   },
   {
     "modelName": "opiumField",
     "displayName": "TXT_BUILDING_OPIUM_FIELD",
     "icon": "opium",
     "maintenance": 1,
-    "capacity": 0,
+    "managerialPointCost": 2,
     "prosperity": 1,
     "entertainment": 0,
     "safety": 0,
     "educated": 0,
     "requiredStatePoints": [],
     "requiredResources": [],
-    "passiveProduction": {
-      "produceStatePoints": [],
-      "produceRaws": [
-        {
-          "modelName": "opium",
-          "volume": 0.5
-        }
-      ],
-      "consumeStatePoints": [],
-      "consumeRaws": []
-    },
-    "workerProduction": {
-      "workers": 2,
-      "default": {
-        "produceStatePoints": [],
-        "produceRaws": [
-          {
-            "modelName": "opium",
-            "volume": 0.5
-          }
-        ],
-        "consumeStatePoints": [],
-        "consumeRaws": []
-      }
-    }
+    "passiveProduction": null,
+    "workerProduction": null
   },
   {
     "modelName": "spicesField",
     "displayName": "TXT_BUILDING_SPICES_FIELD",
     "icon": "spices",
     "maintenance": 1,
-    "capacity": 0,
+    "managerialPointCost": 2,
     "prosperity": 1,
     "entertainment": 0,
     "safety": 0,
     "educated": 0,
     "requiredStatePoints": [],
     "requiredResources": [],
-    "passiveProduction": {
-      "produceStatePoints": [],
-      "produceRaws": [
-        {
-          "modelName": "spices",
-          "volume": 0.5
-        }
-      ]
-    },
-    "workerProduction": {
-      "workers": 2,
-      "default": {
-        "produceStatePoints": [],
-        "produceRaws": [
-          {
-            "modelName": "spices",
-            "volume": 0.5
-          }
-        ],
-        "consumeStatePoints": [],
-        "consumeRaws": []
-      }
-    }
+    "passiveProduction": null,
+    "workerProduction": null
   },
   {
     "modelName": "tobaccoField",
     "displayName": "TXT_BUILDING_TOBACCO_FIELD",
     "icon": "tobacco",
     "maintenance": 1,
-    "capacity": 0,
+    "managerialPointCost": 2,
     "prosperity": 1,
     "entertainment": 0,
     "safety": 0,
     "educated": 0,
     "requiredStatePoints": [],
     "requiredResources": [],
-    "passiveProduction": {
-      "produceStatePoints": [],
-      "produceRaws": [
-        {
-          "modelName": "tobacco",
-          "volume": 0.5
-        }
-      ]
-    },
-    "workerProduction": {
-      "workers": 2,
-      "default": {
-        "produceStatePoints": [],
-        "produceRaws": [
-          {
-            "modelName": "tobacco",
-            "volume": 0.5
-          }
-        ],
-        "consumeStatePoints": [],
-        "consumeRaws": []
-      }
-    }
+    "passiveProduction": null,
+    "workerProduction": null
   },
   {
     "modelName": "teaField",
     "displayName": "TXT_BUILDING_TEA_FIELD",
     "icon": "tea",
     "maintenance": 1,
-    "capacity": 0,
+    "managerialPointCost": 2,
     "prosperity": 1,
     "entertainment": 0,
     "safety": 0,
     "educated": 0,
     "requiredStatePoints": [],
     "requiredResources": [],
-    "passiveProduction": {
-      "produceStatePoints": [],
-      "produceRaws": [
-        {
-          "modelName": "tea",
-          "volume": 0.5
-        }
-      ]
-    },
-    "workerProduction": {
-      "workers": 2,
-      "default": {
-        "produceStatePoints": [],
-        "produceRaws": [
-          {
-            "modelName": "tea",
-            "volume": 0.5
-          }
-        ],
-        "consumeStatePoints": [],
-        "consumeRaws": []
-      }
-    }
+    "passiveProduction": null,
+    "workerProduction": null
   },
   {
     "modelName": "harborPear",
     "displayName": "TXT_BUILDING_HARBOR_PEAR",
     "icon": "stock",
     "maintenance": 1,
-    "capacity": 0,
+    "managerialPointCost": 2,
     "prosperity": 1,
     "entertainment": 0,
     "safety": 0,
@@ -486,7 +261,7 @@
     "displayName": "TXT_BUILDING_HARBOR_BREAKWATER",
     "icon": "stock",
     "maintenance": 1,
-    "capacity": 10,
+    "managerialPointCost": 2,
     "prosperity": 0,
     "entertainment": 0,
     "safety": 0,
@@ -497,12 +272,7 @@
         "volume": 40
       }
     ],
-    "requiredResources": [
-      {
-        "modelName": "stone",
-        "volume": 70
-      }
-    ],
+    "requiredResources": [],
     "passiveProduction": null,
     "workerProduction": null
   },
@@ -511,7 +281,7 @@
     "displayName": "TXT_BUILDING_HARBOR_SHIPYARD",
     "icon": "stock",
     "maintenance": 1,
-    "capacity": 7,
+    "managerialPointCost": 2,
     "prosperity": 1,
     "entertainment": 0,
     "safety": 0,
@@ -522,16 +292,7 @@
         "volume": 40
       }
     ],
-    "requiredResources": [
-      {
-        "modelName": "stone",
-        "volume": 20
-      },
-      {
-        "modelName": "wood",
-        "volume": 40
-      }
-    ],
+    "requiredResources": [],
     "passiveProduction": null,
     "workerProduction": null
   },
@@ -540,7 +301,7 @@
     "displayName": "TXT_BUILDING_HARBOR_LIGHTHOUSE",
     "icon": "stock",
     "maintenance": 1,
-    "capacity": 6,
+    "managerialPointCost": 2,
     "prosperity": 1,
     "entertainment": 0,
     "safety": 0,
@@ -551,12 +312,7 @@
         "volume": 40
       }
     ],
-    "requiredResources": [
-      {
-        "modelName": "stone",
-        "volume": 80
-      }
-    ],
+    "requiredResources": [],
     "passiveProduction": null,
     "workerProduction": null
   },
@@ -565,47 +321,22 @@
     "displayName": "TXT_BUILDING_FORREST_EDGE",
     "icon": "stock",
     "maintenance": 1,
-    "capacity": 0,
+    "managerialPointCost": 2,
     "prosperity": 1,
     "entertainment": 0,
     "safety": 1,
     "educated": 0,
     "requiredStatePoints": [],
     "requiredResources": [],
-    "passiveProduction": {
-      "produceRaws": [
-        {
-          "modelName": "wood",
-          "volume": 0.25
-        }
-      ]
-    },
-    "workerProduction": {
-      "workers": 2,
-      "default": {
-        "produceRaws": [
-          {
-            "modelName": "wood",
-            "volume": 1
-          },
-          {
-            "modelName": "meat",
-            "volume": 0.5
-          },
-          {
-            "modelName": "herbs",
-            "volume": 0.1
-          }
-        ]
-      }
-    }
+    "passiveProduction": null,
+    "workerProduction": null
   },
   {
     "modelName": "plainField",
     "displayName": "TXT_BUILDING_PLAIN_FIELD",
     "icon": "stock",
     "maintenance": 0,
-    "capacity": 0,
+    "managerialPointCost": 2,
     "prosperity": 0,
     "entertainment": 0,
     "safety": 0.5,
@@ -613,32 +344,14 @@
     "requiredStatePoints": [],
     "requiredResources": [],
     "passiveProduction": null,
-    "workerProduction": {
-      "workers": 2,
-      "default": {
-        "produceRaws": [
-          {
-            "modelName": "grain",
-            "volume": 3
-          },
-          {
-            "modelName": "herbs",
-            "volume": 0.5
-          },
-          {
-            "modelName": "flowers",
-            "volume": 0.5
-          }
-        ]
-      }
-    }
+    "workerProduction": null
   },
   {
     "modelName": "plainSea",
     "displayName": "TXT_BUILDING_PLAIN_SEA",
     "icon": "stock",
     "maintenance": 0,
-    "capacity": 0,
+    "managerialPointCost": 2,
     "prosperity": 0,
     "entertainment": 0,
     "safety": 0,
@@ -646,196 +359,89 @@
     "requiredStatePoints": [],
     "requiredResources": [],
     "passiveProduction": null,
-    "workerProduction": {
-      "workers": 2,
-      "default": {
-        "produceRaws": [
-          {
-            "modelName": "meat",
-            "volume": 0.5
-          }
-        ]
-      }
-    }
+    "workerProduction": null
   },
   {
     "modelName": "plainHill",
     "displayName": "TXT_BUILDING_PLAIN_HILL",
     "icon": "stock",
     "maintenance": 0,
-    "capacity": 0,
+    "managerialPointCost": 2,
     "prosperity": 0,
     "entertainment": 0,
     "safety": 0.5,
     "educated": 0,
     "requiredStatePoints": [],
     "requiredResources": [],
-    "passiveProduction": {
-      "produceRaws": [
-        {
-          "modelName": "stone",
-          "volume": 0.1
-        }
-      ]
-    },
-    "workerProduction": {
-      "workers": 2,
-      "default": {
-        "produceRaws": [
-          {
-            "modelName": "stone",
-            "volume": 1
-          }
-        ]
-      }
-    }
+    "passiveProduction": null,
+    "workerProduction": null
   },
   {
     "modelName": "plainMountain",
     "displayName": "TXT_BUILDING_PLAIN_MOUNTAIN",
     "icon": "stock",
     "maintenance": 0,
-    "capacity": 0,
+    "managerialPointCost": 2,
     "prosperity": 0,
     "entertainment": 0,
     "safety": 1,
     "educated": 0,
     "requiredStatePoints": [],
     "requiredResources": [],
-    "passiveProduction": {
-      "produceRaws": [
-        {
-          "modelName": "stone",
-          "volume": 0.1
-        }
-      ]
-    },
-    "workerProduction": {
-      "workers": 2,
-      "default": {
-        "produceRaws": [
-          {
-            "modelName": "stone",
-            "volume": 1
-          }
-        ]
-      }
-    }
+    "passiveProduction": null,
+    "workerProduction": null
   },
   {
     "modelName": "plainVolcano",
     "displayName": "TXT_BUILDING_VOLCANO",
     "icon": "stock",
     "maintenance": 0,
-    "capacity": 0,
+    "managerialPointCost": 2,
     "prosperity": 0,
     "entertainment": 0,
     "safety": -1,
     "educated": 0,
     "requiredStatePoints": [],
     "requiredResources": [],
-    "passiveProduction": {
-      "produceRaws": [
-        {
-          "modelName": "stone",
-          "volume": 0.1
-        }
-      ]
-    },
-    "workerProduction": {
-      "workers": 2,
-      "default": {
-        "produceRaws": [
-          {
-            "modelName": "stone",
-            "volume": 1
-          }
-        ]
-      }
-    }
+    "passiveProduction": null,
+    "workerProduction": null
   },
   {
     "modelName": "riverbed",
     "displayName": "TXT_BUILDING_RIVERBED",
     "icon": "stock",
     "maintenance": 0,
-    "capacity": 0,
+    "managerialPointCost": 2,
     "prosperity": 0,
     "entertainment": 0,
     "safety": 0.5,
     "educated": 0,
     "requiredStatePoints": [],
     "requiredResources": [],
-    "passiveProduction": {
-      "produceRaws": [
-        {
-          "modelName": "meat",
-          "volume": 0.25
-        },
-        {
-          "modelName": "wood",
-          "volume": 0.1
-        }
-      ]
-    },
-    "workerProduction": {
-      "workers": 2,
-      "default": {
-        "produceRaws": [
-          {
-            "modelName": "meat",
-            "volume": 1
-          },
-          {
-            "modelName": "wood",
-            "volume": 1
-          }
-        ]
-      }
-    }
+    "passiveProduction": null,
+    "workerProduction": null
   },
   {
     "modelName": "lake",
     "displayName": "TXT_BUILDING_LAKE",
     "icon": "stock",
     "maintenance": 0,
-    "capacity": 0,
+    "managerialPointCost": 2,
     "prosperity": 0,
     "entertainment": 0,
     "safety": 0.5,
     "educated": 0,
     "requiredStatePoints": [],
     "requiredResources": [],
-    "passiveProduction": {
-      "produceRaws": [
-        {
-          "modelName": "meat",
-          "volume": 0.5
-        }
-      ]
-    },
-    "workerProduction": {
-      "workers": 2,
-      "default": {
-        "produceRaws": [
-          {
-            "modelName": "meat",
-            "volume": 1.5
-          },
-          {
-            "modelName": "wood",
-            "volume": 0.5
-          }
-        ]
-      }
-    }
+    "passiveProduction": null,
+    "workerProduction": null
   },
   {
     "modelName": "island",
     "displayName": "TXT_BUILDING_ISLAND",
     "icon": "stock",
     "maintenance": 0,
-    "capacity": 0,
+    "managerialPointCost": 2,
     "prosperity": 0,
     "entertainment": 0,
     "safety": 0,
@@ -843,28 +449,14 @@
     "requiredStatePoints": [],
     "requiredResources": [],
     "passiveProduction": null,
-    "workerProduction": {
-      "workers": 2,
-      "default": {
-        "produceRaws": [
-          {
-            "modelName": "meat",
-            "volume": 1.5
-          },
-          {
-            "modelName": "wood",
-            "volume": 0.5
-          }
-        ]
-      }
-    }
+    "workerProduction": null
   },
   {
     "modelName": "marsh",
     "displayName": "TXT_BUILDING_MARSH",
     "icon": "stock",
     "maintenance": 0,
-    "capacity": 0,
+    "managerialPointCost": 2,
     "prosperity": 0,
     "entertainment": 0,
     "safety": -1,
@@ -879,7 +471,7 @@
     "displayName": "TXT_BUILDING_DUNE",
     "icon": "stock",
     "maintenance": 0,
-    "capacity": 0,
+    "managerialPointCost": 2,
     "prosperity": 0,
     "entertainment": 0,
     "safety": 0,
@@ -894,7 +486,7 @@
     "displayName": "TXT_BUILDING_REEF",
     "icon": "stock",
     "maintenance": 0,
-    "capacity": 0,
+    "managerialPointCost": 2,
     "prosperity": 0,
     "entertainment": 0,
     "safety": 0,
@@ -902,24 +494,14 @@
     "requiredStatePoints": [],
     "requiredResources": [],
     "passiveProduction": null,
-    "workerProduction": {
-      "workers": 2,
-      "default": {
-        "produceRaws": [
-          {
-            "modelName": "meat",
-            "volume": 2
-          }
-        ]
-      }
-    }
+    "workerProduction": null
   },
   {
     "modelName": "iceberg",
     "displayName": "TXT_BUILDING_ICEBERG",
     "icon": "stock",
     "maintenance": 0,
-    "capacity": 0,
+    "managerialPointCost": 2,
     "prosperity": 0,
     "entertainment": 0,
     "safety": 0,
@@ -934,21 +516,14 @@
     "displayName": "TXT_BUILDING_ROCK",
     "icon": "stock",
     "maintenance": 0,
-    "capacity": 0,
+    "managerialPointCost": 2,
     "prosperity": 0,
     "entertainment": 0,
     "safety": 0,
     "educated": 0,
     "requiredStatePoints": [],
     "requiredResources": [],
-    "passiveProduction": {
-      "produceRaws": [
-        {
-          "modelName": "stone",
-          "volume": 0.15
-        }
-      ]
-    },
+    "passiveProduction": null,
     "workerProduction": null
   },
   {
@@ -956,26 +531,14 @@
     "displayName": "TXT_BUILDING_TOTEM_CIRCLE",
     "icon": "stock",
     "maintenance": 1,
-    "capacity": 10,
+    "managerialPointCost": 2,
     "prosperity": 0,
     "entertainment": 0,
     "safety": 0,
     "educated": 0,
     "requiredStatePoints": [],
-    "requiredResources": [
-      {
-        "modelName": "stone",
-        "volume": 15
-      }
-    ],
-    "passiveProduction": {
-      "produceStatePoints": [
-        {
-          "modelName": "culture",
-          "volume": 2
-        }
-      ]
-    },
+    "requiredResources": [],
+    "passiveProduction": null,
     "workerProduction": null
   },
   {
@@ -983,26 +546,14 @@
     "displayName": "TXT_BUILDING_SACRED_FIRE",
     "icon": "stock",
     "maintenance": 1,
-    "capacity": 15,
+    "managerialPointCost": 2,
     "prosperity": 0,
     "entertainment": 0,
     "safety": 0,
     "educated": 0,
     "requiredStatePoints": [],
-    "requiredResources": [
-      {
-        "modelName": "wood",
-        "volume": 10
-      }
-    ],
-    "passiveProduction": {
-      "produceStatePoints": [
-        {
-          "modelName": "culture",
-          "volume": 2
-        }
-      ]
-    },
+    "requiredResources": [],
+    "passiveProduction": null,
     "workerProduction": null
   },
   {
@@ -1010,7 +561,7 @@
     "displayName": "TXT_BUILDING_MUSICIAN_HUT",
     "icon": "stock",
     "maintenance": 1,
-    "capacity": 25,
+    "managerialPointCost": 2,
     "prosperity": 1,
     "entertainment": 1,
     "safety": 0,
@@ -1018,34 +569,14 @@
     "requiredStatePoints": [],
     "requiredResources": [],
     "passiveProduction": null,
-    "workerProduction": {
-      "workers": 1,
-      "default": {
-        "produceRaws": [
-          {
-            "modelName": "musicalInstrument",
-            "volume": 1
-          }
-        ],
-        "consumeRaws": [
-          {
-            "modelName": "wood",
-            "volume": 1
-          },
-          {
-            "modelName": "skin",
-            "volume": 2
-          }
-        ]
-      }
-    }
+    "workerProduction": null
   },
   {
     "modelName": "jewelerShop",
     "displayName": "TXT_BUILDING_JEWELER_SHOP",
     "icon": "stock",
     "maintenance": 1,
-    "capacity": 18,
+    "managerialPointCost": 2,
     "prosperity": 1,
     "entertainment": 0,
     "safety": 0,
@@ -1053,48 +584,21 @@
     "requiredStatePoints": [],
     "requiredResources": [],
     "passiveProduction": null,
-    "workerProduction": {
-      "workers": 1,
-      "default": {
-        "produceRaws": [
-          {
-            "modelName": "decorations",
-            "volume": 1
-          }
-        ],
-        "consumeRaws": [
-          {
-            "modelName": "gold",
-            "volume": 1
-          },
-          {
-            "modelName": "stone",
-            "volume": 1
-          }
-        ]
-      }
-    }
+    "workerProduction": null
   },
   {
     "modelName": "burial",
     "displayName": "TXT_BUILDING_BURIAL",
     "icon": "stock",
     "maintenance": 1,
-    "capacity": 0,
+    "managerialPointCost": 2,
     "prosperity": 0,
     "entertainment": 0,
     "safety": 0,
     "educated": 0,
     "requiredStatePoints": [],
     "requiredResources": [],
-    "passiveProduction": {
-      "produceStatePoints": [
-        {
-          "modelName": "culture",
-          "volume": 0.5
-        }
-      ]
-    },
+    "passiveProduction": null,
     "workerProduction": null
   },
   {
@@ -1102,103 +606,52 @@
     "displayName": "TXT_BUILDING_ALTAR",
     "icon": "stock",
     "maintenance": 1,
-    "capacity": 10,
+    "managerialPointCost": 2,
     "prosperity": 0,
     "entertainment": 0,
     "safety": 0,
     "educated": 0,
     "requiredStatePoints": [],
     "requiredResources": [],
-    "passiveProduction": {
-      "produceStatePoints": [
-        {
-          "modelName": "culture",
-          "volume": 0.5
-        }
-      ]
-    },
-    "workerProduction": {
-      "workers": 1,
-      "default": {
-        "produceStatePoints": [
-          {
-            "modelName": "culture",
-            "volume": 2
-          }
-        ]
-      }
-    }
+    "passiveProduction": null,
+    "workerProduction": null
   },
   {
     "modelName": "lumberjackCamp",
     "displayName": "TXT_BUILDING_LUMBERJACK_CAMP",
     "icon": "stock",
     "maintenance": 1,
-    "capacity": 8,
+    "managerialPointCost": 2,
     "prosperity": 3,
     "entertainment": 0,
     "safety": -0.5,
     "educated": 0,
     "requiredStatePoints": [],
     "requiredResources": [],
-    "passiveProduction": {
-      "produceRaws": [
-        {
-          "modelName": "wood",
-          "volume": 0.2
-        }
-      ]
-    },
-    "workerProduction": {
-      "workers": 2,
-      "default": {
-        "produceRaws": [
-          {
-            "modelName": "wood",
-            "volume": 2
-          }
-        ]
-      }
-    }
+    "passiveProduction": null,
+    "workerProduction": null
   },
   {
     "modelName": "fishery",
     "displayName": "TXT_BUILDING_FISHERY",
     "icon": "stock",
     "maintenance": 1,
-    "capacity": 8,
+    "managerialPointCost": 2,
     "prosperity": 3,
     "entertainment": 0,
     "safety": -0.5,
     "educated": 0,
     "requiredStatePoints": [],
     "requiredResources": [],
-    "passiveProduction": {
-      "produceRaws": [
-        {
-          "modelName": "meat",
-          "volume": 0.5
-        }
-      ]
-    },
-    "workerProduction": {
-      "workers": 2,
-      "default": {
-        "produceRaws": [
-          {
-            "modelName": "meat",
-            "volume": 2.5
-          }
-        ]
-      }
-    }
+    "passiveProduction": null,
+    "workerProduction": null
   },
   {
     "modelName": "carpenterWorkshop",
     "displayName": "TXT_BUILDING_CARPENTER_WORKSHOP",
     "icon": "stock",
     "maintenance": 1,
-    "capacity": 8,
+    "managerialPointCost": 2,
     "prosperity": 1,
     "entertainment": 0,
     "safety": 0,
@@ -1206,40 +659,14 @@
     "requiredStatePoints": [],
     "requiredResources": [],
     "passiveProduction": null,
-    "workerProduction": {
-      "workers": 1,
-      "default": {
-        "produceStatePoints": [
-          {
-            "modelName": "money",
-            "volume": 2
-          }
-        ],
-        "produceRaws": [
-          {
-            "modelName": "furniture",
-            "volume": 2
-          }
-        ],
-        "consumeRaws": [
-          {
-            "modelName": "wood",
-            "volume": 2
-          },
-          {
-            "modelName": "skin",
-            "volume": 1
-          }
-        ]
-      }
-    }
+    "workerProduction": null
   },
   {
     "modelName": "musicalGarden",
     "displayName": "TXT_BUILDING_MUSICAL_GARDEN",
     "icon": "stock",
     "maintenance": 1,
-    "capacity": 20,
+    "managerialPointCost": 2,
     "prosperity": 0,
     "entertainment": 10,
     "safety": 5,
@@ -1254,42 +681,8 @@
         "volume": 40
       }
     ],
-    "requiredResources": [
-      {
-        "modelName": "stone",
-        "volume": 35
-      },
-      {
-        "modelName": "wood",
-        "volume": 15
-      },
-      {
-        "modelName": "furniture",
-        "volume": 15
-      },
-      {
-        "modelName": "musicalInstrument",
-        "volume": 15
-      }
-    ],
-    "passiveProduction": {
-      "produceStatePoints": [
-        {
-          "modelName": "money",
-          "volume": 2
-        },
-        {
-          "modelName": "culture",
-          "volume": 3
-        }
-      ],
-      "produceRaws": [
-        {
-          "modelName": "flowers",
-          "volume": 0.5
-        }
-      ]
-    },
+    "requiredResources": [],
+    "passiveProduction": null,
     "workerProduction": null
   },
   {
@@ -1297,7 +690,7 @@
     "displayName": "TXT_BUILDING_TAILOR_WORKSHOP",
     "icon": "stock",
     "maintenance": 1,
-    "capacity": 8,
+    "managerialPointCost": 2,
     "prosperity": 1,
     "entertainment": 0,
     "safety": 0,
@@ -1305,51 +698,20 @@
     "requiredStatePoints": [],
     "requiredResources": [],
     "passiveProduction": null,
-    "workerProduction": {
-      "workers": 1,
-      "default": {
-        "produceStatePoints": [
-          {
-            "modelName": "money",
-            "volume": 2
-          }
-        ],
-        "produceRaws": [
-          {
-            "modelName": "clothes",
-            "volume": 5
-          }
-        ],
-        "consumeRaws": [
-          {
-            "modelName": "wool",
-            "volume": 2
-          },
-          {
-            "modelName": "skin",
-            "volume": 1
-          }
-        ]
-      }
-    }
+    "workerProduction": null
   },
   {
     "modelName": "granary",
     "displayName": "TXT_BUILDING_GRANARY",
     "icon": "stock",
     "maintenance": 1,
-    "capacity": 10,
+    "managerialPointCost": 2,
     "prosperity": 0,
     "entertainment": 0,
     "safety": 0,
     "educated": 0,
     "requiredStatePoints": [],
-    "requiredResources": [
-      {
-        "modelName": "stone",
-        "volume": 10
-      }
-    ],
+    "requiredResources": [],
     "passiveProduction": null,
     "workerProduction": null
   },
@@ -1358,7 +720,7 @@
     "displayName": "TXT_BUILDING_TAILOR_WORKSHOP",
     "icon": "stock",
     "maintenance": 1,
-    "capacity": 18,
+    "managerialPointCost": 2,
     "prosperity": 3,
     "entertainment": 0,
     "safety": 0,
@@ -1369,96 +731,31 @@
         "volume": 40
       }
     ],
-    "requiredResources": [
-      {
-        "modelName": "stone",
-        "volume": 10
-      }
-    ],
+    "requiredResources": [],
     "passiveProduction": null,
-    "workerProduction": {
-      "workers": 1,
-      "default": {
-        "produceStatePoints": [
-          {
-            "modelName": "money",
-            "volume": 2
-          },
-          {
-            "modelName": "culture",
-            "volume": 1
-          }
-        ],
-        "produceRaws": [
-          {
-            "modelName": "alcohol",
-            "volume": 3
-          }
-        ],
-        "consumeRaws": [
-          {
-            "modelName": "sugar",
-            "volume": 1
-          }
-        ]
-      }
-    }
+    "workerProduction": null
   },
   {
     "modelName": "bakerShop",
     "displayName": "TXT_BUILDING_BAKER_SHOP",
     "icon": "stock",
     "maintenance": 1,
-    "capacity": 10,
+    "managerialPointCost": 2,
     "prosperity": 2,
     "entertainment": 0,
     "safety": 0,
     "educated": 0,
     "requiredStatePoints": [],
-    "requiredResources": [
-      {
-        "modelName": "stone",
-        "volume": 5
-      }
-    ],
-    "passiveProduction": {
-      "produceRaws": [
-        {
-          "modelName": "food",
-          "volume": 0.5
-        }
-      ]
-    },
-    "workerProduction": {
-      "workers": 1,
-      "default": {
-        "produceStatePoints": [
-          {
-            "modelName": "money",
-            "volume": 0.5
-          }
-        ],
-        "produceRaws": [
-          {
-            "modelName": "food",
-            "volume": 3
-          }
-        ],
-        "consumeRaws": [
-          {
-            "modelName": "grain",
-            "volume": 3
-          }
-        ]
-      }
-    }
+    "requiredResources": [],
+    "passiveProduction": null,
+    "workerProduction": null
   },
   {
     "modelName": "tavern",
     "displayName": "TXT_BUILDING_TAVERN",
     "icon": "stock",
     "maintenance": 1,
-    "capacity": 20,
+    "managerialPointCost": 2,
     "prosperity": 2,
     "entertainment": 10,
     "safety": -1,
@@ -1469,48 +766,16 @@
         "volume": 50
       }
     ],
-    "requiredResources": [
-      {
-        "modelName": "furniture",
-        "volume": 15
-      }
-    ],
-    "passiveProduction": {
-      "produceStatePoints": [
-        {
-          "modelName": "culture",
-          "volume": 1
-        }
-      ]
-    },
-    "workerProduction": {
-      "workers": 1,
-      "default": {
-        "produceStatePoints": [
-          {
-            "modelName": "money",
-            "volume": 5
-          },
-          {
-            "modelName": "culture",
-            "volume": 3
-          }
-        ],
-        "consumeRaws": [
-          {
-            "modelName": "alcohol",
-            "volume": 2
-          }
-        ]
-      }
-    }
+    "requiredResources": [],
+    "passiveProduction": null,
+    "workerProduction": null
   },
   {
     "modelName": "thermopoly",
     "displayName": "TXT_BUILDING_THERMOPOLY",
     "icon": "stock",
     "maintenance": 1,
-    "capacity": 20,
+    "managerialPointCost": 2,
     "prosperity": 0,
     "entertainment": 2,
     "safety": -1,
@@ -1521,47 +786,16 @@
         "volume": 35
       }
     ],
-    "requiredResources": [
-      {
-        "modelName": "stone",
-        "volume": 20
-      }
-    ],
+    "requiredResources": [],
     "passiveProduction": null,
-    "workerProduction": {
-      "workers": 1,
-      "default": {
-        "produceStatePoints": [
-          {
-            "modelName": "money",
-            "volume": 3
-          },
-          {
-            "modelName": "culture",
-            "volume": 3
-          }
-        ],
-        "produceRaws": [
-          {
-            "modelName": "food",
-            "volume": 2
-          }
-        ],
-        "consumeRaws": [
-          {
-            "modelName": "grain",
-            "volume": 3
-          }
-        ]
-      }
-    }
+    "workerProduction": null
   },
   {
     "modelName": "potteryWorkshop",
     "displayName": "TXT_BUILDING_POTTERY_WORKSHOP",
     "icon": "stock",
     "maintenance": 1,
-    "capacity": 10,
+    "managerialPointCost": 2,
     "prosperity": 1,
     "entertainment": 0,
     "safety": 0,
@@ -1569,36 +803,14 @@
     "requiredStatePoints": [],
     "requiredResources": [],
     "passiveProduction": null,
-    "workerProduction": {
-      "workers": 1,
-      "default": {
-        "produceStatePoints": [
-          {
-            "modelName": "money",
-            "volume": 2
-          }
-        ],
-        "produceRaws": [
-          {
-            "modelName": "furniture",
-            "volume": 3
-          }
-        ],
-        "consumeRaws": [
-          {
-            "modelName": "stone",
-            "volume": 2
-          }
-        ]
-      }
-    }
+    "workerProduction": null
   },
   {
     "modelName": "huntingCamp",
     "displayName": "TXT_BUILDING_HUNTING_CAMP",
     "icon": "stock",
     "maintenance": 1,
-    "capacity": 8,
+    "managerialPointCost": 2,
     "prosperity": 3,
     "entertainment": 1,
     "safety": 0,
@@ -1606,34 +818,14 @@
     "requiredStatePoints": [],
     "requiredResources": [],
     "passiveProduction": null,
-    "workerProduction": {
-      "workers": 2,
-      "default": {
-        "produceRaws": [
-          {
-            "modelName": "skin",
-            "volume": 1
-          },
-          {
-            "modelName": "meat",
-            "volume": 1.5
-          }
-        ],
-        "consumeRaws": [
-          {
-            "modelName": "armor",
-            "volume": 0.2
-          }
-        ]
-      }
-    }
+    "workerProduction": null
   },
   {
     "modelName": "herbalistHut",
     "displayName": "TXT_BUILDING_HERBALIST_HUT",
     "icon": "stock",
     "maintenance": 1,
-    "capacity": 8,
+    "managerialPointCost": 2,
     "prosperity": 1,
     "entertainment": 0,
     "safety": 8,
@@ -1646,54 +838,21 @@
     ],
     "requiredResources": [],
     "passiveProduction": null,
-    "workerProduction": {
-      "workers": 2,
-      "default": {
-        "produceStatePoints": [
-          {
-            "modelName": "science",
-            "volume": 2
-          }
-        ],
-        "consumeRaws": [
-          {
-            "modelName": "herbs",
-            "volume": 1
-          }
-        ]
-      }
-    }
+    "workerProduction": null
   },
   {
     "modelName": "tribalCommunityMainHouse",
     "displayName": "TXT_BUILDING_TRIBAL_COMMUNITY_MAIN_HOUSE",
     "icon": "stock",
     "maintenance": 1,
-    "capacity": 0,
+    "managerialPointCost": 2,
     "prosperity": 1,
     "entertainment": 0,
     "safety": 0,
     "educated": 1,
     "requiredStatePoints": [],
     "requiredResources": [],
-    "passiveProduction": {
-      "produceStatePoints": [
-        {
-          "modelName": "culture",
-          "volume": 2
-        },
-        {
-          "modelName": "science",
-          "volume": 1
-        }
-      ],
-      "produceRaws": [
-        {
-          "modelName": "clothes",
-          "volume": 2
-        }
-      ]
-    },
+    "passiveProduction": null,
     "workerProduction": null
   },
   {
@@ -1701,31 +860,14 @@
     "displayName": "TXT_BUILDING_NOMAD_SETTLEMENT_MAIN_HOUSE",
     "icon": "stock",
     "maintenance": 1,
-    "capacity": 0,
+    "managerialPointCost": 2,
     "prosperity": 2,
     "entertainment": 0,
     "safety": 0,
     "educated": 1,
     "requiredStatePoints": [],
     "requiredResources": [],
-    "passiveProduction": {
-      "produceStatePoints": [
-        {
-          "modelName": "culture",
-          "volume": 3
-        },
-        {
-          "modelName": "science",
-          "volume": 2
-        }
-      ],
-      "produceRaws": [
-        {
-          "modelName": "clothes",
-          "volume": 2
-        }
-      ]
-    },
+    "passiveProduction": null,
     "workerProduction": null
   },
   {
@@ -1733,31 +875,14 @@
     "displayName": "TXT_BUILDING_SETTLEMENT_MAIN_HOUSE",
     "icon": "stock",
     "maintenance": 1,
-    "capacity": 0,
+    "managerialPointCost": 2,
     "prosperity": 2,
     "entertainment": 0,
     "safety": 0,
     "educated": 1,
     "requiredStatePoints": [],
     "requiredResources": [],
-    "passiveProduction": {
-      "produceStatePoints": [
-        {
-          "modelName": "culture",
-          "volume": 3
-        },
-        {
-          "modelName": "science",
-          "volume": 2
-        }
-      ],
-      "produceRaws": [
-        {
-          "modelName": "clothes",
-          "volume": 2
-        }
-      ]
-    },
+    "passiveProduction": null,
     "workerProduction": null
   }
 ]

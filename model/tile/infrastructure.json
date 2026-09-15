@@ -20,7 +20,7 @@
       }
     ],
     "icon": "stock",
-    "capacity": 1,
+    "managerialPointCost": 2,
     "prosperity": 0,
     "entertainment": 0,
     "safety": 0,
@@ -55,7 +55,7 @@
     ],
     "icon": "stock",
     "discount": 0.4,
-    "capacity": 1989,
+    "managerialPointCost": 2,
     "prosperity": 0,
     "entertainment": 0,
     "safety": 0,
