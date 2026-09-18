@@ -1,0 +1,27 @@
+[
+  {
+    "modelName": "money",
+    "displayName": "TXT_STATE_POINT_MONEY",
+    "icon": "money"
+  },
+  {
+    "modelName": "science",
+    "displayName": "TXT_STATE_POINT_SCIENCE",
+    "icon": "science"
+  },
+  {
+    "modelName": "culture",
+    "displayName": "TXT_STATE_POINT_CULTURE",
+    "icon": "culture"
+  },
+  {
+    "modelName": "managerialPoint",
+    "displayName": "TXT_STATE_POINT_MANAGERIAL_POINT",
+    "icon": "managerialPoint"
+  },
+  {
+    "modelName": "authorityRating",
+    "displayName": "TXT_STATE_POINT_AUTHORITY_RATING",
+    "icon": "authorityRating"
+  }
+]

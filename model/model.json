@@ -15,6 +15,7 @@
   "diplomaticPoints": "nation/diplomaticPoints.json",
   "religion": "nation/religion.json",
   "resource": "resources/resource.json",
+  "statePoint": "resources/statePoint.json",
   "cultureStrategy": "state/cultureStrategy.json",
   "law": "state/law.json",
   "politicSystem": "state/politicSystem.json",
