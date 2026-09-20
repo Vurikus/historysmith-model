@@ -2,66 +2,79 @@
   {
     "modelName": "mountain",
     "displayName": "TXT_RELIEF_MOUNTAIN",
-    "unlockNeighborTileForTrade": false
+    "unlockNeighborTileForTrade": false,
+    "water": 0
   },
   {
     "modelName": "volcano",
     "displayName": "TXT_RELIEF_VOLCANO",
-    "unlockNeighborTileForTrade": false
+    "unlockNeighborTileForTrade": false,
+    "water": 0
   },
   {
     "modelName": "hill",
     "displayName": "TXT_RELIEF_HILL",
-    "unlockNeighborTileForTrade": false
+    "unlockNeighborTileForTrade": false,
+    "water": 0
   },
   {
     "modelName": "plain",
     "displayName": "TXT_RELIEF_PLAIN",
-    "unlockNeighborTileForTrade": false
+    "unlockNeighborTileForTrade": false,
+    "water": 0
   },
   {
     "modelName": "lake",
     "displayName": "TXT_RELIEF_LAKE",
-    "unlockNeighborTileForTrade": false
+    "unlockNeighborTileForTrade": false,
+    "water": 0
   },
   {
     "modelName": "river",
     "displayName": "TXT_RELIEF_RIVER",
-    "unlockNeighborTileForTrade": true
+    "unlockNeighborTileForTrade": true,
+    "water": 0
   },
   {
     "modelName": "dune",
     "displayName": "TXT_RELIEF_DUNE",
-    "unlockNeighborTileForTrade": false
+    "unlockNeighborTileForTrade": false,
+    "water": 0
   },
   {
     "modelName": "marsh",
     "displayName": "TXT_RELIEF_MARSH",
-    "unlockNeighborTileForTrade": false
+    "unlockNeighborTileForTrade": false,
+    "water": 0
   },
   {
     "modelName": "sea",
     "displayName": "TXT_RELIEF_SEA",
-    "unlockNeighborTileForTrade": true
+    "unlockNeighborTileForTrade": true,
+    "water": 0
   },
   {
     "modelName": "reef",
     "displayName": "TXT_RELIEF_REEF",
-    "unlockNeighborTileForTrade": false
+    "unlockNeighborTileForTrade": false,
+    "water": 0
   },
   {
     "modelName": "rock",
     "displayName": "TXT_RELIEF_ROCK",
-    "unlockNeighborTileForTrade": false
+    "unlockNeighborTileForTrade": false,
+    "water": 0
   },
   {
     "modelName": "iceberg",
     "displayName": "TXT_RELIEF_ICEBERG",
-    "unlockNeighborTileForTrade": false
+    "unlockNeighborTileForTrade": false,
+    "water": 0
   },
   {
     "modelName": "island",
     "displayName": "TXT_RELIEF_ISLAND",
-    "unlockNeighborTileForTrade": false
+    "unlockNeighborTileForTrade": false,
+    "water": 0
   }
 ]
