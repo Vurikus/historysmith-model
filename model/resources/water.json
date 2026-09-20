@@ -1,0 +1,12 @@
+[
+  {
+    "modelName": "cleanWater",
+    "displayName": "TXT_WATER_CLEAN_WATER",
+    "icon": "cleanWater"
+  },
+  {
+    "modelName": "dirtyWater",
+    "displayName": "TXT_WATER_DIRTY_WATER",
+    "icon": "dirtyWater"
+  }
+]

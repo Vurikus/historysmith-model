@@ -16,6 +16,7 @@
   "religion": "nation/religion.json",
   "resource": "resources/resource.json",
   "statePoint": "resources/statePoint.json",
+  "water": "resources/water.json",
   "cultureStrategy": "state/cultureStrategy.json",
   "law": "state/law.json",
   "politicSystem": "state/politicSystem.json",
