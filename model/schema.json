@@ -100,7 +100,8 @@
     "modelName": "key",
     "displayName": "string",
     "unlockNeighborTileForTrade": "boolean",
-    "water": "integer"
+    "water": "integer",
+    "dirtyWater": "integer"
   },
   "terrain": {
     "modelName": "key",
