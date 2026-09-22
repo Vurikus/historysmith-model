@@ -16,6 +16,10 @@
     "displayName": "TXT_CRAFT_PROPERTY_GOES_TO_FOOD"
   },
   {
+    "modelName": "useAsConstructionMaterial",
+    "displayName": "TXT_CRAFT_PROPERTY_USE_AS_CONSTRUCTION_MATERIAL"
+  },
+  {
     "modelName": "perishable",
     "displayName": "TXT_CRAFT_PROPERTY_PERISHABLE"
   }
