@@ -134,6 +134,15 @@
       "modelType = Modifier"
     ]
   },
+  "climate": {
+    "modelName": "key",
+    "modelType": "Climate",
+    "displayName": "string",
+    "icon": "string",
+    "wheater": [
+      "modelTypeKey = Wheater"
+    ]
+  },
 
   "case": {
     "caseId": "key",
