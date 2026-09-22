@@ -139,7 +139,7 @@
     "modelType": "Climate",
     "displayName": "string",
     "icon": "string",
-    "wheater": [
+    "possibleWheater": [
       "modelTypeKey = Wheater"
     ]
   },
