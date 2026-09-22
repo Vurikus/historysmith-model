@@ -23,6 +23,7 @@
   "stateInstitute": "state/stateInstitute.json",
   "tax": "state/tax.json",
   "building": "tile/building.json",
+  "wheater": "tile/wheater.json",
   "climate": "tile/climate.json",
   "feature": "tile/feature.json",
   "featureStyle": "tile/featureStyle.json",

@@ -1,0 +1,18 @@
+[
+  {
+    "modelName": "moderateWheater",
+    "modelType": "Wheater",
+    "displayName": "TXT_WHEATER_MODERATE",
+    "icon": "moderateWheater",
+    "activeModifiers": [],
+    "postModifiers": []
+  },
+  {
+    "modelName": "rainySeason",
+    "modelType": "Wheater",
+    "displayName": "TXT_WHEATER_RAINY_SEASON",
+    "icon": "rainySeason",
+    "activeModifiers": [],
+    "postModifiers": []
+  }
+]

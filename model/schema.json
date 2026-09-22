@@ -114,6 +114,26 @@
     "climate": ["TileClimateEnum"],
     "cultivationCostMoney": "float"
   },
+  "modifier": {
+    "modelName": "key",
+    "modelType": "Modifier",
+    "duration": "integer",
+    "penaltyModifiers": [
+      "Modifier"
+    ]
+  },
+  "wheater": {
+    "modelName": "key",
+    "modelType": "Wheater",
+    "displayName": "string",
+    "icon": "string",
+    "activeModifiers": [
+      "modelType = Modifier"
+    ],
+    "postModifiers": [
+      "modelType = Modifier"
+    ]
+  },
 
   "case": {
     "caseId": "key",
