@@ -20,6 +20,10 @@
     "displayName": "TXT_CRAFT_PROPERTY_USE_AS_CONSTRUCTION_MATERIAL"
   },
   {
+    "modelName": "useAsFuelMaterial",
+    "displayName": "TXT_CRAFT_PROPERTY_USE_AS_FUEL_MATERIAL"
+  },
+  {
     "modelName": "perishable",
     "displayName": "TXT_CRAFT_PROPERTY_PERISHABLE"
   }
