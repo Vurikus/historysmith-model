@@ -1,18 +1,67 @@
 [
   {
-    "modelName": "moderateWheater",
+    "modelName": "heavyRain",
     "modelType": "Wheater",
-    "displayName": "TXT_WHEATER_MODERATE",
-    "icon": "moderateWheater",
-    "activeModifiers": [],
+    "displayName": "TXT_WHEATER_HEAVY_RAIN",
+    "icon": "heavyRain",
+    "activeModifiers": [
+      {
+        "modifierType": "FeatureNotWorking",
+        "duration": -1,
+        "features": ["mine"]
+      },
+      {
+        "modifierType": "ProductConsumeFromBuilding",
+        "duration": -1,
+        "property": "useAsConstructionMaterial",
+        "volume": 1,
+        "penaltyModifiers": [
+          {
+            "modifierType": "ChanceToDestroyBuilding",
+            "duration": 1,
+            "chance": 0.05
+          }
+        ]
+      },
+      {
+        "modifierType": "WaterChange",
+        "duration": -1,
+        "volume": 2
+      }
+    ],
     "postModifiers": []
   },
   {
-    "modelName": "rainySeason",
+    "modelName": "winter",
     "modelType": "Wheater",
-    "displayName": "TXT_WHEATER_RAINY_SEASON",
-    "icon": "rainySeason",
-    "activeModifiers": [],
+    "displayName": "TXT_WHEATER_WINTER",
+    "icon": "winter",
+    "activeModifiers": [
+      {
+        "modifierType": "FeatureNotWorking",
+        "duration": -1,
+        "features": ["farmRice", "farmPotato", "farmCorn", "farmWheat"]
+      },
+      {
+        "modifierType": "BandDamage",
+        "duration": -1,
+        "damage": 0.1,
+        "strategy": "FOREIGN"
+      },
+      {
+        "modifierType": "ProductConsumeFromCitizen",
+        "duration": -1,
+        "property": "useAsFuelMaterial",
+        "volume": 1,
+        "penaltyModifiers": [
+          {
+            "modifierType": "MortalityRisesCitizen",
+            "duration": -1,
+            "chance": 0.1
+          }
+        ]
+      }
+    ],
     "postModifiers": []
   }
 ]
