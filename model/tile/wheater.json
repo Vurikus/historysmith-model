@@ -26,7 +26,8 @@
       {
         "modifierType": "WaterChange",
         "duration": -1,
-        "volume": 2
+        "volume": 2,
+        "water": "cleanWater"
       }
     ],
     "postModifiers": []
