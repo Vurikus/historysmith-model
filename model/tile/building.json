@@ -4,6 +4,7 @@
     "displayName": "TXT_BUILDING_CONSTRUCTION_SITE",
     "icon": "stock",
     "maintenance": 1,
+    "housing": 0,
     "managerialPointCost": 2,
     "prosperity": 0,
     "entertainment": 0,
@@ -13,16 +14,15 @@
     "requiredResources": [],
     "passiveProduction": null,
     "workerProduction": null,
-    "cleanWaterProduction": 0,
-    "dirtyWaterProduction": 0,
-    "cleanWaterConsumption": 0,
-    "dirtyWaterConsumption": 0
+    "waterProduction": 0,
+    "waterConsumption": 0
   },
   {
     "modelName": "pasture",
     "displayName": "TXT_BUILDING_PASTURE",
     "icon": "stock",
     "maintenance": 1,
+    "housing": 0,
     "managerialPointCost": 2,
     "prosperity": 1,
     "entertainment": 0,
@@ -44,16 +44,15 @@
     ],
     "passiveProduction": null,
     "workerProduction": null,
-    "cleanWaterProduction": 0,
-    "dirtyWaterProduction": 0,
-    "cleanWaterConsumption": 0,
-    "dirtyWaterConsumption": 0
+    "waterProduction": 0,
+    "waterConsumption": 0
   },
   {
     "modelName": "stock",
     "displayName": "TXT_BUILDING_STOCK",
     "icon": "stock",
     "maintenance": 1,
+    "housing": 0,
     "managerialPointCost": 2,
     "prosperity": 0,
     "entertainment": 0,
@@ -63,16 +62,15 @@
     "requiredResources": [],
     "passiveProduction": null,
     "workerProduction": null,
-    "cleanWaterProduction": 0,
-    "dirtyWaterProduction": 0,
-    "cleanWaterConsumption": 0,
-    "dirtyWaterConsumption": 0
+    "waterProduction": 0,
+    "waterConsumption": 0
   },
   {
     "modelName": "cultivateField",
     "displayName": "TXT_BUILDING_CULTIVATE_FIELD",
     "icon": "stock",
     "maintenance": 1,
+    "housing": 0,
     "managerialPointCost": 2,
     "prosperity": 1,
     "entertainment": 0,
@@ -82,16 +80,15 @@
     "requiredResources": [],
     "passiveProduction": null,
     "workerProduction": null,
-    "cleanWaterProduction": 0,
-    "dirtyWaterProduction": 0,
-    "cleanWaterConsumption": 0,
-    "dirtyWaterConsumption": 0
+    "waterProduction": 0,
+    "waterConsumption": 0
   },
   {
     "modelName": "vineyardField",
     "displayName": "TXT_BUILDING_VINEYARD_FIELD",
     "icon": "stock",
     "maintenance": 1,
+    "housing": 0,
     "managerialPointCost": 2,
     "prosperity": 1,
     "entertainment": 0,
@@ -101,16 +98,15 @@
     "requiredResources": [],
     "passiveProduction": null,
     "workerProduction": null,
-    "cleanWaterProduction": 0,
-    "dirtyWaterProduction": 0,
-    "cleanWaterConsumption": 0,
-    "dirtyWaterConsumption": 0
+    "waterProduction": 0,
+    "waterConsumption": 0
   },
   {
     "modelName": "headquarters",
     "displayName": "TXT_BUILDING_HEADQUARTERS",
     "icon": "stock",
     "maintenance": 1,
+    "housing": 0,
     "managerialPointCost": 2,
     "prosperity": 3,
     "entertainment": 0,
@@ -120,16 +116,15 @@
     "requiredResources": [],
     "passiveProduction": null,
     "workerProduction": null,
-    "cleanWaterProduction": 0,
-    "dirtyWaterProduction": 0,
-    "cleanWaterConsumption": 0,
-    "dirtyWaterConsumption": 0
+    "waterProduction": 0,
+    "waterConsumption": 0
   },
   {
     "modelName": "quarry",
     "displayName": "TXT_BUILDING_QUARRY",
     "icon": "quarry",
     "maintenance": 1,
+    "housing": 0,
     "managerialPointCost": 2,
     "prosperity": 2,
     "entertainment": 0,
@@ -139,16 +134,15 @@
     "requiredResources": [],
     "passiveProduction": null,
     "workerProduction": null,
-    "cleanWaterProduction": 0,
-    "dirtyWaterProduction": 0,
-    "cleanWaterConsumption": 0,
-    "dirtyWaterConsumption": 0
+    "waterProduction": 0,
+    "waterConsumption": 0
   },
   {
     "modelName": "quarryElevator",
     "displayName": "TXT_BUILDING_QUARRY_ELEVATOR",
     "icon": "stone",
     "maintenance": 1,
+    "housing": 0,
     "managerialPointCost": 2,
     "prosperity": 1,
     "entertainment": 0,
@@ -163,16 +157,15 @@
     "requiredResources": [],
     "passiveProduction": null,
     "workerProduction": null,
-    "cleanWaterProduction": 0,
-    "dirtyWaterProduction": 0,
-    "cleanWaterConsumption": 0,
-    "dirtyWaterConsumption": 0
+    "waterProduction": 0,
+    "waterConsumption": 0
   },
   {
     "modelName": "mineAdit",
     "displayName": "TXT_BUILDING_MINE_ADIT",
     "icon": "stone",
     "maintenance": 1,
+    "housing": 0,
     "managerialPointCost": 2,
     "prosperity": 3,
     "entertainment": 0,
@@ -182,16 +175,15 @@
     "requiredResources": [],
     "passiveProduction": null,
     "workerProduction": null,
-    "cleanWaterProduction": 0,
-    "dirtyWaterProduction": 0,
-    "cleanWaterConsumption": 0,
-    "dirtyWaterConsumption": 0
+    "waterProduction": 0,
+    "waterConsumption": 0
   },
   {
     "modelName": "cocoaTrees",
     "displayName": "TXT_BUILDING_COCOA_TREES",
     "icon": "cocoa",
     "maintenance": 1,
+    "housing": 0,
     "managerialPointCost": 2,
     "prosperity": 1,
     "entertainment": 0,
@@ -201,16 +193,15 @@
     "requiredResources": [],
     "passiveProduction": null,
     "workerProduction": null,
-    "cleanWaterProduction": 0,
-    "dirtyWaterProduction": 0,
-    "cleanWaterConsumption": 0,
-    "dirtyWaterConsumption": 0
+    "waterProduction": 0,
+    "waterConsumption": 0
   },
   {
     "modelName": "coffeeTrees",
     "displayName": "TXT_BUILDING_COFFEE_TREES",
     "icon": "coffee",
     "maintenance": 1,
+    "housing": 0,
     "managerialPointCost": 2,
     "prosperity": 1,
     "entertainment": 0,
@@ -220,16 +211,15 @@
     "requiredResources": [],
     "passiveProduction": null,
     "workerProduction": null,
-    "cleanWaterProduction": 0,
-    "dirtyWaterProduction": 0,
-    "cleanWaterConsumption": 0,
-    "dirtyWaterConsumption": 0
+    "waterProduction": 0,
+    "waterConsumption": 0
   },
   {
     "modelName": "opiumField",
     "displayName": "TXT_BUILDING_OPIUM_FIELD",
     "icon": "opium",
     "maintenance": 1,
+    "housing": 0,
     "managerialPointCost": 2,
     "prosperity": 1,
     "entertainment": 0,
@@ -239,16 +229,15 @@
     "requiredResources": [],
     "passiveProduction": null,
     "workerProduction": null,
-    "cleanWaterProduction": 0,
-    "dirtyWaterProduction": 0,
-    "cleanWaterConsumption": 0,
-    "dirtyWaterConsumption": 0
+    "waterProduction": 0,
+    "waterConsumption": 0
   },
   {
     "modelName": "spicesField",
     "displayName": "TXT_BUILDING_SPICES_FIELD",
     "icon": "spices",
     "maintenance": 1,
+    "housing": 0,
     "managerialPointCost": 2,
     "prosperity": 1,
     "entertainment": 0,
@@ -258,16 +247,15 @@
     "requiredResources": [],
     "passiveProduction": null,
     "workerProduction": null,
-    "cleanWaterProduction": 0,
-    "dirtyWaterProduction": 0,
-    "cleanWaterConsumption": 0,
-    "dirtyWaterConsumption": 0
+    "waterProduction": 0,
+    "waterConsumption": 0
   },
   {
     "modelName": "tobaccoField",
     "displayName": "TXT_BUILDING_TOBACCO_FIELD",
     "icon": "tobacco",
     "maintenance": 1,
+    "housing": 0,
     "managerialPointCost": 2,
     "prosperity": 1,
     "entertainment": 0,
@@ -277,16 +265,15 @@
     "requiredResources": [],
     "passiveProduction": null,
     "workerProduction": null,
-    "cleanWaterProduction": 0,
-    "dirtyWaterProduction": 0,
-    "cleanWaterConsumption": 0,
-    "dirtyWaterConsumption": 0
+    "waterProduction": 0,
+    "waterConsumption": 0
   },
   {
     "modelName": "teaField",
     "displayName": "TXT_BUILDING_TEA_FIELD",
     "icon": "tea",
     "maintenance": 1,
+    "housing": 0,
     "managerialPointCost": 2,
     "prosperity": 1,
     "entertainment": 0,
@@ -296,16 +283,15 @@
     "requiredResources": [],
     "passiveProduction": null,
     "workerProduction": null,
-    "cleanWaterProduction": 0,
-    "dirtyWaterProduction": 0,
-    "cleanWaterConsumption": 0,
-    "dirtyWaterConsumption": 0
+    "waterProduction": 0,
+    "waterConsumption": 0
   },
   {
     "modelName": "harborPear",
     "displayName": "TXT_BUILDING_HARBOR_PEAR",
     "icon": "stock",
     "maintenance": 1,
+    "housing": 0,
     "managerialPointCost": 2,
     "prosperity": 1,
     "entertainment": 0,
@@ -315,16 +301,15 @@
     "requiredResources": [],
     "passiveProduction": null,
     "workerProduction": null,
-    "cleanWaterProduction": 0,
-    "dirtyWaterProduction": 0,
-    "cleanWaterConsumption": 0,
-    "dirtyWaterConsumption": 0
+    "waterProduction": 0,
+    "waterConsumption": 0
   },
   {
     "modelName": "breakwater",
     "displayName": "TXT_BUILDING_HARBOR_BREAKWATER",
     "icon": "stock",
     "maintenance": 1,
+    "housing": 0,
     "managerialPointCost": 2,
     "prosperity": 0,
     "entertainment": 0,
@@ -339,16 +324,15 @@
     "requiredResources": [],
     "passiveProduction": null,
     "workerProduction": null,
-    "cleanWaterProduction": 0,
-    "dirtyWaterProduction": 0,
-    "cleanWaterConsumption": 0,
-    "dirtyWaterConsumption": 0
+    "waterProduction": 0,
+    "waterConsumption": 0
   },
   {
     "modelName": "shipyard",
     "displayName": "TXT_BUILDING_HARBOR_SHIPYARD",
     "icon": "stock",
     "maintenance": 1,
+    "housing": 0,
     "managerialPointCost": 2,
     "prosperity": 1,
     "entertainment": 0,
@@ -363,16 +347,15 @@
     "requiredResources": [],
     "passiveProduction": null,
     "workerProduction": null,
-    "cleanWaterProduction": 0,
-    "dirtyWaterProduction": 0,
-    "cleanWaterConsumption": 0,
-    "dirtyWaterConsumption": 0
+    "waterProduction": 0,
+    "waterConsumption": 0
   },
   {
     "modelName": "lighthouse",
     "displayName": "TXT_BUILDING_HARBOR_LIGHTHOUSE",
     "icon": "stock",
     "maintenance": 1,
+    "housing": 0,
     "managerialPointCost": 2,
     "prosperity": 1,
     "entertainment": 0,
@@ -387,16 +370,15 @@
     "requiredResources": [],
     "passiveProduction": null,
     "workerProduction": null,
-    "cleanWaterProduction": 0,
-    "dirtyWaterProduction": 0,
-    "cleanWaterConsumption": 0,
-    "dirtyWaterConsumption": 0
+    "waterProduction": 0,
+    "waterConsumption": 0
   },
   {
     "modelName": "forrestEdge",
     "displayName": "TXT_BUILDING_FORREST_EDGE",
     "icon": "stock",
     "maintenance": 1,
+    "housing": 0,
     "managerialPointCost": 2,
     "prosperity": 1,
     "entertainment": 0,
@@ -406,16 +388,15 @@
     "requiredResources": [],
     "passiveProduction": null,
     "workerProduction": null,
-    "cleanWaterProduction": 0,
-    "dirtyWaterProduction": 0,
-    "cleanWaterConsumption": 0,
-    "dirtyWaterConsumption": 0
+    "waterProduction": 0,
+    "waterConsumption": 0
   },
   {
     "modelName": "plainField",
     "displayName": "TXT_BUILDING_PLAIN_FIELD",
     "icon": "stock",
     "maintenance": 0,
+    "housing": 0,
     "managerialPointCost": 2,
     "prosperity": 0,
     "entertainment": 0,
@@ -425,16 +406,15 @@
     "requiredResources": [],
     "passiveProduction": null,
     "workerProduction": null,
-    "cleanWaterProduction": 0,
-    "dirtyWaterProduction": 0,
-    "cleanWaterConsumption": 0,
-    "dirtyWaterConsumption": 0
+    "waterProduction": 0,
+    "waterConsumption": 0
   },
   {
     "modelName": "plainSea",
     "displayName": "TXT_BUILDING_PLAIN_SEA",
     "icon": "stock",
     "maintenance": 0,
+    "housing": 0,
     "managerialPointCost": 2,
     "prosperity": 0,
     "entertainment": 0,
@@ -444,16 +424,15 @@
     "requiredResources": [],
     "passiveProduction": null,
     "workerProduction": null,
-    "cleanWaterProduction": 0,
-    "dirtyWaterProduction": 0,
-    "cleanWaterConsumption": 0,
-    "dirtyWaterConsumption": 0
+    "waterProduction": 0,
+    "waterConsumption": 0
   },
   {
     "modelName": "plainHill",
     "displayName": "TXT_BUILDING_PLAIN_HILL",
     "icon": "stock",
     "maintenance": 0,
+    "housing": 0,
     "managerialPointCost": 2,
     "prosperity": 0,
     "entertainment": 0,
@@ -463,16 +442,15 @@
     "requiredResources": [],
     "passiveProduction": null,
     "workerProduction": null,
-    "cleanWaterProduction": 0,
-    "dirtyWaterProduction": 0,
-    "cleanWaterConsumption": 0,
-    "dirtyWaterConsumption": 0
+    "waterProduction": 0,
+    "waterConsumption": 0
   },
   {
     "modelName": "plainMountain",
     "displayName": "TXT_BUILDING_PLAIN_MOUNTAIN",
     "icon": "stock",
     "maintenance": 0,
+    "housing": 0,
     "managerialPointCost": 2,
     "prosperity": 0,
     "entertainment": 0,
@@ -482,16 +460,15 @@
     "requiredResources": [],
     "passiveProduction": null,
     "workerProduction": null,
-    "cleanWaterProduction": 0,
-    "dirtyWaterProduction": 0,
-    "cleanWaterConsumption": 0,
-    "dirtyWaterConsumption": 0
+    "waterProduction": 0,
+    "waterConsumption": 0
   },
   {
     "modelName": "plainVolcano",
     "displayName": "TXT_BUILDING_VOLCANO",
     "icon": "stock",
     "maintenance": 0,
+    "housing": 0,
     "managerialPointCost": 2,
     "prosperity": 0,
     "entertainment": 0,
@@ -501,16 +478,15 @@
     "requiredResources": [],
     "passiveProduction": null,
     "workerProduction": null,
-    "cleanWaterProduction": 0,
-    "dirtyWaterProduction": 0,
-    "cleanWaterConsumption": 0,
-    "dirtyWaterConsumption": 0
+    "waterProduction": 0,
+    "waterConsumption": 0
   },
   {
     "modelName": "riverbed",
     "displayName": "TXT_BUILDING_RIVERBED",
     "icon": "stock",
     "maintenance": 0,
+    "housing": 0,
     "managerialPointCost": 2,
     "prosperity": 0,
     "entertainment": 0,
@@ -520,16 +496,15 @@
     "requiredResources": [],
     "passiveProduction": null,
     "workerProduction": null,
-    "cleanWaterProduction": 0,
-    "dirtyWaterProduction": 0,
-    "cleanWaterConsumption": 0,
-    "dirtyWaterConsumption": 0
+    "waterProduction": 0,
+    "waterConsumption": 0
   },
   {
     "modelName": "lake",
     "displayName": "TXT_BUILDING_LAKE",
     "icon": "stock",
     "maintenance": 0,
+    "housing": 0,
     "managerialPointCost": 2,
     "prosperity": 0,
     "entertainment": 0,
@@ -539,16 +514,15 @@
     "requiredResources": [],
     "passiveProduction": null,
     "workerProduction": null,
-    "cleanWaterProduction": 0,
-    "dirtyWaterProduction": 0,
-    "cleanWaterConsumption": 0,
-    "dirtyWaterConsumption": 0
+    "waterProduction": 0,
+    "waterConsumption": 0
   },
   {
     "modelName": "island",
     "displayName": "TXT_BUILDING_ISLAND",
     "icon": "stock",
     "maintenance": 0,
+    "housing": 0,
     "managerialPointCost": 2,
     "prosperity": 0,
     "entertainment": 0,
@@ -558,16 +532,15 @@
     "requiredResources": [],
     "passiveProduction": null,
     "workerProduction": null,
-    "cleanWaterProduction": 0,
-    "dirtyWaterProduction": 0,
-    "cleanWaterConsumption": 0,
-    "dirtyWaterConsumption": 0
+    "waterProduction": 0,
+    "waterConsumption": 0
   },
   {
     "modelName": "marsh",
     "displayName": "TXT_BUILDING_MARSH",
     "icon": "stock",
     "maintenance": 0,
+    "housing": 0,
     "managerialPointCost": 2,
     "prosperity": 0,
     "entertainment": 0,
@@ -577,16 +550,15 @@
     "requiredResources": [],
     "passiveProduction": null,
     "workerProduction": null,
-    "cleanWaterProduction": 0,
-    "dirtyWaterProduction": 0,
-    "cleanWaterConsumption": 0,
-    "dirtyWaterConsumption": 0
+    "waterProduction": 0,
+    "waterConsumption": 0
   },
   {
     "modelName": "dune",
     "displayName": "TXT_BUILDING_DUNE",
     "icon": "stock",
     "maintenance": 0,
+    "housing": 0,
     "managerialPointCost": 2,
     "prosperity": 0,
     "entertainment": 0,
@@ -596,16 +568,15 @@
     "requiredResources": [],
     "passiveProduction": null,
     "workerProduction": null,
-    "cleanWaterProduction": 0,
-    "dirtyWaterProduction": 0,
-    "cleanWaterConsumption": 0,
-    "dirtyWaterConsumption": 0
+    "waterProduction": 0,
+    "waterConsumption": 0
   },
   {
     "modelName": "reef",
     "displayName": "TXT_BUILDING_REEF",
     "icon": "stock",
     "maintenance": 0,
+    "housing": 0,
     "managerialPointCost": 2,
     "prosperity": 0,
     "entertainment": 0,
@@ -615,16 +586,15 @@
     "requiredResources": [],
     "passiveProduction": null,
     "workerProduction": null,
-    "cleanWaterProduction": 0,
-    "dirtyWaterProduction": 0,
-    "cleanWaterConsumption": 0,
-    "dirtyWaterConsumption": 0
+    "waterProduction": 0,
+    "waterConsumption": 0
   },
   {
     "modelName": "iceberg",
     "displayName": "TXT_BUILDING_ICEBERG",
     "icon": "stock",
     "maintenance": 0,
+    "housing": 0,
     "managerialPointCost": 2,
     "prosperity": 0,
     "entertainment": 0,
@@ -634,16 +604,15 @@
     "requiredResources": [],
     "passiveProduction": null,
     "workerProduction": null,
-    "cleanWaterProduction": 0,
-    "dirtyWaterProduction": 0,
-    "cleanWaterConsumption": 0,
-    "dirtyWaterConsumption": 0
+    "waterProduction": 0,
+    "waterConsumption": 0
   },
   {
     "modelName": "rock",
     "displayName": "TXT_BUILDING_ROCK",
     "icon": "stock",
     "maintenance": 0,
+    "housing": 0,
     "managerialPointCost": 2,
     "prosperity": 0,
     "entertainment": 0,
@@ -653,16 +622,15 @@
     "requiredResources": [],
     "passiveProduction": null,
     "workerProduction": null,
-    "cleanWaterProduction": 0,
-    "dirtyWaterProduction": 0,
-    "cleanWaterConsumption": 0,
-    "dirtyWaterConsumption": 0
+    "waterProduction": 0,
+    "waterConsumption": 0
   },
   {
     "modelName": "totemCircle",
     "displayName": "TXT_BUILDING_TOTEM_CIRCLE",
     "icon": "stock",
     "maintenance": 1,
+    "housing": 0,
     "managerialPointCost": 2,
     "prosperity": 0,
     "entertainment": 0,
@@ -672,16 +640,15 @@
     "requiredResources": [],
     "passiveProduction": null,
     "workerProduction": null,
-    "cleanWaterProduction": 0,
-    "dirtyWaterProduction": 0,
-    "cleanWaterConsumption": 0,
-    "dirtyWaterConsumption": 0
+    "waterProduction": 0,
+    "waterConsumption": 0
   },
   {
     "modelName": "sacredFire",
     "displayName": "TXT_BUILDING_SACRED_FIRE",
     "icon": "stock",
     "maintenance": 1,
+    "housing": 0,
     "managerialPointCost": 2,
     "prosperity": 0,
     "entertainment": 0,
@@ -691,16 +658,15 @@
     "requiredResources": [],
     "passiveProduction": null,
     "workerProduction": null,
-    "cleanWaterProduction": 0,
-    "dirtyWaterProduction": 0,
-    "cleanWaterConsumption": 0,
-    "dirtyWaterConsumption": 0
+    "waterProduction": 0,
+    "waterConsumption": 0
   },
   {
     "modelName": "musicianHut",
     "displayName": "TXT_BUILDING_MUSICIAN_HUT",
     "icon": "stock",
     "maintenance": 1,
+    "housing": 0,
     "managerialPointCost": 2,
     "prosperity": 1,
     "entertainment": 1,
@@ -710,16 +676,15 @@
     "requiredResources": [],
     "passiveProduction": null,
     "workerProduction": null,
-    "cleanWaterProduction": 0,
-    "dirtyWaterProduction": 0,
-    "cleanWaterConsumption": 0,
-    "dirtyWaterConsumption": 0
+    "waterProduction": 0,
+    "waterConsumption": 0
   },
   {
     "modelName": "jewelerShop",
     "displayName": "TXT_BUILDING_JEWELER_SHOP",
     "icon": "stock",
     "maintenance": 1,
+    "housing": 0,
     "managerialPointCost": 2,
     "prosperity": 1,
     "entertainment": 0,
@@ -729,16 +694,15 @@
     "requiredResources": [],
     "passiveProduction": null,
     "workerProduction": null,
-    "cleanWaterProduction": 0,
-    "dirtyWaterProduction": 0,
-    "cleanWaterConsumption": 0,
-    "dirtyWaterConsumption": 0
+    "waterProduction": 0,
+    "waterConsumption": 0
   },
   {
     "modelName": "burial",
     "displayName": "TXT_BUILDING_BURIAL",
     "icon": "stock",
     "maintenance": 1,
+    "housing": 0,
     "managerialPointCost": 2,
     "prosperity": 0,
     "entertainment": 0,
@@ -748,16 +712,15 @@
     "requiredResources": [],
     "passiveProduction": null,
     "workerProduction": null,
-    "cleanWaterProduction": 0,
-    "dirtyWaterProduction": 0,
-    "cleanWaterConsumption": 0,
-    "dirtyWaterConsumption": 0
+    "waterProduction": 0,
+    "waterConsumption": 0
   },
   {
     "modelName": "altar",
     "displayName": "TXT_BUILDING_ALTAR",
     "icon": "stock",
     "maintenance": 1,
+    "housing": 0,
     "managerialPointCost": 2,
     "prosperity": 0,
     "entertainment": 0,
@@ -767,16 +730,15 @@
     "requiredResources": [],
     "passiveProduction": null,
     "workerProduction": null,
-    "cleanWaterProduction": 0,
-    "dirtyWaterProduction": 0,
-    "cleanWaterConsumption": 0,
-    "dirtyWaterConsumption": 0
+    "waterProduction": 0,
+    "waterConsumption": 0
   },
   {
     "modelName": "lumberjackCamp",
     "displayName": "TXT_BUILDING_LUMBERJACK_CAMP",
     "icon": "stock",
     "maintenance": 1,
+    "housing": 0,
     "managerialPointCost": 2,
     "prosperity": 3,
     "entertainment": 0,
@@ -786,16 +748,15 @@
     "requiredResources": [],
     "passiveProduction": null,
     "workerProduction": null,
-    "cleanWaterProduction": 0,
-    "dirtyWaterProduction": 0,
-    "cleanWaterConsumption": 0,
-    "dirtyWaterConsumption": 0
+    "waterProduction": 0,
+    "waterConsumption": 0
   },
   {
     "modelName": "fishery",
     "displayName": "TXT_BUILDING_FISHERY",
     "icon": "stock",
     "maintenance": 1,
+    "housing": 0,
     "managerialPointCost": 2,
     "prosperity": 3,
     "entertainment": 0,
@@ -805,16 +766,15 @@
     "requiredResources": [],
     "passiveProduction": null,
     "workerProduction": null,
-    "cleanWaterProduction": 0,
-    "dirtyWaterProduction": 0,
-    "cleanWaterConsumption": 0,
-    "dirtyWaterConsumption": 0
+    "waterProduction": 0,
+    "waterConsumption": 0
   },
   {
     "modelName": "carpenterWorkshop",
     "displayName": "TXT_BUILDING_CARPENTER_WORKSHOP",
     "icon": "stock",
     "maintenance": 1,
+    "housing": 0,
     "managerialPointCost": 2,
     "prosperity": 1,
     "entertainment": 0,
@@ -824,16 +784,15 @@
     "requiredResources": [],
     "passiveProduction": null,
     "workerProduction": null,
-    "cleanWaterProduction": 0,
-    "dirtyWaterProduction": 0,
-    "cleanWaterConsumption": 0,
-    "dirtyWaterConsumption": 0
+    "waterProduction": 0,
+    "waterConsumption": 0
   },
   {
     "modelName": "musicalGarden",
     "displayName": "TXT_BUILDING_MUSICAL_GARDEN",
     "icon": "stock",
     "maintenance": 1,
+    "housing": 0,
     "managerialPointCost": 2,
     "prosperity": 0,
     "entertainment": 10,
@@ -852,16 +811,15 @@
     "requiredResources": [],
     "passiveProduction": null,
     "workerProduction": null,
-    "cleanWaterProduction": 0,
-    "dirtyWaterProduction": 0,
-    "cleanWaterConsumption": 0,
-    "dirtyWaterConsumption": 0
+    "waterProduction": 0,
+    "waterConsumption": 0
   },
   {
     "modelName": "tailorWorkshop",
     "displayName": "TXT_BUILDING_TAILOR_WORKSHOP",
     "icon": "stock",
     "maintenance": 1,
+    "housing": 0,
     "managerialPointCost": 2,
     "prosperity": 1,
     "entertainment": 0,
@@ -871,16 +829,15 @@
     "requiredResources": [],
     "passiveProduction": null,
     "workerProduction": null,
-    "cleanWaterProduction": 0,
-    "dirtyWaterProduction": 0,
-    "cleanWaterConsumption": 0,
-    "dirtyWaterConsumption": 0
+    "waterProduction": 0,
+    "waterConsumption": 0
   },
   {
     "modelName": "granary",
     "displayName": "TXT_BUILDING_GRANARY",
     "icon": "stock",
     "maintenance": 1,
+    "housing": 0,
     "managerialPointCost": 2,
     "prosperity": 0,
     "entertainment": 0,
@@ -890,16 +847,15 @@
     "requiredResources": [],
     "passiveProduction": null,
     "workerProduction": null,
-    "cleanWaterProduction": 0,
-    "dirtyWaterProduction": 0,
-    "cleanWaterConsumption": 0,
-    "dirtyWaterConsumption": 0
+    "waterProduction": 0,
+    "waterConsumption": 0
   },
   {
     "modelName": "winery",
     "displayName": "TXT_BUILDING_TAILOR_WORKSHOP",
     "icon": "stock",
     "maintenance": 1,
+    "housing": 0,
     "managerialPointCost": 2,
     "prosperity": 3,
     "entertainment": 0,
@@ -914,16 +870,15 @@
     "requiredResources": [],
     "passiveProduction": null,
     "workerProduction": null,
-    "cleanWaterProduction": 0,
-    "dirtyWaterProduction": 0,
-    "cleanWaterConsumption": 0,
-    "dirtyWaterConsumption": 0
+    "waterProduction": 0,
+    "waterConsumption": 0
   },
   {
     "modelName": "bakerShop",
     "displayName": "TXT_BUILDING_BAKER_SHOP",
     "icon": "stock",
     "maintenance": 1,
+    "housing": 0,
     "managerialPointCost": 2,
     "prosperity": 2,
     "entertainment": 0,
@@ -933,16 +888,15 @@
     "requiredResources": [],
     "passiveProduction": null,
     "workerProduction": null,
-    "cleanWaterProduction": 0,
-    "dirtyWaterProduction": 0,
-    "cleanWaterConsumption": 0,
-    "dirtyWaterConsumption": 0
+    "waterProduction": 0,
+    "waterConsumption": 0
   },
   {
     "modelName": "tavern",
     "displayName": "TXT_BUILDING_TAVERN",
     "icon": "stock",
     "maintenance": 1,
+    "housing": 0,
     "managerialPointCost": 2,
     "prosperity": 2,
     "entertainment": 10,
@@ -957,16 +911,15 @@
     "requiredResources": [],
     "passiveProduction": null,
     "workerProduction": null,
-    "cleanWaterProduction": 0,
-    "dirtyWaterProduction": 0,
-    "cleanWaterConsumption": 0,
-    "dirtyWaterConsumption": 0
+    "waterProduction": 0,
+    "waterConsumption": 0
   },
   {
     "modelName": "thermopoly",
     "displayName": "TXT_BUILDING_THERMOPOLY",
     "icon": "stock",
     "maintenance": 1,
+    "housing": 0,
     "managerialPointCost": 2,
     "prosperity": 0,
     "entertainment": 2,
@@ -981,16 +934,15 @@
     "requiredResources": [],
     "passiveProduction": null,
     "workerProduction": null,
-    "cleanWaterProduction": 0,
-    "dirtyWaterProduction": 0,
-    "cleanWaterConsumption": 0,
-    "dirtyWaterConsumption": 0
+    "waterProduction": 0,
+    "waterConsumption": 0
   },
   {
     "modelName": "potteryWorkshop",
     "displayName": "TXT_BUILDING_POTTERY_WORKSHOP",
     "icon": "stock",
     "maintenance": 1,
+    "housing": 0,
     "managerialPointCost": 2,
     "prosperity": 1,
     "entertainment": 0,
@@ -1000,16 +952,15 @@
     "requiredResources": [],
     "passiveProduction": null,
     "workerProduction": null,
-    "cleanWaterProduction": 0,
-    "dirtyWaterProduction": 0,
-    "cleanWaterConsumption": 0,
-    "dirtyWaterConsumption": 0
+    "waterProduction": 0,
+    "waterConsumption": 0
   },
   {
     "modelName": "huntingCamp",
     "displayName": "TXT_BUILDING_HUNTING_CAMP",
     "icon": "stock",
     "maintenance": 1,
+    "housing": 0,
     "managerialPointCost": 2,
     "prosperity": 3,
     "entertainment": 1,
@@ -1019,16 +970,15 @@
     "requiredResources": [],
     "passiveProduction": null,
     "workerProduction": null,
-    "cleanWaterProduction": 0,
-    "dirtyWaterProduction": 0,
-    "cleanWaterConsumption": 0,
-    "dirtyWaterConsumption": 0
+    "waterProduction": 0,
+    "waterConsumption": 0
   },
   {
     "modelName": "herbalistHut",
     "displayName": "TXT_BUILDING_HERBALIST_HUT",
     "icon": "stock",
     "maintenance": 1,
+    "housing": 0,
     "managerialPointCost": 2,
     "prosperity": 1,
     "entertainment": 0,
@@ -1043,16 +993,15 @@
     "requiredResources": [],
     "passiveProduction": null,
     "workerProduction": null,
-    "cleanWaterProduction": 0,
-    "dirtyWaterProduction": 0,
-    "cleanWaterConsumption": 0,
-    "dirtyWaterConsumption": 0
+    "waterProduction": 0,
+    "waterConsumption": 0
   },
   {
     "modelName": "tribalCommunityMainHouse",
     "displayName": "TXT_BUILDING_TRIBAL_COMMUNITY_MAIN_HOUSE",
     "icon": "stock",
     "maintenance": 1,
+    "housing": 0,
     "managerialPointCost": 2,
     "prosperity": 1,
     "entertainment": 0,
@@ -1062,16 +1011,15 @@
     "requiredResources": [],
     "passiveProduction": null,
     "workerProduction": null,
-    "cleanWaterProduction": 0,
-    "dirtyWaterProduction": 0,
-    "cleanWaterConsumption": 0,
-    "dirtyWaterConsumption": 0
+    "waterProduction": 0,
+    "waterConsumption": 0
   },
   {
     "modelName": "nomadSettlementMainHouse",
     "displayName": "TXT_BUILDING_NOMAD_SETTLEMENT_MAIN_HOUSE",
     "icon": "stock",
     "maintenance": 1,
+    "housing": 0,
     "managerialPointCost": 2,
     "prosperity": 2,
     "entertainment": 0,
@@ -1081,16 +1029,15 @@
     "requiredResources": [],
     "passiveProduction": null,
     "workerProduction": null,
-    "cleanWaterProduction": 0,
-    "dirtyWaterProduction": 0,
-    "cleanWaterConsumption": 0,
-    "dirtyWaterConsumption": 0
+    "waterProduction": 0,
+    "waterConsumption": 0
   },
   {
     "modelName": "settlementMainHouse",
     "displayName": "TXT_BUILDING_SETTLEMENT_MAIN_HOUSE",
     "icon": "stock",
     "maintenance": 1,
+    "housing": 0,
     "managerialPointCost": 2,
     "prosperity": 2,
     "entertainment": 0,
@@ -1100,9 +1047,7 @@
     "requiredResources": [],
     "passiveProduction": null,
     "workerProduction": null,
-    "cleanWaterProduction": 0,
-    "dirtyWaterProduction": 0,
-    "cleanWaterConsumption": 0,
-    "dirtyWaterConsumption": 0
+    "waterProduction": 0,
+    "waterConsumption": 0
   }
 ]

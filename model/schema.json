@@ -13,17 +13,16 @@
     "prosperity": "integer",
     "lifestyle": "lifestyleEnum or null",
     "attributes": ["Attribute"],
-    "cleanWaterProduction": "integer",
-    "dirtyWaterProduction": "integer",
-    "cleanWaterConsumption": "integer",
-    "dirtyWaterConsumption": "integer",
+    "waterProduction": "integer",
+    "waterConsumption": "integer",
     "passiveProduction": "production",
     "workerProduction": {
       "workers": "int",
       "default": "production",
       "<specializationModelName>": "production"
     },
-    "maintenance": "float"
+    "housing": "integer",
+    "maintenance": "integer"
   },
   "feature": {
     "modelName": "key",
@@ -100,8 +99,7 @@
     "modelName": "key",
     "displayName": "string",
     "unlockNeighborTileForTrade": "boolean",
-    "water": "integer",
-    "dirtyWater": "integer"
+    "waterProduction": "integer"
   },
   "terrain": {
     "modelName": "key",
