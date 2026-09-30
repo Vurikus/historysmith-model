@@ -10,6 +10,7 @@
   "scenarios": "incident/scenarios.json",
   "task": "incident/task.json",
   "epoch": "interface/epoch.json",
+  "defaultHandicap": "handicap/default.json",
   "knowledge": "knowledge/knowledge.json",
   "culture": "nation/culture.json",
   "diplomaticPoints": "nation/diplomaticPoints.json",

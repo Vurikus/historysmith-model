@@ -1,0 +1,13 @@
+{
+  "citizen": {
+    "housingSurplusProgress": 1,
+    "housingDeficitProgressPerHomeless": 1,
+    "maxHousingDeficitProgress": 10,
+    "foodSurplusProgress": 1,
+    "foodDeficitProgressPerSlot": 1,
+    "maxFoodDeficitProgress": 10,
+    "waterSurplusProgress": 1,
+    "waterDeficitProgressPerSlot": 1,
+    "maxWaterDeficitProgress": 10
+  }
+}
