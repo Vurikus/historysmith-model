@@ -6,9 +6,15 @@ option java_multiple_files = true;
 option java_outer_classname = "SyncStateRequestProtoOuter";
 
 import "proto/common/sync_state_object_type.proto";
+import "proto/syncstate/filter_feature.proto";
+import "proto/syncstate/filter_id.proto";
 
-// Мессадж для синхронизации состояния игровой партии на клиенте. Мессадж идет только со стороны сервера
+// Мессадж для синхронизации состояния игровой партии на клиенте. Мессадж идет только со стороны клиента
 // В ObjectTypeProto тип объекта который хотим синхронизировать
 message SyncStateRequestProto {
   proto.common.SyncStateObjectTypeProto type = 1;
+  oneof payload {
+    proto.syncstate.FilterIdProto filter_id = 2;
+    proto.syncstate.FilterFeatureProto filter_feature = 3;
+  }
 }
