@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package proto.syncstate;
+
+option java_multiple_files = true;
+option java_outer_classname = "SyncStateObjectProtoOuter";
+
+import "proto/syncstate/feature.proto";
+import "proto/syncstate/building.proto";
+
+message SyncStateObjectProto {
+  oneof object {
+    proto.syncstate.FeatureProto feature = 1;
+    proto.syncstate.BuildingProto building = 2;
+  }
+}

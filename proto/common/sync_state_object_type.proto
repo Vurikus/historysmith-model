@@ -13,4 +13,6 @@ enum SyncStateObjectTypeProto {
   Map = 3;
   Tile = 4;
   TileKey = 5;
+  Feature = 6;
+  Building = 7;
 }
