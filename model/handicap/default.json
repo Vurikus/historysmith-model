@@ -9,5 +9,8 @@
     "waterSurplusProgress": 1,
     "waterDeficitProgressPerSlot": 1,
     "maxWaterDeficitProgress": 10
+  },
+  "government": {
+    "baseManagerialPointPerTurn": 1
   }
 }
