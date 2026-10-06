@@ -1,0 +1,9 @@
+[
+  {"modelName": "hunterToTracker", "from": "hunter", "to": "hunterTracker"},
+  {"modelName": "trackerToMasterHunter", "from": "hunterTracker", "to": "masterHunter"},
+  {"modelName": "hunterToBreeder", "from": "hunter", "to": "hunterBreeder"},
+  {"modelName": "entrepreneurToBusinessman", "from": "entrepreneur", "to": "businessman"},
+  {"modelName": "businessmanToCorporationOwner", "from": "businessman", "to": "corporationOwner"},
+  {"modelName": "artistToWriter", "from": "artist", "to": "writer"},
+  {"modelName": "inventorToResearcher", "from": "inventor", "to": "researcher"}
+]

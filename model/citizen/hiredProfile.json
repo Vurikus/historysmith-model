@@ -1,0 +1,46 @@
+[
+  {
+    "modelName": "hunter",
+    "displayName": "TXT_CITIZEN_PROFILE_HUNTER",
+    "icon": "stock",
+    "luxuryConsumptionSlots": 0,
+    "requiredResourcesPerTurn": [],
+    "taxBaseUnits": 1,
+    "trainingTurns": 1,
+    "scienceCost": 0,
+    "productionVolume": 1
+  },
+  {
+    "modelName": "hunterTracker",
+    "displayName": "TXT_CITIZEN_PROFILE_HUNTER_TRACKER",
+    "icon": "stock",
+    "luxuryConsumptionSlots": 1,
+    "requiredResourcesPerTurn": [],
+    "taxBaseUnits": 2,
+    "trainingTurns": 2,
+    "scienceCost": 10,
+    "productionVolume": 2
+  },
+  {
+    "modelName": "masterHunter",
+    "displayName": "TXT_CITIZEN_PROFILE_MASTER_HUNTER",
+    "icon": "stock",
+    "luxuryConsumptionSlots": 2,
+    "requiredResourcesPerTurn": [],
+    "taxBaseUnits": 3,
+    "trainingTurns": 4,
+    "scienceCost": 30,
+    "productionVolume": 4
+  },
+  {
+    "modelName": "hunterBreeder",
+    "displayName": "TXT_CITIZEN_PROFILE_HUNTER_BREEDER",
+    "icon": "stock",
+    "luxuryConsumptionSlots": 1,
+    "requiredResourcesPerTurn": [{"modelName": "sheep", "volume": 1}],
+    "taxBaseUnits": 2,
+    "trainingTurns": 3,
+    "scienceCost": 20,
+    "productionVolume": 3
+  }
+]

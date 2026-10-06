@@ -1,0 +1,17 @@
+[
+  {
+    "modelName": "entrepreneurship",
+    "displayName": "TXT_INCLINATION_ENTREPRENEURSHIP",
+    "unemployedProfile": "entrepreneur"
+  },
+  {
+    "modelName": "creativity",
+    "displayName": "TXT_INCLINATION_CREATIVITY",
+    "unemployedProfile": "artist"
+  },
+  {
+    "modelName": "inventiveness",
+    "displayName": "TXT_INCLINATION_INVENTIVENESS",
+    "unemployedProfile": "inventor"
+  }
+]

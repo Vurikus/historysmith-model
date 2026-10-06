@@ -1,0 +1,79 @@
+[
+  {
+    "modelName": "entrepreneur",
+    "displayName": "TXT_CITIZEN_PROFILE_ENTREPRENEUR",
+    "icon": "money",
+    "luxuryConsumptionSlots": 0,
+    "requiredResourcesPerTurn": [],
+    "taxBaseUnits": 1,
+    "trainingTurns": 1,
+    "scienceCost": 0,
+    "producedStatePoints": [{"modelName": "money", "volume": 1}]
+  },
+  {
+    "modelName": "businessman",
+    "displayName": "TXT_CITIZEN_PROFILE_BUSINESSMAN",
+    "icon": "money",
+    "luxuryConsumptionSlots": 1,
+    "requiredResourcesPerTurn": [],
+    "taxBaseUnits": 2,
+    "trainingTurns": 2,
+    "scienceCost": 10,
+    "producedStatePoints": [{"modelName": "money", "volume": 3}]
+  },
+  {
+    "modelName": "corporationOwner",
+    "displayName": "TXT_CITIZEN_PROFILE_CORPORATION_OWNER",
+    "icon": "money",
+    "luxuryConsumptionSlots": 3,
+    "requiredResourcesPerTurn": [],
+    "taxBaseUnits": 5,
+    "trainingTurns": 6,
+    "scienceCost": 30,
+    "producedStatePoints": [{"modelName": "money", "volume": 8}]
+  },
+  {
+    "modelName": "artist",
+    "displayName": "TXT_CITIZEN_PROFILE_ARTIST",
+    "icon": "culture",
+    "luxuryConsumptionSlots": 0,
+    "requiredResourcesPerTurn": [],
+    "taxBaseUnits": 1,
+    "trainingTurns": 1,
+    "scienceCost": 0,
+    "producedStatePoints": [{"modelName": "culture", "volume": 1}]
+  },
+  {
+    "modelName": "writer",
+    "displayName": "TXT_CITIZEN_PROFILE_WRITER",
+    "icon": "culture",
+    "luxuryConsumptionSlots": 1,
+    "requiredResourcesPerTurn": [],
+    "taxBaseUnits": 2,
+    "trainingTurns": 3,
+    "scienceCost": 15,
+    "producedStatePoints": [{"modelName": "culture", "volume": 3}]
+  },
+  {
+    "modelName": "inventor",
+    "displayName": "TXT_CITIZEN_PROFILE_INVENTOR",
+    "icon": "science",
+    "luxuryConsumptionSlots": 0,
+    "requiredResourcesPerTurn": [],
+    "taxBaseUnits": 1,
+    "trainingTurns": 1,
+    "scienceCost": 0,
+    "producedStatePoints": [{"modelName": "science", "volume": 1}]
+  },
+  {
+    "modelName": "researcher",
+    "displayName": "TXT_CITIZEN_PROFILE_RESEARCHER",
+    "icon": "science",
+    "luxuryConsumptionSlots": 1,
+    "requiredResourcesPerTurn": [],
+    "taxBaseUnits": 2,
+    "trainingTurns": 3,
+    "scienceCost": 15,
+    "producedStatePoints": [{"modelName": "science", "volume": 3}]
+  }
+]
