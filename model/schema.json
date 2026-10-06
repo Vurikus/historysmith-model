@@ -1,4 +1,35 @@
 {
+  "citizenProfile": {
+    "modelName": "key",
+    "displayName": "string",
+    "icon": "string",
+    "luxuryConsumptionSlots": "non-negative integer - everyday goods slots; food and water are independent of profile",
+    "requiredResourcesPerTurn": [{"modelName": "key - productModelName", "volume": "positive integer"}],
+    "taxBaseUnits": "non-negative integer - number of base tax units",
+    "trainingTurns": "positive integer - duration for this target profile",
+    "scienceCost": "non-negative integer - cost of acquiring this step"
+  },
+  "hiredCitizenProfile": {
+    "extends": "citizenProfile",
+    "productionVolume": "positive integer - work output units resolved by the workplace",
+    "multiStepTraining": "allowed; pay for the path, use only the target trainingTurns"
+  },
+  "selfEmployedCitizenProfile": {
+    "extends": "citizenProfile",
+    "producedStatePoints": [{"modelName": "key - statePointModelName", "volume": "positive integer"}],
+    "multiStepTraining": "forbidden; advance through one transition per training"
+  },
+  "citizenProfileTransition": {
+    "modelName": "key",
+    "from": "key - citizenProfileModelName",
+    "to": "key - citizenProfileModelName",
+    "direction": "from to to is an upgrade; the same model also permits the reverse downgrade"
+  },
+  "inclination": {
+    "modelName": ["entrepreneurship", "creativity", "inventiveness"],
+    "displayName": "string",
+    "unemployedProfile": "key - selfEmployedCitizenProfileModelName"
+  },
   "infrastructure": {
     "modelName": "key",
     "displayName": "string",
