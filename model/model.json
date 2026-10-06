@@ -36,7 +36,6 @@
   "infrastructureStyle": "tile/infrastructureStyle.json",
   "relief": "tile/relief.json",
   "reliefStyle": "tile/reliefStyle.json",
-  "specialization": "tile/specialization.json",
   "terrain": "tile/terrain.json",
   "terrainStyle": "tile/terrainStyle.json",
   "unitOnWorldMap": "unit/unitOnWorldMap.json"

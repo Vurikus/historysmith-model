@@ -12,8 +12,6 @@
     "educated": 0,
     "requiredStatePoints": [],
     "requiredResources": [],
-    "passiveProduction": null,
-    "workerProduction": null,
     "waterProduction": 0,
     "waterConsumption": 0
   },
@@ -42,8 +40,6 @@
         ]
       }
     ],
-    "passiveProduction": null,
-    "workerProduction": null,
     "waterProduction": 0,
     "waterConsumption": 0
   },
@@ -60,8 +56,6 @@
     "educated": 0,
     "requiredStatePoints": [],
     "requiredResources": [],
-    "passiveProduction": null,
-    "workerProduction": null,
     "waterProduction": 0,
     "waterConsumption": 0
   },
@@ -78,8 +72,6 @@
     "educated": 0,
     "requiredStatePoints": [],
     "requiredResources": [],
-    "passiveProduction": null,
-    "workerProduction": null,
     "waterProduction": 0,
     "waterConsumption": 0
   },
@@ -96,8 +88,6 @@
     "educated": 0,
     "requiredStatePoints": [],
     "requiredResources": [],
-    "passiveProduction": null,
-    "workerProduction": null,
     "waterProduction": 0,
     "waterConsumption": 0
   },
@@ -114,8 +104,6 @@
     "educated": 1,
     "requiredStatePoints": [],
     "requiredResources": [],
-    "passiveProduction": null,
-    "workerProduction": null,
     "waterProduction": 0,
     "waterConsumption": 0
   },
@@ -132,8 +120,6 @@
     "educated": 0,
     "requiredStatePoints": [],
     "requiredResources": [],
-    "passiveProduction": null,
-    "workerProduction": null,
     "waterProduction": 0,
     "waterConsumption": 0
   },
@@ -155,8 +141,6 @@
       }
     ],
     "requiredResources": [],
-    "passiveProduction": null,
-    "workerProduction": null,
     "waterProduction": 0,
     "waterConsumption": 0
   },
@@ -173,8 +157,6 @@
     "educated": 0,
     "requiredStatePoints": [],
     "requiredResources": [],
-    "passiveProduction": null,
-    "workerProduction": null,
     "waterProduction": 0,
     "waterConsumption": 0
   },
@@ -191,8 +173,6 @@
     "educated": 0,
     "requiredStatePoints": [],
     "requiredResources": [],
-    "passiveProduction": null,
-    "workerProduction": null,
     "waterProduction": 0,
     "waterConsumption": 0
   },
@@ -209,8 +189,6 @@
     "educated": 0,
     "requiredStatePoints": [],
     "requiredResources": [],
-    "passiveProduction": null,
-    "workerProduction": null,
     "waterProduction": 0,
     "waterConsumption": 0
   },
@@ -227,8 +205,6 @@
     "educated": 0,
     "requiredStatePoints": [],
     "requiredResources": [],
-    "passiveProduction": null,
-    "workerProduction": null,
     "waterProduction": 0,
     "waterConsumption": 0
   },
@@ -245,8 +221,6 @@
     "educated": 0,
     "requiredStatePoints": [],
     "requiredResources": [],
-    "passiveProduction": null,
-    "workerProduction": null,
     "waterProduction": 0,
     "waterConsumption": 0
   },
@@ -263,8 +237,6 @@
     "educated": 0,
     "requiredStatePoints": [],
     "requiredResources": [],
-    "passiveProduction": null,
-    "workerProduction": null,
     "waterProduction": 0,
     "waterConsumption": 0
   },
@@ -281,8 +253,6 @@
     "educated": 0,
     "requiredStatePoints": [],
     "requiredResources": [],
-    "passiveProduction": null,
-    "workerProduction": null,
     "waterProduction": 0,
     "waterConsumption": 0
   },
@@ -299,8 +269,6 @@
     "educated": 1,
     "requiredStatePoints": [],
     "requiredResources": [],
-    "passiveProduction": null,
-    "workerProduction": null,
     "waterProduction": 0,
     "waterConsumption": 0
   },
@@ -322,8 +290,6 @@
       }
     ],
     "requiredResources": [],
-    "passiveProduction": null,
-    "workerProduction": null,
     "waterProduction": 0,
     "waterConsumption": 0
   },
@@ -345,8 +311,6 @@
       }
     ],
     "requiredResources": [],
-    "passiveProduction": null,
-    "workerProduction": null,
     "waterProduction": 0,
     "waterConsumption": 0
   },
@@ -368,8 +332,6 @@
       }
     ],
     "requiredResources": [],
-    "passiveProduction": null,
-    "workerProduction": null,
     "waterProduction": 0,
     "waterConsumption": 0
   },
@@ -386,8 +348,6 @@
     "educated": 0,
     "requiredStatePoints": [],
     "requiredResources": [],
-    "passiveProduction": null,
-    "workerProduction": null,
     "waterProduction": 0,
     "waterConsumption": 0
   },
@@ -404,8 +364,6 @@
     "educated": 0,
     "requiredStatePoints": [],
     "requiredResources": [],
-    "passiveProduction": null,
-    "workerProduction": null,
     "waterProduction": 0,
     "waterConsumption": 0
   },
@@ -422,8 +380,6 @@
     "educated": 0,
     "requiredStatePoints": [],
     "requiredResources": [],
-    "passiveProduction": null,
-    "workerProduction": null,
     "waterProduction": 0,
     "waterConsumption": 0
   },
@@ -440,8 +396,6 @@
     "educated": 0,
     "requiredStatePoints": [],
     "requiredResources": [],
-    "passiveProduction": null,
-    "workerProduction": null,
     "waterProduction": 0,
     "waterConsumption": 0
   },
@@ -458,8 +412,6 @@
     "educated": 0,
     "requiredStatePoints": [],
     "requiredResources": [],
-    "passiveProduction": null,
-    "workerProduction": null,
     "waterProduction": 0,
     "waterConsumption": 0
   },
@@ -476,8 +428,6 @@
     "educated": 0,
     "requiredStatePoints": [],
     "requiredResources": [],
-    "passiveProduction": null,
-    "workerProduction": null,
     "waterProduction": 0,
     "waterConsumption": 0
   },
@@ -494,8 +444,6 @@
     "educated": 0,
     "requiredStatePoints": [],
     "requiredResources": [],
-    "passiveProduction": null,
-    "workerProduction": null,
     "waterProduction": 0,
     "waterConsumption": 0
   },
@@ -512,8 +460,6 @@
     "educated": 0,
     "requiredStatePoints": [],
     "requiredResources": [],
-    "passiveProduction": null,
-    "workerProduction": null,
     "waterProduction": 0,
     "waterConsumption": 0
   },
@@ -530,8 +476,6 @@
     "educated": 0,
     "requiredStatePoints": [],
     "requiredResources": [],
-    "passiveProduction": null,
-    "workerProduction": null,
     "waterProduction": 0,
     "waterConsumption": 0
   },
@@ -548,8 +492,6 @@
     "educated": 0,
     "requiredStatePoints": [],
     "requiredResources": [],
-    "passiveProduction": null,
-    "workerProduction": null,
     "waterProduction": 0,
     "waterConsumption": 0
   },
@@ -566,8 +508,6 @@
     "educated": 0,
     "requiredStatePoints": [],
     "requiredResources": [],
-    "passiveProduction": null,
-    "workerProduction": null,
     "waterProduction": 0,
     "waterConsumption": 0
   },
@@ -584,8 +524,6 @@
     "educated": 0,
     "requiredStatePoints": [],
     "requiredResources": [],
-    "passiveProduction": null,
-    "workerProduction": null,
     "waterProduction": 0,
     "waterConsumption": 0
   },
@@ -602,8 +540,6 @@
     "educated": 0,
     "requiredStatePoints": [],
     "requiredResources": [],
-    "passiveProduction": null,
-    "workerProduction": null,
     "waterProduction": 0,
     "waterConsumption": 0
   },
@@ -620,8 +556,6 @@
     "educated": 0,
     "requiredStatePoints": [],
     "requiredResources": [],
-    "passiveProduction": null,
-    "workerProduction": null,
     "waterProduction": 0,
     "waterConsumption": 0
   },
@@ -638,8 +572,6 @@
     "educated": 0,
     "requiredStatePoints": [],
     "requiredResources": [],
-    "passiveProduction": null,
-    "workerProduction": null,
     "waterProduction": 0,
     "waterConsumption": 0
   },
@@ -656,8 +588,6 @@
     "educated": 0,
     "requiredStatePoints": [],
     "requiredResources": [],
-    "passiveProduction": null,
-    "workerProduction": null,
     "waterProduction": 0,
     "waterConsumption": 0
   },
@@ -674,8 +604,6 @@
     "educated": 1,
     "requiredStatePoints": [],
     "requiredResources": [],
-    "passiveProduction": null,
-    "workerProduction": null,
     "waterProduction": 0,
     "waterConsumption": 0
   },
@@ -692,8 +620,6 @@
     "educated": 1,
     "requiredStatePoints": [],
     "requiredResources": [],
-    "passiveProduction": null,
-    "workerProduction": null,
     "waterProduction": 0,
     "waterConsumption": 0
   },
@@ -710,8 +636,6 @@
     "educated": 0,
     "requiredStatePoints": [],
     "requiredResources": [],
-    "passiveProduction": null,
-    "workerProduction": null,
     "waterProduction": 0,
     "waterConsumption": 0
   },
@@ -728,8 +652,6 @@
     "educated": 0,
     "requiredStatePoints": [],
     "requiredResources": [],
-    "passiveProduction": null,
-    "workerProduction": null,
     "waterProduction": 0,
     "waterConsumption": 0
   },
@@ -746,8 +668,6 @@
     "educated": 0,
     "requiredStatePoints": [],
     "requiredResources": [],
-    "passiveProduction": null,
-    "workerProduction": null,
     "waterProduction": 0,
     "waterConsumption": 0
   },
@@ -764,8 +684,6 @@
     "educated": 0,
     "requiredStatePoints": [],
     "requiredResources": [],
-    "passiveProduction": null,
-    "workerProduction": null,
     "waterProduction": 0,
     "waterConsumption": 0
   },
@@ -782,8 +700,6 @@
     "educated": 1,
     "requiredStatePoints": [],
     "requiredResources": [],
-    "passiveProduction": null,
-    "workerProduction": null,
     "waterProduction": 0,
     "waterConsumption": 0
   },
@@ -809,8 +725,6 @@
       }
     ],
     "requiredResources": [],
-    "passiveProduction": null,
-    "workerProduction": null,
     "waterProduction": 0,
     "waterConsumption": 0
   },
@@ -827,8 +741,6 @@
     "educated": 1,
     "requiredStatePoints": [],
     "requiredResources": [],
-    "passiveProduction": null,
-    "workerProduction": null,
     "waterProduction": 0,
     "waterConsumption": 0
   },
@@ -845,8 +757,6 @@
     "educated": 0,
     "requiredStatePoints": [],
     "requiredResources": [],
-    "passiveProduction": null,
-    "workerProduction": null,
     "waterProduction": 0,
     "waterConsumption": 0
   },
@@ -868,8 +778,6 @@
       }
     ],
     "requiredResources": [],
-    "passiveProduction": null,
-    "workerProduction": null,
     "waterProduction": 0,
     "waterConsumption": 0
   },
@@ -886,8 +794,6 @@
     "educated": 0,
     "requiredStatePoints": [],
     "requiredResources": [],
-    "passiveProduction": null,
-    "workerProduction": null,
     "waterProduction": 0,
     "waterConsumption": 0
   },
@@ -909,8 +815,6 @@
       }
     ],
     "requiredResources": [],
-    "passiveProduction": null,
-    "workerProduction": null,
     "waterProduction": 0,
     "waterConsumption": 0
   },
@@ -932,8 +836,6 @@
       }
     ],
     "requiredResources": [],
-    "passiveProduction": null,
-    "workerProduction": null,
     "waterProduction": 0,
     "waterConsumption": 0
   },
@@ -950,8 +852,6 @@
     "educated": 1,
     "requiredStatePoints": [],
     "requiredResources": [],
-    "passiveProduction": null,
-    "workerProduction": null,
     "waterProduction": 0,
     "waterConsumption": 0
   },
@@ -968,8 +868,6 @@
     "educated": 1,
     "requiredStatePoints": [],
     "requiredResources": [],
-    "passiveProduction": null,
-    "workerProduction": null,
     "waterProduction": 0,
     "waterConsumption": 0
   },
@@ -991,8 +889,6 @@
       }
     ],
     "requiredResources": [],
-    "passiveProduction": null,
-    "workerProduction": null,
     "waterProduction": 0,
     "waterConsumption": 0
   },
@@ -1009,8 +905,6 @@
     "educated": 1,
     "requiredStatePoints": [],
     "requiredResources": [],
-    "passiveProduction": null,
-    "workerProduction": null,
     "waterProduction": 0,
     "waterConsumption": 0
   },
@@ -1027,8 +921,6 @@
     "educated": 1,
     "requiredStatePoints": [],
     "requiredResources": [],
-    "passiveProduction": null,
-    "workerProduction": null,
     "waterProduction": 0,
     "waterConsumption": 0
   },
@@ -1045,8 +937,6 @@
     "educated": 1,
     "requiredStatePoints": [],
     "requiredResources": [],
-    "passiveProduction": null,
-    "workerProduction": null,
     "waterProduction": 0,
     "waterConsumption": 0
   }

@@ -46,12 +46,6 @@
     "attributes": ["Attribute"],
     "waterProduction": "integer",
     "waterConsumption": "integer",
-    "passiveProduction": "production",
-    "workerProduction": {
-      "workers": "int",
-      "default": "production",
-      "<specializationModelName>": "production"
-    },
     "housing": "integer",
     "maintenance": "integer"
   },
