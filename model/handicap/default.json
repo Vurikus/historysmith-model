@@ -11,6 +11,7 @@
     "maxWaterDeficitProgress": 10
   },
   "government": {
-    "baseManagerialPointPerTurn": 1
+    "baseManagerialPointPerTurn": 1,
+    "authorityRatingChangeCoefficient": 1
   }
 }
