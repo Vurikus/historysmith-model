@@ -46,6 +46,7 @@
     "attributes": ["Attribute"],
     "waterProduction": "integer",
     "waterConsumption": "integer",
+    "workers": "integer - 0..MAX_WORKER_TOTAL inclusive",
     "housing": "integer",
     "maintenance": "integer"
   },
