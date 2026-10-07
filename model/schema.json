@@ -47,6 +47,8 @@
     "waterProduction": "integer",
     "waterConsumption": "integer",
     "workers": "integer - 0..MAX_WORKER_TOTAL inclusive",
+    "workerProfile": "key - hiredProfile root or null; required when workers > 0",
+    "residentSlots": "integer >= 0 - capacity for residents placed in the building",
     "housing": "integer",
     "maintenance": "integer"
   },
