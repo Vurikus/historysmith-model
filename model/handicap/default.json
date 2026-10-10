@@ -12,6 +12,7 @@
   },
   "government": {
     "baseManagerialPointPerTurn": 1,
-    "authorityRatingChangeCoefficient": 1
+    "authorityRatingChangeCoefficient": 1,
+    "taxRate": 10
   }
 }
