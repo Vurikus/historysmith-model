@@ -3,12 +3,14 @@
     "modelName": "WATER",
     "displayName": "TXT_PRODUCT_CATEGORY_WATER",
     "transportable": false,
+    "consumeStrategy": "TILE_DEPOSIT",
     "properties": []
   },
   {
     "modelName": "WILD_ANIMAL",
     "displayName": "TXT_PRODUCT_CATEGORY_WILD_ANIMAL",
     "transportable": false,
+    "consumeStrategy": "TILE_DEPOSIT",
     "properties": [
       "cattle",
       "meatSource",
@@ -20,6 +22,7 @@
     "modelName": "CATTLE",
     "displayName": "TXT_PRODUCT_CATEGORY_CATTLE",
     "transportable": false,
+    "consumeStrategy": "SELF_PRODUCE",
     "properties": [
       "meatSource",
       "hideSource",
@@ -31,6 +34,7 @@
     "modelName": "MINERAL",
     "displayName": "TXT_PRODUCT_CATEGORY_MINERAL",
     "transportable": false,
+    "consumeStrategy": "TILE_DEPOSIT",
     "properties": [
       "stoneSource"
     ]
@@ -39,6 +43,7 @@
     "modelName": "TREE",
     "displayName": "TXT_PRODUCT_CATEGORY_TREE",
     "transportable": false,
+    "consumeStrategy": "TILE_DEPOSIT",
     "properties": [
       "woodSource"
     ]
@@ -47,18 +52,21 @@
     "modelName": "HERB",
     "displayName": "TXT_PRODUCT_CATEGORY_HERB",
     "transportable": false,
+    "consumeStrategy": "TILE_DEPOSIT",
     "properties": []
   },
   {
     "modelName": "FISH",
     "displayName": "TXT_PRODUCT_CATEGORY_FISH",
     "transportable": false,
+    "consumeStrategy": "TILE_DEPOSIT",
     "properties": []
   },
   {
     "modelName": "FOOD",
     "displayName": "TXT_PRODUCT_CATEGORY_FOOD",
     "transportable": true,
+    "consumeStrategy": "WAREHOUSE",
     "properties": [
       "goesToFood"
     ]
@@ -67,12 +75,14 @@
     "modelName": "DRAFT_ANIMAL",
     "displayName": "TXT_PRODUCT_CATEGORY_DRAFT_ANIMAL",
     "transportable": true,
+    "consumeStrategy": "WAREHOUSE",
     "properties": []
   },
   {
     "modelName": "BUILDING_MATERIAL",
     "displayName": "TXT_PRODUCT_CATEGORY_BUILDING_MATERIAL",
     "transportable": true,
+    "consumeStrategy": "WAREHOUSE",
     "properties": [
       "useAsConstructionMaterial",
       "useAsFuelMaterial"
@@ -82,6 +92,7 @@
     "modelName": "TEXTILE",
     "displayName": "TXT_PRODUCT_CATEGORY_TEXTILE",
     "transportable": true,
+    "consumeStrategy": "WAREHOUSE",
     "properties": [
       "textile"
     ]
@@ -90,42 +101,49 @@
     "modelName": "CLOTHING",
     "displayName": "TXT_PRODUCT_CATEGORY_CLOTHING",
     "transportable": true,
+    "consumeStrategy": "WAREHOUSE",
     "properties": []
   },
   {
     "modelName": "MECHANISM",
     "displayName": "TXT_PRODUCT_CATEGORY_MECHANISM",
     "transportable": true,
+    "consumeStrategy": "WAREHOUSE",
     "properties": []
   },
   {
     "modelName": "WEAPON",
     "displayName": "TXT_PRODUCT_CATEGORY_WEAPON",
     "transportable": true,
+    "consumeStrategy": "WAREHOUSE",
     "properties": []
   },
   {
     "modelName": "METAL",
     "displayName": "TXT_PRODUCT_CATEGORY_METAL",
     "transportable": true,
+    "consumeStrategy": "WAREHOUSE",
     "properties": []
   },
   {
     "modelName": "ALLOY",
     "displayName": "TXT_PRODUCT_CATEGORY_ALLOY",
     "transportable": true,
+    "consumeStrategy": "WAREHOUSE",
     "properties": []
   },
   {
     "modelName": "MEDICINE",
     "displayName": "TXT_PRODUCT_CATEGORY_MEDICINE",
     "transportable": true,
+    "consumeStrategy": "WAREHOUSE",
     "properties": []
   },
   {
     "modelName": "OTHER",
     "displayName": "TXT_PRODUCT_CATEGORY_OTHER",
     "transportable": true,
+    "consumeStrategy": "WAREHOUSE",
     "properties": []
   }
 ]
