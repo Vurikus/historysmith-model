@@ -3,6 +3,7 @@
   "band": "band/band.json",
   "bandStyle": "band/bandStyle.json",
   "weapon": "band/weapon.json",
+  "productCategory": "craft/category.json",
   "craftProperty": "craft/property.json",
   "craftTool": "craft/tool.json",
   "product": "craft/product.json",

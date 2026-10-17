@@ -37,10 +37,114 @@
     "displayName": "TXT_CITIZEN_PROFILE_HUNTER_BREEDER",
     "icon": "stock",
     "luxuryConsumptionSlots": 1,
-    "requiredResourcesPerTurn": [{"modelName": "sheep", "volume": 1}],
+    "requiredResourcesPerTurn": [
+      {
+        "modelName": "sheep",
+        "volume": 1
+      }
+    ],
     "taxBaseUnits": 2,
     "trainingTurns": 3,
     "scienceCost": 20,
     "productionVolume": 3
+  },
+  {
+    "modelName": "woodcutter",
+    "displayName": "TXT_CITIZEN_PROFILE_WOODCUTTER",
+    "icon": "stock",
+    "luxuryConsumptionSlots": 0,
+    "requiredResourcesPerTurn": [],
+    "taxBaseUnits": 1,
+    "trainingTurns": 1,
+    "scienceCost": 0,
+    "productionVolume": 1
+  },
+  {
+    "modelName": "cattleWorker",
+    "displayName": "TXT_CITIZEN_PROFILE_CATTLEWORKER",
+    "icon": "stock",
+    "luxuryConsumptionSlots": 0,
+    "requiredResourcesPerTurn": [],
+    "taxBaseUnits": 1,
+    "trainingTurns": 1,
+    "scienceCost": 0,
+    "productionVolume": 1
+  },
+  {
+    "modelName": "draftAnimalWorker",
+    "displayName": "TXT_CITIZEN_PROFILE_DRAFTANIMALWORKER",
+    "icon": "stock",
+    "luxuryConsumptionSlots": 0,
+    "requiredResourcesPerTurn": [],
+    "taxBaseUnits": 1,
+    "trainingTurns": 1,
+    "scienceCost": 0,
+    "productionVolume": 1
+  },
+  {
+    "modelName": "tailor",
+    "displayName": "TXT_CITIZEN_PROFILE_TAILOR",
+    "icon": "stock",
+    "luxuryConsumptionSlots": 0,
+    "requiredResourcesPerTurn": [],
+    "taxBaseUnits": 1,
+    "trainingTurns": 1,
+    "scienceCost": 0,
+    "productionVolume": 1
+  },
+  {
+    "modelName": "tailorWithMachine",
+    "displayName": "TXT_CITIZEN_PROFILE_TAILORWITHMACHINE",
+    "icon": "stock",
+    "luxuryConsumptionSlots": 0,
+    "requiredResourcesPerTurn": [
+      {
+        "modelName": "mechanism",
+        "volume": 1
+      }
+    ],
+    "taxBaseUnits": 1,
+    "trainingTurns": 1,
+    "scienceCost": 0,
+    "productionVolume": 3
+  },
+  {
+    "modelName": "ploughFarmer",
+    "displayName": "TXT_CITIZEN_PROFILE_PLOUGHFARMER",
+    "icon": "stock",
+    "luxuryConsumptionSlots": 0,
+    "requiredResourcesPerTurn": [
+      {
+        "resolveBy": "Category",
+        "category": "DRAFT_ANIMAL",
+        "volume": 1
+      }
+    ],
+    "taxBaseUnits": 1,
+    "trainingTurns": 1,
+    "scienceCost": 0,
+    "productionVolume": 3
+  },
+  {
+    "modelName": "rangeOfficer",
+    "displayName": "TXT_CITIZEN_PROFILE_RANGEOFFICER",
+    "icon": "stock",
+    "luxuryConsumptionSlots": 0,
+    "requiredResourcesPerTurn": [],
+    "taxBaseUnits": 1,
+    "trainingTurns": 1,
+    "scienceCost": 0,
+    "productionVolume": 1
+  },
+  {
+    "modelName": "miner",
+    "displayName": "TXT_CITIZEN_PROFILE_MINER",
+    "icon": "stock",
+    "luxuryConsumptionSlots": 0,
+    "requiredResourcesPerTurn": [],
+    "taxBaseUnits": 1,
+    "trainingTurns": 1,
+    "scienceCost": 0,
+    "productionVolume": 1
   }
 ]

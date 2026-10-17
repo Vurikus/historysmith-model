@@ -4,7 +4,7 @@
     "displayName": "string",
     "icon": "string",
     "luxuryConsumptionSlots": "non-negative integer - everyday goods slots; food and water are independent of profile",
-    "requiredResourcesPerTurn": [{"modelName": "key - productModelName", "volume": "positive integer"}],
+    "requiredResourcesPerTurn": "array of productRequirement - goods needed each turn to perform the active profile",
     "taxBaseUnits": "non-negative integer - number of base tax units",
     "trainingTurns": "positive integer - duration for this target profile",
     "scienceCost": "non-negative integer - cost of acquiring this step"
@@ -46,8 +46,7 @@
     "attributes": ["Attribute"],
     "waterProduction": "integer",
     "waterConsumption": "integer",
-    "workers": "integer - 0..MAX_WORKER_TOTAL inclusive",
-    "workerProfile": "key - hiredProfile root or null; required when workers > 0",
+    "production": ,
     "residentSlots": "integer >= 0 - capacity for residents placed in the building",
     "housing": "integer",
     "maintenance": "integer"
@@ -88,6 +87,17 @@
   "craftProperty": {
     "modelName": "key",
     "displayName": "string"
+  },
+  "productCategory": {
+    "modelName": "key - ProductCategory enum value",
+    "displayName": "string",
+    "transportable": "boolean - whether physical goods may be transported"
+  },
+  "productRequirement": {
+    "exactProduct": {"modelName": "key - productModelName", "volume": "positive integer"},
+    "category": {"resolveBy": "Category", "category": "key - productCategoryModelName", "volume": "positive integer"},
+    "properties": {"resolveBy": "Property", "properties": ["key - craftPropertyModelName"], "volume": "positive integer"},
+    "selection": "one selector per entry; volume counts goods, not property potency"
   },
   "product": {
     "modelName": "key",

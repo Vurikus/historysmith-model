@@ -26,5 +26,29 @@
   {
     "modelName": "perishable",
     "displayName": "TXT_CRAFT_PROPERTY_PERISHABLE"
+  },
+  {
+    "modelName": "meatSource",
+    "displayName": "TXT_CRAFT_PROPERTY_MEATSOURCE"
+  },
+  {
+    "modelName": "hideSource",
+    "displayName": "TXT_CRAFT_PROPERTY_HIDESOURCE"
+  },
+  {
+    "modelName": "woodSource",
+    "displayName": "TXT_CRAFT_PROPERTY_WOODSOURCE"
+  },
+  {
+    "modelName": "stoneSource",
+    "displayName": "TXT_CRAFT_PROPERTY_STONESOURCE"
+  },
+  {
+    "modelName": "draftAnimalSource",
+    "displayName": "TXT_CRAFT_PROPERTY_DRAFTANIMALSOURCE"
+  },
+  {
+    "modelName": "textile",
+    "displayName": "TXT_CRAFT_PROPERTY_TEXTILE"
   }
 ]

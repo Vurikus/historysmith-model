@@ -3,7 +3,9 @@
     "modelName": "pastureCow",
     "displayName": "TXT_FEATURE_PASTURE_COW",
     "defaultBuilding": "pasture",
-    "availableBuilding": [],
+    "availableBuilding": [
+      "draftAnimalYard"
+    ],
     "buildOnRelief": "plain",
     "buildOnClimate": [
       "temperate",
@@ -27,7 +29,9 @@
     "modelName": "pasturePig",
     "displayName": "TXT_FEATURE_PASTURE_PIG",
     "defaultBuilding": "pasture",
-    "availableBuilding": [],
+    "availableBuilding": [
+      "draftAnimalYard"
+    ],
     "buildOnRelief": "plain",
     "buildOnClimate": [
       "temperate",
@@ -51,7 +55,9 @@
     "modelName": "pastureCamel",
     "displayName": "TXT_FEATURE_PASTURE_CAMEL",
     "defaultBuilding": "pasture",
-    "availableBuilding": [],
+    "availableBuilding": [
+      "draftAnimalYard"
+    ],
     "buildOnRelief": "plain",
     "buildOnClimate": [
       "temperate",
@@ -75,7 +81,9 @@
     "modelName": "pastureDeer",
     "displayName": "TXT_FEATURE_PASTURE_DEER",
     "defaultBuilding": "pasture",
-    "availableBuilding": [],
+    "availableBuilding": [
+      "draftAnimalYard"
+    ],
     "buildOnRelief": "plain",
     "buildOnClimate": [
       "temperate",
@@ -99,7 +107,9 @@
     "modelName": "pastureHorse",
     "displayName": "TXT_FEATURE_PASTURE_HORSE",
     "defaultBuilding": "pasture",
-    "availableBuilding": [],
+    "availableBuilding": [
+      "draftAnimalYard"
+    ],
     "buildOnRelief": "plain",
     "buildOnClimate": [
       "temperate",
@@ -124,7 +134,9 @@
     "modelName": "pastureLama",
     "displayName": "TXT_FEATURE_PASTURE_LAMA",
     "defaultBuilding": "pasture",
-    "availableBuilding": [],
+    "availableBuilding": [
+      "draftAnimalYard"
+    ],
     "buildOnRelief": "plain",
     "buildOnClimate": [
       "temperate",
@@ -148,7 +160,9 @@
     "modelName": "pastureSheep",
     "displayName": "TXT_FEATURE_PASTURE_SHEEP",
     "defaultBuilding": "pasture",
-    "availableBuilding": [],
+    "availableBuilding": [
+      "draftAnimalYard"
+    ],
     "buildOnRelief": "plain",
     "buildOnClimate": [
       "temperate",
@@ -247,7 +261,8 @@
       "thermopoly",
       "tavern",
       "bakerShop",
-      "potteryWorkshop"
+      "potteryWorkshop",
+      "shootingRange"
     ],
     "buildOnRelief": "plain",
     "buildOnClimate": [
@@ -1065,7 +1080,8 @@
       "thermopoly",
       "tavern",
       "bakerShop",
-      "potteryWorkshop"
+      "potteryWorkshop",
+      "shootingRange"
     ],
     "buildOnRelief": "plain",
     "buildOnClimate": [

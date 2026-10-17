@@ -1,0 +1,265 @@
+[
+  {
+    "modelName": "sheep",
+    "propertyOutputs": [
+      {
+        "property": "meatSource",
+        "outputs": [
+          {
+            "modelName": "meat",
+            "volume": 1
+          }
+        ]
+      },
+      {
+        "property": "hideSource",
+        "outputs": [
+          {
+            "modelName": "hide",
+            "volume": 1
+          }
+        ]
+      },
+      {
+        "property": "wooly",
+        "outputs": [
+          {
+            "modelName": "wool",
+            "volume": 2
+          }
+        ]
+      }
+    ],
+    "initiallyKnownProperties": [
+      "cattle",
+      "meatSource",
+      "hideSource"
+    ],
+    "domesticatedProduct": "domesticSheep"
+  },
+  {
+    "modelName": "wildBoar",
+    "propertyOutputs": [
+      {
+        "property": "meatSource",
+        "outputs": [
+          {
+            "modelName": "meat",
+            "volume": 1
+          }
+        ]
+      },
+      {
+        "property": "hideSource",
+        "outputs": [
+          {
+            "modelName": "hide",
+            "volume": 1
+          }
+        ]
+      }
+    ],
+    "initiallyKnownProperties": [
+      "cattle",
+      "meatSource",
+      "hideSource"
+    ],
+    "domesticatedProduct": "pig"
+  },
+  {
+    "modelName": "pig",
+    "propertyOutputs": [
+      {
+        "property": "meatSource",
+        "outputs": [
+          {
+            "modelName": "meat",
+            "volume": 1
+          }
+        ]
+      },
+      {
+        "property": "hideSource",
+        "outputs": [
+          {
+            "modelName": "hide",
+            "volume": 1
+          }
+        ]
+      }
+    ],
+    "initiallyKnownProperties": [
+      "meatSource",
+      "hideSource"
+    ]
+  },
+  {
+    "modelName": "domesticSheep",
+    "propertyOutputs": [
+      {
+        "property": "meatSource",
+        "outputs": [
+          {
+            "modelName": "meat",
+            "volume": 1
+          }
+        ]
+      },
+      {
+        "property": "hideSource",
+        "outputs": [
+          {
+            "modelName": "hide",
+            "volume": 1
+          }
+        ]
+      },
+      {
+        "property": "wooly",
+        "outputs": [
+          {
+            "modelName": "wool",
+            "volume": 2
+          }
+        ]
+      }
+    ],
+    "initiallyKnownProperties": [
+      "meatSource",
+      "hideSource"
+    ]
+  },
+  {
+    "modelName": "bison",
+    "propertyOutputs": [
+      {
+        "property": "meatSource",
+        "outputs": [
+          {
+            "modelName": "meat",
+            "volume": 2
+          }
+        ]
+      },
+      {
+        "property": "hideSource",
+        "outputs": [
+          {
+            "modelName": "hide",
+            "volume": 1
+          }
+        ]
+      },
+      {
+        "property": "draftAnimalSource",
+        "outputs": [
+          {
+            "modelName": "mule",
+            "volume": 1
+          }
+        ]
+      }
+    ],
+    "initiallyKnownProperties": [
+      "meatSource",
+      "hideSource"
+    ]
+  },
+  {
+    "modelName": "eucalyptus",
+    "propertyOutputs": [
+      {
+        "property": "woodSource",
+        "outputs": [
+          {
+            "modelName": "wood",
+            "volume": 1
+          }
+        ]
+      }
+    ],
+    "initiallyKnownProperties": [
+      "woodSource"
+    ]
+  },
+  {
+    "modelName": "stoneSource",
+    "propertyOutputs": [
+      {
+        "property": "stoneSource",
+        "outputs": [
+          {
+            "modelName": "stone",
+            "volume": 1
+          }
+        ]
+      }
+    ],
+    "initiallyKnownProperties": [
+      "stoneSource"
+    ]
+  },
+  {
+    "modelName": "meat",
+    "propertyOutputs": [],
+    "initiallyKnownProperties": [
+      "goesToFood"
+    ]
+  },
+  {
+    "modelName": "hide",
+    "propertyOutputs": [],
+    "initiallyKnownProperties": [
+      "textile"
+    ]
+  },
+  {
+    "modelName": "wool",
+    "propertyOutputs": [],
+    "initiallyKnownProperties": [
+      "textile"
+    ]
+  },
+  {
+    "modelName": "fabric",
+    "propertyOutputs": [],
+    "initiallyKnownProperties": [
+      "textile"
+    ]
+  },
+  {
+    "modelName": "wood",
+    "propertyOutputs": [],
+    "initiallyKnownProperties": [
+      "useAsConstructionMaterial",
+      "useAsFuelMaterial"
+    ]
+  },
+  {
+    "modelName": "stone",
+    "propertyOutputs": [],
+    "initiallyKnownProperties": [
+      "useAsConstructionMaterial"
+    ]
+  },
+  {
+    "modelName": "mule",
+    "propertyOutputs": [],
+    "initiallyKnownProperties": []
+  },
+  {
+    "modelName": "clothing",
+    "propertyOutputs": [],
+    "initiallyKnownProperties": []
+  },
+  {
+    "modelName": "mechanism",
+    "propertyOutputs": [],
+    "initiallyKnownProperties": []
+  },
+  {
+    "modelName": "weapon",
+    "propertyOutputs": [],
+    "initiallyKnownProperties": []
+  }
+]

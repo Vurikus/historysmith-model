@@ -1,0 +1,131 @@
+[
+  {
+    "modelName": "WATER",
+    "displayName": "TXT_PRODUCT_CATEGORY_WATER",
+    "transportable": false,
+    "properties": []
+  },
+  {
+    "modelName": "WILD_ANIMAL",
+    "displayName": "TXT_PRODUCT_CATEGORY_WILD_ANIMAL",
+    "transportable": false,
+    "properties": [
+      "cattle",
+      "meatSource",
+      "hideSource",
+      "wooly"
+    ]
+  },
+  {
+    "modelName": "CATTLE",
+    "displayName": "TXT_PRODUCT_CATEGORY_CATTLE",
+    "transportable": false,
+    "properties": [
+      "meatSource",
+      "hideSource",
+      "wooly",
+      "draftAnimalSource"
+    ]
+  },
+  {
+    "modelName": "MINERAL",
+    "displayName": "TXT_PRODUCT_CATEGORY_MINERAL",
+    "transportable": false,
+    "properties": [
+      "stoneSource"
+    ]
+  },
+  {
+    "modelName": "TREE",
+    "displayName": "TXT_PRODUCT_CATEGORY_TREE",
+    "transportable": false,
+    "properties": [
+      "woodSource"
+    ]
+  },
+  {
+    "modelName": "HERB",
+    "displayName": "TXT_PRODUCT_CATEGORY_HERB",
+    "transportable": false,
+    "properties": []
+  },
+  {
+    "modelName": "FISH",
+    "displayName": "TXT_PRODUCT_CATEGORY_FISH",
+    "transportable": false,
+    "properties": []
+  },
+  {
+    "modelName": "FOOD",
+    "displayName": "TXT_PRODUCT_CATEGORY_FOOD",
+    "transportable": true,
+    "properties": [
+      "goesToFood"
+    ]
+  },
+  {
+    "modelName": "DRAFT_ANIMAL",
+    "displayName": "TXT_PRODUCT_CATEGORY_DRAFT_ANIMAL",
+    "transportable": true,
+    "properties": []
+  },
+  {
+    "modelName": "BUILDING_MATERIAL",
+    "displayName": "TXT_PRODUCT_CATEGORY_BUILDING_MATERIAL",
+    "transportable": true,
+    "properties": [
+      "useAsConstructionMaterial",
+      "useAsFuelMaterial"
+    ]
+  },
+  {
+    "modelName": "TEXTILE",
+    "displayName": "TXT_PRODUCT_CATEGORY_TEXTILE",
+    "transportable": true,
+    "properties": [
+      "textile"
+    ]
+  },
+  {
+    "modelName": "CLOTHING",
+    "displayName": "TXT_PRODUCT_CATEGORY_CLOTHING",
+    "transportable": true,
+    "properties": []
+  },
+  {
+    "modelName": "MECHANISM",
+    "displayName": "TXT_PRODUCT_CATEGORY_MECHANISM",
+    "transportable": true,
+    "properties": []
+  },
+  {
+    "modelName": "WEAPON",
+    "displayName": "TXT_PRODUCT_CATEGORY_WEAPON",
+    "transportable": true,
+    "properties": []
+  },
+  {
+    "modelName": "METAL",
+    "displayName": "TXT_PRODUCT_CATEGORY_METAL",
+    "transportable": true,
+    "properties": []
+  },
+  {
+    "modelName": "ALLOY",
+    "displayName": "TXT_PRODUCT_CATEGORY_ALLOY",
+    "transportable": true,
+    "properties": []
+  },
+  {
+    "modelName": "MEDICINE",
+    "displayName": "TXT_PRODUCT_CATEGORY_MEDICINE",
+    "transportable": true,
+    "properties": []
+  },
+  {
+    "modelName": "OTHER",
+    "displayName": "TXT_PRODUCT_CATEGORY_OTHER",
+    "transportable": true,
+    "properties": []
+  }
+]

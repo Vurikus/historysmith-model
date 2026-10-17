@@ -8,7 +8,230 @@
         "modelType": "CraftProperty",
         "modelName": "cattle",
         "volume": 1
+      },
+      {
+        "modelType": "CraftProperty",
+        "modelName": "meatSource",
+        "volume": 1
+      },
+      {
+        "modelType": "CraftProperty",
+        "modelName": "hideSource",
+        "volume": 1
+      },
+      {
+        "modelType": "CraftProperty",
+        "modelName": "wooly",
+        "volume": 1
       }
     ]
+  },
+  {
+    "modelName": "wildBoar",
+    "displayName": "TXT_RESOURCE_WILDBOAR",
+    "category": "WILD_ANIMAL",
+    "properties": [
+      {
+        "modelType": "CraftProperty",
+        "modelName": "cattle",
+        "volume": 1
+      },
+      {
+        "modelType": "CraftProperty",
+        "modelName": "meatSource",
+        "volume": 1
+      },
+      {
+        "modelType": "CraftProperty",
+        "modelName": "hideSource",
+        "volume": 1
+      }
+    ]
+  },
+  {
+    "modelName": "pig",
+    "displayName": "TXT_RESOURCE_PIG",
+    "category": "CATTLE",
+    "properties": [
+      {
+        "modelType": "CraftProperty",
+        "modelName": "meatSource",
+        "volume": 1
+      },
+      {
+        "modelType": "CraftProperty",
+        "modelName": "hideSource",
+        "volume": 1
+      }
+    ]
+  },
+  {
+    "modelName": "domesticSheep",
+    "displayName": "TXT_RESOURCE_DOMESTICSHEEP",
+    "category": "CATTLE",
+    "properties": [
+      {
+        "modelType": "CraftProperty",
+        "modelName": "meatSource",
+        "volume": 1
+      },
+      {
+        "modelType": "CraftProperty",
+        "modelName": "hideSource",
+        "volume": 1
+      },
+      {
+        "modelType": "CraftProperty",
+        "modelName": "wooly",
+        "volume": 1
+      }
+    ]
+  },
+  {
+    "modelName": "bison",
+    "displayName": "TXT_RESOURCE_BISON",
+    "category": "CATTLE",
+    "properties": [
+      {
+        "modelType": "CraftProperty",
+        "modelName": "meatSource",
+        "volume": 1
+      },
+      {
+        "modelType": "CraftProperty",
+        "modelName": "hideSource",
+        "volume": 1
+      },
+      {
+        "modelType": "CraftProperty",
+        "modelName": "draftAnimalSource",
+        "volume": 1
+      }
+    ]
+  },
+  {
+    "modelName": "eucalyptus",
+    "displayName": "TXT_RESOURCE_EUCALYPTUS",
+    "category": "TREE",
+    "properties": [
+      {
+        "modelType": "CraftProperty",
+        "modelName": "woodSource",
+        "volume": 1
+      }
+    ]
+  },
+  {
+    "modelName": "stoneSource",
+    "displayName": "TXT_RESOURCE_STONESOURCE",
+    "category": "MINERAL",
+    "properties": [
+      {
+        "modelType": "CraftProperty",
+        "modelName": "stoneSource",
+        "volume": 1
+      }
+    ]
+  },
+  {
+    "modelName": "meat",
+    "displayName": "TXT_RESOURCE_MEAT",
+    "category": "FOOD",
+    "properties": [
+      {
+        "modelType": "CraftProperty",
+        "modelName": "goesToFood",
+        "volume": 1
+      }
+    ]
+  },
+  {
+    "modelName": "hide",
+    "displayName": "TXT_RESOURCE_HIDE",
+    "category": "TEXTILE",
+    "properties": [
+      {
+        "modelType": "CraftProperty",
+        "modelName": "textile",
+        "volume": 1
+      }
+    ]
+  },
+  {
+    "modelName": "wool",
+    "displayName": "TXT_RESOURCE_WOOL",
+    "category": "TEXTILE",
+    "properties": [
+      {
+        "modelType": "CraftProperty",
+        "modelName": "textile",
+        "volume": 1
+      }
+    ]
+  },
+  {
+    "modelName": "fabric",
+    "displayName": "TXT_RESOURCE_FABRIC",
+    "category": "TEXTILE",
+    "properties": [
+      {
+        "modelType": "CraftProperty",
+        "modelName": "textile",
+        "volume": 1
+      }
+    ]
+  },
+  {
+    "modelName": "wood",
+    "displayName": "TXT_RESOURCE_WOOD",
+    "category": "BUILDING_MATERIAL",
+    "properties": [
+      {
+        "modelType": "CraftProperty",
+        "modelName": "useAsConstructionMaterial",
+        "volume": 1
+      },
+      {
+        "modelType": "CraftProperty",
+        "modelName": "useAsFuelMaterial",
+        "volume": 1
+      }
+    ]
+  },
+  {
+    "modelName": "stone",
+    "displayName": "TXT_RESOURCE_STONE",
+    "category": "BUILDING_MATERIAL",
+    "properties": [
+      {
+        "modelType": "CraftProperty",
+        "modelName": "useAsConstructionMaterial",
+        "volume": 1
+      }
+    ]
+  },
+  {
+    "modelName": "mule",
+    "displayName": "TXT_RESOURCE_MULE",
+    "category": "DRAFT_ANIMAL",
+    "properties": []
+  },
+  {
+    "modelName": "clothing",
+    "displayName": "TXT_RESOURCE_CLOTHING",
+    "category": "CLOTHING",
+    "properties": []
+  },
+  {
+    "modelName": "mechanism",
+    "displayName": "TXT_RESOURCE_MECHANISM",
+    "category": "MECHANISM",
+    "properties": []
+  },
+  {
+    "modelName": "weapon",
+    "displayName": "TXT_RESOURCE_WEAPON",
+    "category": "WEAPON",
+    "properties": []
   }
 ]
