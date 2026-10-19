@@ -4,7 +4,7 @@
     "displayName": "string",
     "icon": "string",
     "luxuryConsumptionSlots": "non-negative integer - everyday goods slots; food and water are independent of profile",
-    "requiredResourcesPerTurn": "array of productRequirement - goods needed each turn to perform the active profile",
+    "requiredResourcesPerTurn": "array of consumeProductRule - the same input rules as production; all entries are required each turn",
     "taxBaseUnits": "non-negative integer - number of base tax units",
     "trainingTurns": "positive integer - duration for this target profile",
     "scienceCost": "non-negative integer - cost of acquiring this step"
@@ -93,8 +93,8 @@
     "displayName": "string",
     "transportable": "boolean - whether physical goods may be transported"
   },
-  "productRequirement": {
-    "exactProduct": {"modelName": "key - productModelName", "volume": "positive integer"},
+  "consumeProductRule": {
+    "exactProduct": {"resolveBy": "Product", "product": "key - productModelName", "volume": "positive integer"},
     "category": {"resolveBy": "Category", "category": "key - productCategoryModelName", "volume": "positive integer"},
     "properties": {"resolveBy": "Property", "properties": ["key - craftPropertyModelName"], "volume": "positive integer"},
     "selection": "one selector per entry; volume counts goods, not property potency"

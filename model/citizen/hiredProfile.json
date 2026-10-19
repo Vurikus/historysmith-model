@@ -39,7 +39,8 @@
     "luxuryConsumptionSlots": 1,
     "requiredResourcesPerTurn": [
       {
-        "modelName": "sheep",
+        "resolveBy": "Product",
+        "product": "sheep",
         "volume": 1
       }
     ],
@@ -99,7 +100,8 @@
     "luxuryConsumptionSlots": 0,
     "requiredResourcesPerTurn": [
       {
-        "modelName": "mechanism",
+        "resolveBy": "Product",
+        "product": "mechanism",
         "volume": 1
       }
     ],
