@@ -46,7 +46,7 @@
         "hideSource"
       ],
       "workers": 1,
-      "workerProfile": null,
+      "workerProfile": "cattleWorker",
       "extractionProductCategory": "CATTLE"
     }
   },
@@ -186,7 +186,7 @@
         "stoneSource"
       ],
       "workers": 1,
-      "workerProfile": null,
+      "workerProfile": "miner",
       "extractionProductCategory": "MINERAL"
     }
   },
@@ -405,7 +405,7 @@
         "hideSource"
       ],
       "workers": 1,
-      "workerProfile": null,
+      "workerProfile": "hunter",
       "extractionProductCategory": "WILD_ANIMAL"
     }
   },
@@ -1082,7 +1082,7 @@
         "draftAnimalSource"
       ],
       "workers": 1,
-      "workerProfile": null,
+      "workerProfile": "draftAnimalWorker",
       "extractionProductCategory": "CATTLE"
     }
   },

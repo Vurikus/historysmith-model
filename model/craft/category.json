@@ -4,7 +4,9 @@
     "displayName": "TXT_PRODUCT_CATEGORY_WATER",
     "transportable": false,
     "consumeStrategy": "TILE_DEPOSIT",
-    "properties": []
+    "properties": [],
+    "climateSensitive": false,
+    "terrainSensitive": true
   },
   {
     "modelName": "WILD_ANIMAL",
@@ -16,7 +18,9 @@
       "meatSource",
       "hideSource",
       "wooly"
-    ]
+    ],
+    "climateSensitive": true,
+    "terrainSensitive": true
   },
   {
     "modelName": "CATTLE",
@@ -28,7 +32,9 @@
       "hideSource",
       "wooly",
       "draftAnimalSource"
-    ]
+    ],
+    "climateSensitive": true,
+    "terrainSensitive": true
   },
   {
     "modelName": "MINERAL",
@@ -37,7 +43,9 @@
     "consumeStrategy": "TILE_DEPOSIT",
     "properties": [
       "stoneSource"
-    ]
+    ],
+    "climateSensitive": false,
+    "terrainSensitive": true
   },
   {
     "modelName": "TREE",
@@ -46,21 +54,27 @@
     "consumeStrategy": "TILE_DEPOSIT",
     "properties": [
       "woodSource"
-    ]
+    ],
+    "climateSensitive": true,
+    "terrainSensitive": true
   },
   {
     "modelName": "HERB",
     "displayName": "TXT_PRODUCT_CATEGORY_HERB",
     "transportable": false,
     "consumeStrategy": "TILE_DEPOSIT",
-    "properties": []
+    "properties": [],
+    "climateSensitive": true,
+    "terrainSensitive": true
   },
   {
     "modelName": "FISH",
     "displayName": "TXT_PRODUCT_CATEGORY_FISH",
     "transportable": false,
     "consumeStrategy": "TILE_DEPOSIT",
-    "properties": []
+    "properties": [],
+    "climateSensitive": true,
+    "terrainSensitive": true
   },
   {
     "modelName": "FOOD",
@@ -69,14 +83,18 @@
     "consumeStrategy": "WAREHOUSE",
     "properties": [
       "goesToFood"
-    ]
+    ],
+    "climateSensitive": false,
+    "terrainSensitive": false
   },
   {
     "modelName": "DRAFT_ANIMAL",
     "displayName": "TXT_PRODUCT_CATEGORY_DRAFT_ANIMAL",
     "transportable": true,
     "consumeStrategy": "WAREHOUSE",
-    "properties": []
+    "properties": [],
+    "climateSensitive": false,
+    "terrainSensitive": false
   },
   {
     "modelName": "BUILDING_MATERIAL",
@@ -86,7 +104,9 @@
     "properties": [
       "useAsConstructionMaterial",
       "useAsFuelMaterial"
-    ]
+    ],
+    "climateSensitive": false,
+    "terrainSensitive": false
   },
   {
     "modelName": "TEXTILE",
@@ -95,55 +115,71 @@
     "consumeStrategy": "WAREHOUSE",
     "properties": [
       "textile"
-    ]
+    ],
+    "climateSensitive": false,
+    "terrainSensitive": false
   },
   {
     "modelName": "CLOTHING",
     "displayName": "TXT_PRODUCT_CATEGORY_CLOTHING",
     "transportable": true,
     "consumeStrategy": "WAREHOUSE",
-    "properties": []
+    "properties": [],
+    "climateSensitive": false,
+    "terrainSensitive": false
   },
   {
     "modelName": "MECHANISM",
     "displayName": "TXT_PRODUCT_CATEGORY_MECHANISM",
     "transportable": true,
     "consumeStrategy": "WAREHOUSE",
-    "properties": []
+    "properties": [],
+    "climateSensitive": false,
+    "terrainSensitive": false
   },
   {
     "modelName": "WEAPON",
     "displayName": "TXT_PRODUCT_CATEGORY_WEAPON",
     "transportable": true,
     "consumeStrategy": "WAREHOUSE",
-    "properties": []
+    "properties": [],
+    "climateSensitive": false,
+    "terrainSensitive": false
   },
   {
     "modelName": "METAL",
     "displayName": "TXT_PRODUCT_CATEGORY_METAL",
     "transportable": true,
     "consumeStrategy": "WAREHOUSE",
-    "properties": []
+    "properties": [],
+    "climateSensitive": false,
+    "terrainSensitive": false
   },
   {
     "modelName": "ALLOY",
     "displayName": "TXT_PRODUCT_CATEGORY_ALLOY",
     "transportable": true,
     "consumeStrategy": "WAREHOUSE",
-    "properties": []
+    "properties": [],
+    "climateSensitive": false,
+    "terrainSensitive": false
   },
   {
     "modelName": "MEDICINE",
     "displayName": "TXT_PRODUCT_CATEGORY_MEDICINE",
     "transportable": true,
     "consumeStrategy": "WAREHOUSE",
-    "properties": []
+    "properties": [],
+    "climateSensitive": false,
+    "terrainSensitive": false
   },
   {
     "modelName": "OTHER",
     "displayName": "TXT_PRODUCT_CATEGORY_OTHER",
     "transportable": true,
     "consumeStrategy": "WAREHOUSE",
-    "properties": []
+    "properties": [],
+    "climateSensitive": false,
+    "terrainSensitive": false
   }
 ]

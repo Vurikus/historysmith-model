@@ -24,6 +24,15 @@
         "modelName": "wooly",
         "volume": 1
       }
+    ],
+    "climates": [
+      "arid",
+      "cold",
+      "temperate"
+    ],
+    "terrains": [
+      "grass",
+      "rocky"
     ]
   },
   {
@@ -46,6 +55,14 @@
         "modelName": "hideSource",
         "volume": 1
       }
+    ],
+    "climates": [
+      "humid",
+      "temperate"
+    ],
+    "terrains": [
+      "grass",
+      "swamp"
     ]
   },
   {
@@ -63,6 +80,14 @@
         "modelName": "hideSource",
         "volume": 1
       }
+    ],
+    "climates": [
+      "humid",
+      "temperate"
+    ],
+    "terrains": [
+      "grass",
+      "swamp"
     ]
   },
   {
@@ -85,6 +110,15 @@
         "modelName": "wooly",
         "volume": 1
       }
+    ],
+    "climates": [
+      "arid",
+      "cold",
+      "temperate"
+    ],
+    "terrains": [
+      "grass",
+      "rocky"
     ]
   },
   {
@@ -107,6 +141,13 @@
         "modelName": "draftAnimalSource",
         "volume": 1
       }
+    ],
+    "climates": [
+      "cold",
+      "temperate"
+    ],
+    "terrains": [
+      "grass"
     ]
   },
   {
@@ -119,6 +160,14 @@
         "modelName": "woodSource",
         "volume": 1
       }
+    ],
+    "climates": [
+      "arid",
+      "humid",
+      "temperate"
+    ],
+    "terrains": [
+      "grass"
     ]
   },
   {
@@ -131,6 +180,13 @@
         "modelName": "stoneSource",
         "volume": 1
       }
+    ],
+    "climates": null,
+    "terrains": [
+      "grass",
+      "desert",
+      "swamp",
+      "rocky"
     ]
   },
   {
@@ -143,7 +199,9 @@
         "modelName": "goesToFood",
         "volume": 1
       }
-    ]
+    ],
+    "climates": null,
+    "terrains": null
   },
   {
     "modelName": "hide",
@@ -155,7 +213,9 @@
         "modelName": "textile",
         "volume": 1
       }
-    ]
+    ],
+    "climates": null,
+    "terrains": null
   },
   {
     "modelName": "wool",
@@ -167,7 +227,9 @@
         "modelName": "textile",
         "volume": 1
       }
-    ]
+    ],
+    "climates": null,
+    "terrains": null
   },
   {
     "modelName": "fabric",
@@ -179,7 +241,9 @@
         "modelName": "textile",
         "volume": 1
       }
-    ]
+    ],
+    "climates": null,
+    "terrains": null
   },
   {
     "modelName": "wood",
@@ -196,7 +260,9 @@
         "modelName": "useAsFuelMaterial",
         "volume": 1
       }
-    ]
+    ],
+    "climates": null,
+    "terrains": null
   },
   {
     "modelName": "stone",
@@ -208,30 +274,40 @@
         "modelName": "useAsConstructionMaterial",
         "volume": 1
       }
-    ]
+    ],
+    "climates": null,
+    "terrains": null
   },
   {
     "modelName": "mule",
     "displayName": "TXT_RESOURCE_MULE",
     "category": "DRAFT_ANIMAL",
-    "properties": []
+    "properties": [],
+    "climates": null,
+    "terrains": null
   },
   {
     "modelName": "clothing",
     "displayName": "TXT_RESOURCE_CLOTHING",
     "category": "CLOTHING",
-    "properties": []
+    "properties": [],
+    "climates": null,
+    "terrains": null
   },
   {
     "modelName": "mechanism",
     "displayName": "TXT_RESOURCE_MECHANISM",
     "category": "MECHANISM",
-    "properties": []
+    "properties": [],
+    "climates": null,
+    "terrains": null
   },
   {
     "modelName": "weapon",
     "displayName": "TXT_RESOURCE_WEAPON",
     "category": "WEAPON",
-    "properties": []
+    "properties": [],
+    "climates": null,
+    "terrains": null
   }
 ]

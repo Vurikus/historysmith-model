@@ -1,0 +1,72 @@
+{
+  "raws": [
+    {
+      "modelName": "sheep",
+      "frequency": 0.08
+    },
+    {
+      "modelName": "wildBoar",
+      "frequency": 0.06
+    },
+    {
+      "modelName": "pig",
+      "frequency": 0
+    },
+    {
+      "modelName": "domesticSheep",
+      "frequency": 0
+    },
+    {
+      "modelName": "bison",
+      "frequency": 0
+    },
+    {
+      "modelName": "eucalyptus",
+      "frequency": 0.05
+    },
+    {
+      "modelName": "stoneSource",
+      "frequency": 0.12
+    },
+    {
+      "modelName": "meat",
+      "frequency": 0
+    },
+    {
+      "modelName": "hide",
+      "frequency": 0
+    },
+    {
+      "modelName": "wool",
+      "frequency": 0
+    },
+    {
+      "modelName": "fabric",
+      "frequency": 0
+    },
+    {
+      "modelName": "wood",
+      "frequency": 0
+    },
+    {
+      "modelName": "stone",
+      "frequency": 0
+    },
+    {
+      "modelName": "mule",
+      "frequency": 0
+    },
+    {
+      "modelName": "clothing",
+      "frequency": 0
+    },
+    {
+      "modelName": "mechanism",
+      "frequency": 0
+    },
+    {
+      "modelName": "weapon",
+      "frequency": 0
+    }
+  ]
+}
