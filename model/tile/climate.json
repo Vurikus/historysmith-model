@@ -3,36 +3,24 @@
     "modelName": "arid",
     "displayName": "TXT_CLIMATE_ARID",
     "possibleWheaters": [],
-    "icon": "stock",
-    "borderCoefficientToEquator": 0.85,
-    "order": 4,
-    "clothingNeeds": 0.8
+    "icon": "stock"
   },
   {
     "modelName": "humid",
     "displayName": "TXT_CLIMATE_HUMID",
     "icon": "stock",
-    "possibleWheaters": ["heavyRain"],
-    "borderCoefficientToEquator": 0.6,
-    "order": 3,
-    "clothingNeeds": 0.7
+    "possibleWheaters": ["heavyRain"]
   },
   {
     "modelName": "cold",
     "displayName": "TXT_CLIMATE_COLD",
     "icon": "stock",
-    "possibleWheaters": ["winter"],
-    "borderCoefficientToEquator": 0,
-    "order": 1,
-    "clothingNeeds": 1.5
+    "possibleWheaters": ["winter"]
   },
   {
     "modelName": "temperate",
     "displayName": "TXT_CLIMATE_TEMPERATE",
     "icon": "stock",
-    "possibleWheaters": ["heavyRain", "winter"],
-    "borderCoefficientToEquator": 0.2,
-    "order": 2,
-    "clothingNeeds": 1
+    "possibleWheaters": ["heavyRain", "winter"]
   }
 ]

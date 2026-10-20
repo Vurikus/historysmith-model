@@ -141,7 +141,6 @@
   "relief": {
     "modelName": "key",
     "displayName": "string",
-    "unlockNeighborTileForTrade": "boolean",
     "waterProduction": "integer"
   },
   "terrain": {
