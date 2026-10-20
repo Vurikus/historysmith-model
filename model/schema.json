@@ -93,7 +93,8 @@
     "displayName": "string",
     "transportable": "boolean - whether physical goods may be transported",
     "climateSensitive": "boolean - products require a nonempty list of allowed climates when true",
-    "terrainSensitive": "boolean - products require a nonempty list of allowed terrains when true"
+    "terrainSensitive": "boolean - products require a nonempty list of allowed terrains when true",
+    "isExtraction": "boolean - категория разрешена для стратегии добычи; матрица мира должна покрывать все её свойства"
   },
   "consumeProductRule": {
     "exactProduct": {"resolveBy": "Product", "product": "key - productModelName", "volume": "positive integer"},

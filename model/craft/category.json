@@ -6,7 +6,8 @@
     "consumeStrategy": "TILE_DEPOSIT",
     "properties": [],
     "climateSensitive": false,
-    "terrainSensitive": true
+    "terrainSensitive": true,
+    "isExtraction": false
   },
   {
     "modelName": "WILD_ANIMAL",
@@ -20,7 +21,8 @@
       "wooly"
     ],
     "climateSensitive": true,
-    "terrainSensitive": true
+    "terrainSensitive": true,
+    "isExtraction": true
   },
   {
     "modelName": "CATTLE",
@@ -34,7 +36,8 @@
       "draftAnimalSource"
     ],
     "climateSensitive": true,
-    "terrainSensitive": true
+    "terrainSensitive": true,
+    "isExtraction": true
   },
   {
     "modelName": "MINERAL",
@@ -45,7 +48,8 @@
       "stoneSource"
     ],
     "climateSensitive": false,
-    "terrainSensitive": true
+    "terrainSensitive": true,
+    "isExtraction": true
   },
   {
     "modelName": "TREE",
@@ -56,7 +60,8 @@
       "woodSource"
     ],
     "climateSensitive": true,
-    "terrainSensitive": true
+    "terrainSensitive": true,
+    "isExtraction": true
   },
   {
     "modelName": "HERB",
@@ -65,7 +70,8 @@
     "consumeStrategy": "TILE_DEPOSIT",
     "properties": [],
     "climateSensitive": true,
-    "terrainSensitive": true
+    "terrainSensitive": true,
+    "isExtraction": true
   },
   {
     "modelName": "FISH",
@@ -74,7 +80,8 @@
     "consumeStrategy": "TILE_DEPOSIT",
     "properties": [],
     "climateSensitive": true,
-    "terrainSensitive": true
+    "terrainSensitive": true,
+    "isExtraction": true
   },
   {
     "modelName": "FOOD",
@@ -85,7 +92,8 @@
       "goesToFood"
     ],
     "climateSensitive": false,
-    "terrainSensitive": false
+    "terrainSensitive": false,
+    "isExtraction": false
   },
   {
     "modelName": "DRAFT_ANIMAL",
@@ -94,7 +102,8 @@
     "consumeStrategy": "WAREHOUSE",
     "properties": [],
     "climateSensitive": false,
-    "terrainSensitive": false
+    "terrainSensitive": false,
+    "isExtraction": false
   },
   {
     "modelName": "BUILDING_MATERIAL",
@@ -106,7 +115,8 @@
       "useAsFuelMaterial"
     ],
     "climateSensitive": false,
-    "terrainSensitive": false
+    "terrainSensitive": false,
+    "isExtraction": false
   },
   {
     "modelName": "TEXTILE",
@@ -117,7 +127,8 @@
       "textile"
     ],
     "climateSensitive": false,
-    "terrainSensitive": false
+    "terrainSensitive": false,
+    "isExtraction": false
   },
   {
     "modelName": "CLOTHING",
@@ -126,7 +137,8 @@
     "consumeStrategy": "WAREHOUSE",
     "properties": [],
     "climateSensitive": false,
-    "terrainSensitive": false
+    "terrainSensitive": false,
+    "isExtraction": false
   },
   {
     "modelName": "MECHANISM",
@@ -135,7 +147,8 @@
     "consumeStrategy": "WAREHOUSE",
     "properties": [],
     "climateSensitive": false,
-    "terrainSensitive": false
+    "terrainSensitive": false,
+    "isExtraction": false
   },
   {
     "modelName": "WEAPON",
@@ -144,7 +157,8 @@
     "consumeStrategy": "WAREHOUSE",
     "properties": [],
     "climateSensitive": false,
-    "terrainSensitive": false
+    "terrainSensitive": false,
+    "isExtraction": false
   },
   {
     "modelName": "METAL",
@@ -153,7 +167,8 @@
     "consumeStrategy": "WAREHOUSE",
     "properties": [],
     "climateSensitive": false,
-    "terrainSensitive": false
+    "terrainSensitive": false,
+    "isExtraction": false
   },
   {
     "modelName": "ALLOY",
@@ -162,7 +177,8 @@
     "consumeStrategy": "WAREHOUSE",
     "properties": [],
     "climateSensitive": false,
-    "terrainSensitive": false
+    "terrainSensitive": false,
+    "isExtraction": false
   },
   {
     "modelName": "MEDICINE",
@@ -171,7 +187,8 @@
     "consumeStrategy": "WAREHOUSE",
     "properties": [],
     "climateSensitive": false,
-    "terrainSensitive": false
+    "terrainSensitive": false,
+    "isExtraction": false
   },
   {
     "modelName": "OTHER",
@@ -180,6 +197,7 @@
     "consumeStrategy": "WAREHOUSE",
     "properties": [],
     "climateSensitive": false,
-    "terrainSensitive": false
+    "terrainSensitive": false,
+    "isExtraction": false
   }
 ]

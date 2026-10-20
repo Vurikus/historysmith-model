@@ -1,0 +1,39 @@
+{
+  "conversions": [
+    {
+      "property": "cattle",
+      "product": "domesticSheep",
+      "volume": 100
+    },
+    {
+      "property": "meatSource",
+      "product": "meat",
+      "volume": 100
+    },
+    {
+      "property": "hideSource",
+      "product": "hide",
+      "volume": 100
+    },
+    {
+      "property": "wooly",
+      "product": "wool",
+      "volume": 100
+    },
+    {
+      "property": "draftAnimalSource",
+      "product": "mule",
+      "volume": 100
+    },
+    {
+      "property": "woodSource",
+      "product": "wood",
+      "volume": 200
+    },
+    {
+      "property": "stoneSource",
+      "product": "stone",
+      "volume": 200
+    }
+  ]
+}
