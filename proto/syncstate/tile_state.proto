@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+package proto.syncstate;
+
+option java_multiple_files = true;
+option java_outer_classname = "TileStateProtoOuter";
+
+import "proto/syncstate/weather.proto";
+import "proto/syncstate/tile_modifier.proto";
+
+// Изменяемое состояние клетки. Неизменяемая часть (координаты, соседи, рельеф, тип местности)
+// передаётся один раз в proto.world.TileProto вместе с картой.
+message TileStateProto {
+  string id = 1;                                           // UUID клетки
+  int64 version = 2;                                       // Версия состояния клетки; начинается с 0, растёт на 1 за изменение
+  string civilization_id = 3;                              // UUID цивилизации-владельца; пустая строка — клетка ничья
+  proto.syncstate.WeatherProto weather = 4;                // Активная погода; поле не заполняется, если погоды нет
+  repeated proto.syncstate.TileModifierProto modifiers = 5; // Активные модификаторы
+  repeated string feature_ids = 6;                         // UUID улучшений; индекс элемента равен индексу микроклетки
+  repeated string citizen_ids = 7;                         // UUID жителей, проживающих на клетке
+}

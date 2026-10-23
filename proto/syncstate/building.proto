@@ -5,9 +5,18 @@ package proto.syncstate;
 option java_multiple_files = true;
 option java_outer_classname = "BuildingProtoOuter";
 
+// Состояние здания в слоте улучшения
 message BuildingProto {
-  string id = 1;
-  string model_name = 2;
-  int32 water_production = 3;
-  int32 water_consumption = 4;
+  string id = 1;                                   // UUID здания
+  string model_name = 2;                           // Имя модели здания
+  int32 water_production = 3;                      // Производство воды за ход, единицы воды
+  int32 water_consumption = 4;                     // Потребление воды за ход, единицы воды
+  int64 version = 5;                               // Версия состояния здания; начинается с 0, растёт на 1 за изменение
+  string tile_id = 6;                              // UUID клетки
+  uint32 mt_index = 7;                             // Индекс микроклетки внутри клетки, начиная с нуля
+  string feature_id = 8;                           // UUID улучшения, в слоте которого стоит здание
+  uint32 feature_slot_index = 9;                   // Индекс слота в улучшении, начиная с нуля
+  repeated string worker_ids = 10;                 // UUID жителей, занимающих рабочие места
+  repeated string resident_ids = 11;               // UUID жителей, занимающих ячейки резидентства
+  string extraction_product_model_name = 12;       // Имя модели добываемого товара; пустая строка — товар не выбран или здание не добывающее
 }

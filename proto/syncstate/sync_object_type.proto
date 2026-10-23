@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package proto.syncstate;
+
+option java_multiple_files = true;
+option java_outer_classname = "SyncObjectTypeProtoOuter";
+
+// Тип версионируемого игрового объекта, который клиент запрашивает по идентификаторам.
+// Значение 0 означает, что тип не передан, и сервер отвечает ошибкой запроса.
+enum SyncObjectTypeProto {
+  SyncObjectTypeUnspecified = 0;
+  Tile = 1;                        // Динамическое состояние клетки: владелец, погода, модификаторы, улучшения, жители
+  Feature = 2;                     // Улучшение на микроклетке
+  Building = 3;                    // Здание в слоте улучшения
+  Citizen = 4;                     // Житель
+  ConstructionQueue = 5;           // Очередь активного строительства цивилизации
+}

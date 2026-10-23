@@ -5,13 +5,10 @@ package proto.common;
 option java_multiple_files = true;
 option java_outer_classname = "SyncStateResponseProtoOuter";
 
-import "proto/common/sync_state_object_type.proto";
 import "proto/syncstate/sync_state_object.proto";
 
-// Мессадж для синхронизации состояния игровой партии на клиенте. Мессадж идет только со стороны сервера
-// В ObjectTypeProto тип объекта который хотим синхронизировать
+// Мессадж для синхронизации состояния игровой партии на клиенте. Мессадж идет только со стороны сервера.
 message SyncStateResponseProto {
-  proto.common.SyncStateObjectTypeProto type = 1;
-  int32 version = 2;
-  repeated proto.syncstate.SyncStateObjectProto objects = 3;
+  repeated proto.syncstate.SyncStateObjectProto objects = 1;  // Актуальные состояния объектов; для filter_version — только устаревшие на клиенте
+  repeated string nonexistent_ids = 2;                        // UUID из запроса, по которым объект в партии не найден; клиент удаляет их у себя
 }

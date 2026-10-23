@@ -1,0 +1,38 @@
+syntax = "proto3";
+
+package proto.syncstate;
+
+option java_multiple_files = true;
+option java_outer_classname = "CitizenStatusProtoOuter";
+
+import "proto/syncstate/residence_type.proto";
+
+// Статус занятости жителя. Активный профиль для расчётов передаётся в CitizenProto.profile_model_name.
+message CitizenStatusProto {
+  oneof status {
+    proto.syncstate.SelfEmployedCitizenStatusProto self_employed = 1;   // Работает на себя
+    proto.syncstate.UnemployedCitizenStatusProto unemployed = 2;        // Безработный с освоенной профессией
+    proto.syncstate.ProductionCitizenStatusProto production = 3;        // Работник производства в здании
+    proto.syncstate.ResidentCitizenStatusProto resident = 4;            // Получает временную услугу в здании
+  }
+}
+
+message SelfEmployedCitizenStatusProto {
+}
+
+message UnemployedCitizenStatusProto {
+  string hired_profile_model_name = 1;   // Имя модели сохранённой профессии
+}
+
+message ProductionCitizenStatusProto {
+  string building_id = 1;                // UUID здания с рабочим местом
+}
+
+message ResidentCitizenStatusProto {
+  proto.syncstate.ResidenceTypeProto residence_type = 1;
+  string building_id = 2;                // UUID здания, оказывающего услугу
+  int32 total_turns = 3;                 // Полная длительность услуги, ходы
+  int32 remaining_turns = 4;             // Оставшаяся длительность услуги, ходы; 0 — услуга завершена
+  string from_profile_model_name = 5;    // Имя модели профиля до размещения; пустая строка — для услуги не задан
+  string to_profile_model_name = 6;      // Имя модели профиля после размещения; пустая строка — для услуги не задан
+}

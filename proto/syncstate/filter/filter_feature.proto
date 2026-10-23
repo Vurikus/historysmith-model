@@ -5,7 +5,9 @@ package proto.syncstate;
 option java_multiple_files = true;
 option java_outer_classname = "FilterFeatureProtoOuter";
 
+// Получение улучшения, которое сейчас стоит на микроклетке.
+// Используется, когда клиент ещё не знает идентификатор улучшения, например после замены дефолтного улучшения.
 message FilterFeatureProto {
-  string tile_id = 1;
-  uint32 mt_index = 2;
+  string tile_id = 1;              // UUID клетки
+  uint32 mt_index = 2;             // Индекс микроклетки внутри клетки, начиная с нуля
 }

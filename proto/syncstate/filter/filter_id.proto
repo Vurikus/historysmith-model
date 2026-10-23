@@ -5,6 +5,13 @@ package proto.syncstate;
 option java_multiple_files = true;
 option java_outer_classname = "FilterIdProtoOuter";
 
+import "proto/syncstate/sync_object_type.proto";
+
+// Получение текущего состояния объектов одного типа по идентификаторам (одному или нескольким).
+// Сервер возвращает все найденные объекты независимо от версии на клиенте,
+// ненайденные идентификаторы — в списке несуществующих.
+// Идентификатор объекта другого типа считается ошибкой запроса.
 message FilterIdProto {
-  repeated string ids = 1;
+  repeated string ids = 1;                         // UUID объектов
+  proto.syncstate.SyncObjectTypeProto type = 2;    // Ожидаемый тип всех объектов из ids
 }

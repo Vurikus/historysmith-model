@@ -5,16 +5,18 @@ package proto.common;
 option java_multiple_files = true;
 option java_outer_classname = "SyncStateRequestProtoOuter";
 
-import "proto/common/sync_state_object_type.proto";
-import "proto/syncstate/filter/filter_feature.proto";
 import "proto/syncstate/filter/filter_id.proto";
+import "proto/syncstate/filter/filter_feature.proto";
+import "proto/syncstate/filter/filter_version.proto";
+import "proto/syncstate/filter/filter_construction_queue.proto";
 
-// Мессадж для синхронизации состояния игровой партии на клиенте. Мессадж идет только со стороны клиента
-// В ObjectTypeProto тип объекта который хотим синхронизировать
+// Мессадж для синхронизации состояния игровой партии на клиенте. Мессадж идет только со стороны клиента.
+// Способ отбора объектов задаётся фильтром; тип объекта передаётся только там, где он нужен для проверки запроса.
 message SyncStateRequestProto {
-  proto.common.SyncStateObjectTypeProto type = 1;
   oneof payload {
-    proto.syncstate.FilterIdProto filter_id = 2;
-    proto.syncstate.FilterFeatureProto filter_feature = 3;
+    proto.syncstate.FilterIdProto filter_id = 1;                                  // Объекты одного типа по идентификаторам
+    proto.syncstate.FilterFeatureProto filter_feature = 2;                        // Улучшение по расположению на микроклетке
+    proto.syncstate.FilterVersionProto filter_version = 3;                        // Сверка версий объектов любых типов
+    proto.syncstate.FilterConstructionQueueProto filter_construction_queue = 4;   // Очередь строительства своей цивилизации
   }
 }

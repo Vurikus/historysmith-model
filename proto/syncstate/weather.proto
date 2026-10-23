@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package proto.syncstate;
+
+option java_multiple_files = true;
+option java_outer_classname = "WeatherProtoOuter";
+
+// Активная погода на клетке
+message WeatherProto {
+  string model_name = 1;           // Имя модели погоды
+  int32 start_turn = 2;            // Номер хода, с которого погода действует
+  int32 end_turn = 3;              // Номер хода, на котором погода заканчивается
+}

@@ -5,10 +5,14 @@ package proto.syncstate;
 option java_multiple_files = true;
 option java_outer_classname = "FeatureProtoOuter";
 
+// Состояние улучшения на микроклетке
 message FeatureProto {
-  string id = 1;
-  string tile_id = 2;
-  string model_name = 3;
-  repeated string building_ids = 4;
-  string produced_product_model_name = 5;
+  string id = 1;                                   // UUID улучшения
+  string tile_id = 2;                              // UUID клетки
+  string model_name = 3;                           // Имя модели улучшения
+  repeated string building_ids = 4;                // UUID зданий; индекс элемента равен индексу слота
+  string produced_product_model_name = 5;          // Имя модели производимого товара; пустая строка — товар не производится
+  int64 version = 6;                               // Версия состояния улучшения; начинается с 0, растёт на 1 за изменение
+  uint32 mt_index = 7;                             // Индекс микроклетки внутри клетки, начиная с нуля
+  int32 housing_volume = 8;                        // Суммарная вместимость жилья всех зданий улучшения, жители
 }

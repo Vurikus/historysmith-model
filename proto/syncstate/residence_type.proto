@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package proto.syncstate;
+
+option java_multiple_files = true;
+option java_outer_classname = "ResidenceTypeProtoOuter";
+
+// Тип временной услуги, которую житель получает в здании
+enum ResidenceTypeProto {
+  NoService = 0;                   // Услуга не оказывается
+  Education = 1;                   // Обучение
+  Treatment = 2;                   // Лечение
+  Imprisonment = 3;                // Отбывание наказания
+  Rest = 4;                        // Отдых
+  MissionaryWork = 5;              // Миссионерство
+}

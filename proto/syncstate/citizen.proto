@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+package proto.syncstate;
+
+option java_multiple_files = true;
+option java_outer_classname = "CitizenProtoOuter";
+
+import "proto/syncstate/citizen_status.proto";
+import "proto/syncstate/citizen_requirement.proto";
+
+// Состояние жителя
+message CitizenProto {
+  string id = 1;                                                // UUID жителя
+  int64 version = 2;                                            // Версия состояния жителя; начинается с 0, растёт на 1 за изменение
+  string tile_id = 3;                                           // UUID клетки проживания
+  string person_name = 4;                                       // Имя жителя
+  string nation_culture_model_name = 5;                         // Имя модели национальной культуры
+  string inclination_model_name = 6;                            // Имя модели склонности
+  string profile_model_name = 7;                                // Имя модели активного профиля для расчётов
+  proto.syncstate.CitizenStatusProto status = 8;                // Статус занятости
+  proto.syncstate.CitizenRequirementProto water_requirement = 9;  // Потребность в воде
+  proto.syncstate.CitizenRequirementProto food_requirement = 10;  // Потребность в еде
+  proto.syncstate.CitizenRequirementProto luxury_requirement = 11; // Потребность в роскоши
+}
