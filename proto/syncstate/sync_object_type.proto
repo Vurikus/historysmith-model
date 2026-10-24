@@ -13,5 +13,5 @@ enum SyncObjectTypeProto {
   Feature = 2;                     // Улучшение на микроклетке
   Building = 3;                    // Здание в слоте улучшения
   Citizen = 4;                     // Житель
-  ConstructionQueue = 5;           // Очередь активного строительства цивилизации
+  ConstructionProgress = 5;        // Активное строительство и его прогресс
 }

@@ -7,9 +7,9 @@ option java_outer_classname = "FilterVersionProtoOuter";
 
 import "proto/syncstate/object_version.proto";
 
-// Сверка версий произвольных игровых объектов любых типов.
-// Сервер возвращает только объекты, версия которых новее клиентской,
-// а идентификаторы, по которым объект не найден, — в списке несуществующих.
+// Сверка версий известных клиенту игровых объектов любых типов.
+// Объекты с несовпадающей версией сервер возвращает в sync_objects, с совпадающей — в already_sync_ids,
+// ненайденные — в nonexistent_ids.
 message FilterVersionProto {
   repeated proto.syncstate.ObjectVersionProto objects = 1;  // Идентификаторы не должны повторяться
 }

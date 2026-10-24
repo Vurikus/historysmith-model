@@ -9,5 +9,4 @@ option java_outer_classname = "CitizenRequirementProtoOuter";
 message CitizenRequirementProto {
   int32 count_slot = 1;                              // Количество слотов потребности
   repeated string consumed_product_model_names = 2;  // Имена моделей потреблённых товаров, один элемент на занятый слот
-  int32 satisfied_percent = 3;                       // Удовлетворение потребности от 0 до 100; 0 — не закрыта, 100 — закрыта полностью
 }

@@ -9,7 +9,7 @@ import "proto/syncstate/feature.proto";
 import "proto/syncstate/building.proto";
 import "proto/syncstate/tile_state.proto";
 import "proto/syncstate/citizen.proto";
-import "proto/syncstate/construction_queue.proto";
+import "proto/syncstate/construction_progress.proto";
 
 // Один синхронизируемый игровой объект. Версия хранится внутри каждого объекта.
 message SyncStateObjectProto {
@@ -18,6 +18,6 @@ message SyncStateObjectProto {
     proto.syncstate.BuildingProto building = 2;
     proto.syncstate.TileStateProto tile = 3;
     proto.syncstate.CitizenProto citizen = 4;
-    proto.syncstate.ConstructionQueueProto construction_queue = 5;
+    proto.syncstate.ConstructionProgressProto construction_progress = 5;
   }
 }

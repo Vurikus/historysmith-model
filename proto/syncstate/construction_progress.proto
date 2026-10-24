@@ -5,7 +5,7 @@ package proto.syncstate;
 option java_multiple_files = true;
 option java_outer_classname = "ConstructionProgressProtoOuter";
 
-// Прогресс одного активного строительства
+// Активное строительство цивилизации и его прогресс
 message ConstructionProgressProto {
   string construction_id = 1;              // UUID будущей конструкции; после завершения строительства станет id улучшения или здания
   string model_name = 2;                   // Имя модели строящегося улучшения или здания

@@ -8,7 +8,10 @@ option java_outer_classname = "SyncStateResponseProtoOuter";
 import "proto/syncstate/sync_state_object.proto";
 
 // Мессадж для синхронизации состояния игровой партии на клиенте. Мессадж идет только со стороны сервера.
+// Каждый найденный объект из запроса попадает ровно в один из списков sync_objects или already_sync_ids,
+// ненайденный — в nonexistent_ids.
 message SyncStateResponseProto {
-  repeated proto.syncstate.SyncStateObjectProto objects = 1;  // Актуальные состояния объектов; для filter_version — только устаревшие на клиенте
-  repeated string nonexistent_ids = 2;                        // UUID из запроса, по которым объект в партии не найден; клиент удаляет их у себя
+  repeated proto.syncstate.SyncStateObjectProto sync_objects = 1; // Объекты, версия которых не совпадает с клиентской; без версии в запросе — все найденные объекты
+  repeated string already_sync_ids = 2;                           // UUID объектов, версия которых на клиенте совпадает с серверной
+  repeated string nonexistent_ids = 3;                            // UUID из запроса, по которым объект в партии не найден; клиент удаляет их у себя
 }

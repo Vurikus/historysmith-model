@@ -8,5 +8,5 @@ option java_outer_classname = "ObjectVersionProtoOuter";
 // Версия игрового объекта, известная клиенту
 message ObjectVersionProto {
   string id = 1;                   // UUID игрового объекта
-  int64 version = 2;               // Версия объекта на клиенте; отрицательное значение — объект клиенту ещё неизвестен
+  int64 version = 2;               // Версия объекта на клиенте, не меньше 0; отрицательное значение — ошибка запроса
 }
