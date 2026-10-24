@@ -6,9 +6,23 @@ option java_multiple_files = true;
 option java_outer_classname = "ActionRequestProtoOuter";
 
 import "proto/action/end_turn_player_action.proto";
+import "proto/action/apply_craft_tool_player_action.proto";
+import "proto/action/build_feature_purpose_player_action.proto";
+import "proto/action/cancel_citizen_residence_player_action.proto";
+import "proto/action/educate_citizen_player_action.proto";
+import "proto/action/fire_citizen_player_action.proto";
+import "proto/action/hire_citizen_player_action.proto";
+import "proto/action/select_extraction_product_on_building_player_action.proto";
 
 message ActionRequestProto {
   oneof payload {
-    proto.common.EndTurnPlayerActionProto end_turn_player = 1; // Завершение игрового хода игроком
+    proto.common.EndTurnPlayerActionProto end_turn_player = 1;                                         // Завершение игрового хода игроком
+    proto.common.ApplyCraftToolPlayerActionProto apply_craft_tool = 2;                                 // Применение ремесленного инструмента к товару
+    proto.common.BuildFeaturePurposePlayerActionProto build_feature_purpose = 3;                       // Запрос строительства улучшения на микроклетке
+    proto.common.CancelCitizenResidencePlayerActionProto cancel_citizen_residence = 4;                 // Прекращение обучения жителя
+    proto.common.EducateCitizenPlayerActionProto educate_citizen = 5;                                  // Начало обучения жителя
+    proto.common.FireCitizenPlayerActionProto fire_citizen = 6;                                        // Увольнение жителя
+    proto.common.HireCitizenPlayerActionProto hire_citizen = 7;                                        // Найм жителя в здание
+    proto.common.SelectExtractionProductOnBuildingPlayerActionProto select_extraction_product = 8;     // Выбор добываемого товара в здании
   }
 }

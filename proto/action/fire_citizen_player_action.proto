@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package proto.common;
+
+option java_multiple_files = true;
+option java_outer_classname = "FireCitizenPlayerActionProtoOuter";
+
+// Увольнение работающего жителя с сохранением профессии
+message FireCitizenPlayerActionProto {
+  string citizen_id = 1;           // UUID жителя
+}

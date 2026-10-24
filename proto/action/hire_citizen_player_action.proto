@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package proto.common;
+
+option java_multiple_files = true;
+option java_outer_classname = "HireCitizenPlayerActionProtoOuter";
+
+// Найм жителя в здание на его клетке проживания
+message HireCitizenPlayerActionProto {
+  string citizen_id = 1;           // UUID жителя
+  string building_id = 2;          // UUID здания
+}

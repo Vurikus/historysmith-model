@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package proto.common;
+
+option java_multiple_files = true;
+option java_outer_classname = "SelectExtractionProductOnBuildingPlayerActionProtoOuter";
+
+// Выбор добываемого товара в здании
+message SelectExtractionProductOnBuildingPlayerActionProto {
+  string building_id = 1;          // UUID здания
+  string product_model_name = 2;   // Имя модели добываемого товара
+}

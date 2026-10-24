@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package proto.common;
+
+option java_multiple_files = true;
+option java_outer_classname = "ApplyCraftToolPlayerActionProtoOuter";
+
+// Применение ремесленного инструмента к товару
+message ApplyCraftToolPlayerActionProto {
+  string tool_model_name = 1;      // Имя модели ремесленного инструмента
+  string subject_model_name = 2;   // Имя модели товара, к которому применяется инструмент
+}
