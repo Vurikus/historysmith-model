@@ -5,8 +5,8 @@ package proto.common;
 option java_multiple_files = true;
 option java_outer_classname = "CivilizationMetaListResponseProtoOuter";
 
-import "proto/worldbase/civilization_meta.proto";
+import "proto/syncstate/civ_personalization.proto";
 
 message CivilizationMetaListResponseProto {
-  repeated proto.worldbase.CivilizationMetaProto metas = 1;
+  repeated proto.syncstate.CivPersonalizationProto metas = 1;
 }

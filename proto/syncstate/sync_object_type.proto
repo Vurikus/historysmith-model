@@ -9,9 +9,9 @@ option java_outer_classname = "SyncObjectTypeProtoOuter";
 // Значение 0 означает, что тип не передан, и сервер отвечает ошибкой запроса.
 enum SyncObjectTypeProto {
   SyncObjectTypeUnspecified = 0;
-  Tile = 1;                        // Динамическое состояние клетки: владелец, погода, модификаторы, улучшения, жители
-  Feature = 2;                     // Улучшение на микроклетке
-  Building = 3;                    // Здание в слоте улучшения
-  Citizen = 4;                     // Житель
-  ConstructionProgress = 5;        // Активное строительство и его прогресс
+  Feature = 1;                     // Улучшение на микроклетке
+  Building = 2;                    // Здание в слоте улучшения
+  Citizen = 3;                     // Житель
+  ConstructionProgress = 4;        // Активное строительство и его прогресс
+  Civilization = 5;                // Цивилизация: персонализация, клетки во владении и активные строительства
 }

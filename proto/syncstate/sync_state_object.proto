@@ -7,17 +7,17 @@ option java_outer_classname = "SyncStateObjectProtoOuter";
 
 import "proto/syncstate/feature.proto";
 import "proto/syncstate/building.proto";
-import "proto/syncstate/tile_state.proto";
 import "proto/syncstate/citizen.proto";
 import "proto/syncstate/construction_progress.proto";
+import "proto/syncstate/civilization.proto";
 
 // Один синхронизируемый игровой объект. Версия хранится внутри каждого объекта.
 message SyncStateObjectProto {
   oneof object {
     proto.syncstate.FeatureProto feature = 1;
     proto.syncstate.BuildingProto building = 2;
-    proto.syncstate.TileStateProto tile = 3;
-    proto.syncstate.CitizenProto citizen = 4;
-    proto.syncstate.ConstructionProgressProto construction_progress = 5;
+    proto.syncstate.CitizenProto citizen = 3;
+    proto.syncstate.ConstructionProgressProto construction_progress = 4;
+    proto.syncstate.CivilizationProto civilization = 5;
   }
 }

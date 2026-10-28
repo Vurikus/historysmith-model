@@ -6,6 +6,8 @@ option java_multiple_files = true;
 option java_outer_classname = "TileProtoOuter";
 
 import "proto/world/tile_key.proto";
+import "proto/syncstate/weather.proto";
+import "proto/syncstate/tile_modifier.proto";
 
 message TileProto {
   proto.world.TileKeyProto key = 1;
@@ -13,4 +15,7 @@ message TileProto {
   string mt2_relief = 3;
   string mt3_relief = 4;
   string terrain_type = 5;
+  proto.syncstate.WeatherProto weather = 6;                 // Активная погода; поле не заполняется, если погоды нет
+  repeated string citizen_ids = 7;                          // UUID жителей, проживающих на клетке
+  repeated proto.syncstate.TileModifierProto modifiers = 8; // Активные модификаторы
 }

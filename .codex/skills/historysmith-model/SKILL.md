@@ -41,3 +41,9 @@ When adding a concrete protobuf file for one of these categories, place it in th
 
 - After changing protobuf files, run `./validate-proto.sh` when possible.
 - Preserve existing package naming and protobuf style unless a broader migration is explicitly requested.
+
+## Field numbering
+
+- Do not preserve protobuf backward compatibility: client and server are always updated together from this repository.
+- Number fields and enum values sequentially without gaps. When a field or value is removed, renumber the following ones instead of skipping the index.
+- Do not use `reserved` for removed fields, names or enum values.

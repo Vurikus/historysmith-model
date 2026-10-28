@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package proto.syncstate;
+
+option java_multiple_files = true;
+option java_outer_classname = "CivilizationProtoOuter";
+
+import "proto/syncstate/civ_personalization.proto";
+import "proto/syncstate/construction_progress.proto";
+
+// Изменяемое состояние цивилизации
+message CivilizationProto {
+  string id = 1;                                                                // UUID цивилизации
+  int64 version = 2;                                                            // Версия состояния цивилизации; начинается с 0, растёт на 1 за изменение
+  proto.syncstate.CivPersonalizationProto personalization = 3;                  // Персонализация цивилизации
+  repeated string tile_ids = 4;                                                 // UUID клеток во владении цивилизации
+  repeated proto.syncstate.ConstructionProgressProto active_constructions = 5;  // Активные строительства цивилизации и их прогресс
+}
