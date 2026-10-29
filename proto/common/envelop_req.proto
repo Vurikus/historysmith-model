@@ -7,7 +7,7 @@ option java_outer_classname = "EnvelopeRequestProtoOuter";
 
 import "proto/common/sync_state_req.proto";
 import "proto/common/action_req.proto";
-import "proto/common/world_base_req.proto";
+import "proto/common/game_req.proto";
 import "proto/common/intention_req.proto";
 
 message EnvelopeRequestProto {
@@ -16,6 +16,6 @@ message EnvelopeRequestProto {
     proto.common.SyncStateRequestProto sync_state = 2;        // Запрос с клиента на получение актуального состояния объекта
     proto.common.ActionRequestProto action = 3;               // Объект с конкретным действием игрока. Например переместить отряд. Построить здание...
     proto.common.IntentionRequestProto intention = 4;         // Запросы на попытку совершить действие, намерение. Например игрок навел кнопку с попыткой атаковать
-    proto.common.WorldBaseRequestProto world = 5;             // Запросы связанные с игровым миром. Внутри объекта различные типы - создание нового мира, получение старого, подключение игрока к миру
+    proto.common.GameRequestProto game = 5;                   // Действия и запросы информации, относящиеся к самой игре: создание партии, получение списка партий, подключение игрока к партии
   }
 }

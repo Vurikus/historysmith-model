@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package proto.common;
+
+option java_multiple_files = true;
+option java_outer_classname = "GameRequestProtoOuter";
+
+import "proto/gameinfo/game_configuration.proto";
+import "proto/gameinfo/game_connect.proto";
+
+// Действия и запросы информации, относящиеся к самой игре (партии), а не к внутреннему игровому состоянию
+message GameRequestProto {
+  oneof payload {
+    proto.gameinfo.GameConfigurationProto create_game_configuration = 1; // Создание новой партии с заданными настройками
+    proto.gameinfo.GameConnectProto game_connect = 2;                    // Подключение игрока к партии
+  }
+}

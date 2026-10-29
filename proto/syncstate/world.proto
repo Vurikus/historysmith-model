@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package proto.syncstate;
+
+option java_multiple_files = true;
+option java_outer_classname = "WorldProtoOuter";
+
+// Изменяемое состояние игрового мира
+message WorldProto {
+  string id = 1;                        // UUID мира, совпадает с UUID игровой партии
+  int64 version = 2;                    // Версия состояния мира; растёт например при изменении состава цивилизаций
+  repeated string tile_ids = 3;         // UUID клеток мира
+  repeated string civilization_ids = 4; // UUID цивилизаций мира
+}

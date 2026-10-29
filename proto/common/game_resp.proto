@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+package proto.common;
+
+option java_multiple_files = true;
+option java_outer_classname = "GameResponseProtoOuter";
+
+import "proto/gameinfo/game_info.proto";
+import "proto/common/game_info_list_resp.proto";
+import "proto/gameinfo/player_list.proto";
+import "proto/gameinfo/civilization_lock.proto";
+
+// Ответы на действия и запросы информации, относящиеся к самой игре (партии)
+message GameResponseProto {
+  oneof payload {
+    proto.gameinfo.GameInfoProto game_info = 1;
+    proto.common.GameInfoListResponseProto game_info_list = 2;
+    proto.common.PlayerListResponseProto player_list = 3; // Цивилизации мира и вид их игрока для экрана выбора
+    proto.common.CivilizationLockResponseProto civilization_lock = 4;
+  }
+}

@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package proto.gameinfo;
+
+option java_multiple_files = true;
+option java_outer_classname = "GameInfoProtoOuter";
+
+import "proto/gameinfo/game_configuration.proto";
+
+// Мета информация об игровой партии. Не является объектом состояния, поэтому не версионируется
+message GameInfoProto {
+  string id = 1;                                            // UUID игровой партии
+  proto.gameinfo.GameConfigurationProto configuration = 2;  // Настройки, с которыми создана партия
+  int32 count_civ = 3;                                      // Количество цивилизаций в партии
+  int32 count_players = 4;                                  // Количество игроков-людей в партии
+}

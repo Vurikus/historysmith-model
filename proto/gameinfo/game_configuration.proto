@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package proto.gameinfo;
+
+option java_multiple_files = true;
+option java_outer_classname = "GameConfigurationProtoOuter";
+
+import "proto/gameinfo/world_size.proto";
+import "proto/gameinfo/map_type.proto";
+
+message GameConfigurationProto {
+  proto.gameinfo.WorldSizeProto world_size = 1;
+  proto.gameinfo.MapTypeProto map_type = 2;
+}

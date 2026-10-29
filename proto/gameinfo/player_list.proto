@@ -3,12 +3,12 @@ syntax = "proto3";
 package proto.common;
 
 option java_multiple_files = true;
-option java_outer_classname = "CivilizationSummaryListResponseProtoOuter";
+option java_outer_classname = "PlayerListResponseProtoOuter";
 
-import "proto/worldbase/civilization_summary.proto";
+import "proto/gameinfo/civilization_summary.proto";
 
 // Сводка по всем цивилизациям мира для экрана выбора цивилизации. Клиент периодически запрашивает её,
 // пока игрок выбирает цивилизацию.
-message CivilizationSummaryListResponseProto {
-  repeated proto.worldbase.CivilizationSummaryProto civilizations = 1; // Все цивилизации мира
+message PlayerListResponseProto {
+  repeated proto.gameinfo.CivilizationSummaryProto civilizations = 1; // Все цивилизации мира
 }
