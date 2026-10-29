@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package proto.worldbase;
+
+option java_multiple_files = true;
+option java_outer_classname = "CivilizationSummaryProtoOuter";
+
+import "proto/worldbase/player_type.proto";
+
+// Сводка по цивилизации для выбора цивилизации игроком
+message CivilizationSummaryProto {
+  string civilization_id = 1;                       // UUID цивилизации
+  proto.worldbase.PlayerTypeProto player_type = 2;  // Кто сейчас играет за цивилизацию
+}

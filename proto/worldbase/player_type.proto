@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package proto.worldbase;
+
+option java_multiple_files = true;
+option java_outer_classname = "PlayerTypeProtoOuter";
+
+// Вид игрока, который управляет цивилизацией.
+// Значение 0 означает, что вид не передан; клиент считает это ошибкой ответа.
+enum PlayerTypeProto {
+  PlayerTypeUnspecified = 0;
+  Human = 1;                       // Человек
+  Computer = 2;                    // Компьютер
+}
