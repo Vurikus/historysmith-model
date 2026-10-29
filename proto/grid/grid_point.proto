@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package proto.grid;
+
+option java_multiple_files = true;
+option java_outer_classname = "GridPointProtoOuter";
+
+// Точка игровой сетки: расположение клетки в игровом пространстве и её соседи
+message GridPointProto {
+  string id = 1;                     // UUID клетки, расположенной в точке
+  float x_normal = 2;                // Координата X нормали точки
+  float y_normal = 3;                // Координата Y нормали точки
+  float z_normal = 4;                // Координата Z нормали точки
+  repeated string neighbor_ids = 5;  // UUID соседних клеток
+}

@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+package proto.syncstate;
+
+option java_multiple_files = true;
+option java_outer_classname = "TileProtoOuter";
+
+import "proto/syncstate/weather.proto";
+import "proto/syncstate/tile_modifier.proto";
+
+// Изменяемое состояние клетки. Расположение клетки в игровом пространстве передаётся отдельно в GridProto
+message TileProto {
+  string id = 1;                                            // UUID клетки
+  string mt1_relief = 2;                                    // Рельеф первой микроклетки
+  string mt2_relief = 3;                                    // Рельеф второй микроклетки
+  string mt3_relief = 4;                                    // Рельеф третьей микроклетки
+  string terrain_type = 5;                                  // Тип местности клетки
+  proto.syncstate.WeatherProto weather = 6;                 // Активная погода; поле не заполняется, если погоды нет
+  repeated string citizen_ids = 7;                          // UUID жителей, проживающих на клетке
+  repeated proto.syncstate.TileModifierProto modifiers = 8; // Активные модификаторы
+  int64 version = 9;                                        // Версия состояния клетки: растёт при изменении погоды, модификаторов, состава жителей и улучшений
+  repeated string feature_ids = 10;                         // UUID улучшений на микроклетках клетки
+}

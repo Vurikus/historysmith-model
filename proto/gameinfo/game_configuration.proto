@@ -8,7 +8,8 @@ option java_outer_classname = "GameConfigurationProtoOuter";
 import "proto/gameinfo/world_size.proto";
 import "proto/gameinfo/map_type.proto";
 
+// Настройки, с которыми создаётся игровая партия
 message GameConfigurationProto {
-  proto.gameinfo.WorldSizeProto world_size = 1;
-  proto.gameinfo.MapTypeProto map_type = 2;
+  proto.gameinfo.WorldSizeProto world_size = 1; // Размер мира
+  proto.gameinfo.MapTypeProto map_type = 2;     // Тип карты
 }

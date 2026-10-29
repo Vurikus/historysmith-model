@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package proto.grid;
+
+option java_multiple_files = true;
+option java_outer_classname = "GridProtoOuter";
+
+import "proto/grid/grid_point.proto";
+
+// Игровая сетка: расположение всех клеток в игровом пространстве. Не является объектом состояния и не версионируется
+message GridProto {
+  repeated proto.grid.GridPointProto points = 1; // Точки сетки
+}

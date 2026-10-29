@@ -21,8 +21,9 @@ Every concrete protobuf transport message belongs to one of these categories:
 - `syncstate`: a client request for the current state of an object.
 - `intention`: a request that represents an attempted action or intent, such as hovering an attack button to check whether attacking is possible.
 - `gameinfo`: actions and information requests about the game (match) itself, not its internal game state.
+- `grid`: the game grid, i.e. placement of tiles in game space. It is a response-only payload; the client requests it via a REST endpoint.
 
-When adding a concrete protobuf file for one of these categories, place it in the matching package directory under `proto/`: `proto/action/`, `proto/syncstate/`, `proto/intention/`, or `proto/gameinfo/`.
+When adding a concrete protobuf file for one of these categories, place it in the matching package directory under `proto/`: `proto/action/`, `proto/syncstate/`, `proto/intention/`, `proto/gameinfo/`, or `proto/grid/`.
 
 ## Envelope rules
 

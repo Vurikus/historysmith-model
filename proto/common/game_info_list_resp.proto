@@ -7,6 +7,7 @@ option java_outer_classname = "GameInfoListResponseProtoOuter";
 
 import "proto/gameinfo/game_info.proto";
 
+// Список мета информации об игровых партиях
 message GameInfoListResponseProto {
-  repeated proto.gameinfo.GameInfoProto game_infos = 1;
+  repeated proto.gameinfo.GameInfoProto game_infos = 1; // Мета информация по каждой партии
 }
