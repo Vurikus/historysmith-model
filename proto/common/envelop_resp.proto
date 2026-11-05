@@ -14,7 +14,7 @@ import "proto/common/game_resp.proto";
 import "proto/common/game_event_resp.proto";
 
 message EnvelopeResponseProto {
-  int32 message_id = 1;
+  int32 message_id = 1; // Идентификатор запроса клиента, на который дан ответ; 0 — сообщение инициировано сервером
   oneof payload {
     proto.common.ErrorResponseProto error = 2;
     proto.common.SuccessResponseProto success = 3;

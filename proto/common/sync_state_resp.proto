@@ -10,6 +10,8 @@ import "proto/syncstate/sync_state_object.proto";
 // Мессадж для синхронизации состояния игровой партии на клиенте. Мессадж идет только со стороны сервера.
 // Каждый найденный объект из запроса попадает ровно в один из списков sync_objects или already_sync_ids,
 // ненайденный — в nonexistent_ids.
+// В серверной рассылке (message_id = 0) запроса нет: sync_objects — изменённые объекты, nonexistent_ids — удалённые,
+// already_sync_ids пуст. Рассылка изменений после завершения хода приходит раньше события нового хода.
 message SyncStateResponseProto {
   repeated proto.syncstate.SyncStateObjectProto sync_objects = 1; // Объекты, версия которых не совпадает с клиентской; без версии в запросе — все найденные объекты
   repeated string already_sync_ids = 2;                           // UUID объектов, версия которых на клиенте совпадает с серверной
