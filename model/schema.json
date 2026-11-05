@@ -162,9 +162,9 @@
       "Modifier"
     ]
   },
-  "wheater": {
+  "weather": {
     "modelName": "key",
-    "modelType": "Wheater",
+    "modelType": "Weather",
     "displayName": "string",
     "icon": "string",
     "activeModifiers": [
@@ -179,8 +179,8 @@
     "modelType": "Climate",
     "displayName": "string",
     "icon": "string",
-    "possibleWheater": [
-      "modelTypeKey = Wheater"
+    "possibleWeather": [
+      "modelTypeKey = Weather"
     ]
   },
 

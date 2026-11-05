@@ -18,6 +18,8 @@ message TileProto {
   proto.syncstate.WeatherProto weather = 6;                 // Активная погода; поле не заполняется, если погоды нет
   repeated string citizen_ids = 7;                          // UUID жителей, проживающих на клетке
   repeated proto.syncstate.TileModifierProto modifiers = 8; // Активные модификаторы
-  int64 version = 9;                                        // Версия состояния клетки: растёт при изменении погоды, модификаторов, состава жителей и улучшений
+  int64 version = 9;                                        // Версия состояния клетки: растёт при изменении названия, погоды, модификаторов, состава жителей и улучшений
   repeated string feature_ids = 10;                         // UUID улучшений на микроклетках клетки
+  string climate = 11;                                      // Имя модели климата клетки
+  string name = 12;                                         // Название клетки: ключевое имя от генератора мира, например "{{gorge}} caucasus", или имя, заданное владельцем
 }

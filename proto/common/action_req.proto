@@ -13,6 +13,7 @@ import "proto/action/educate_citizen_player_action.proto";
 import "proto/action/fire_citizen_player_action.proto";
 import "proto/action/hire_citizen_player_action.proto";
 import "proto/action/select_extraction_product_on_building_player_action.proto";
+import "proto/action/rename_tile_player_action.proto";
 
 message ActionRequestProto {
   oneof payload {
@@ -24,5 +25,6 @@ message ActionRequestProto {
     proto.common.FireCitizenPlayerActionProto fire_citizen = 6;                                        // Увольнение жителя
     proto.common.HireCitizenPlayerActionProto hire_citizen = 7;                                        // Найм жителя в здание
     proto.common.SelectExtractionProductOnBuildingPlayerActionProto select_extraction_product = 8;     // Выбор добываемого товара в здании
+    proto.common.RenameTilePlayerActionProto rename_tile = 9;                                          // Переименование клетки её владельцем
   }
 }

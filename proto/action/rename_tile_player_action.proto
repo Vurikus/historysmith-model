@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package proto.common;
+
+option java_multiple_files = true;
+option java_outer_classname = "RenameTilePlayerActionProtoOuter";
+
+// Переименование клетки её владельцем
+message RenameTilePlayerActionProto {
+  string tile_id = 1;              // UUID клетки
+  string name = 2;                 // Новое название клетки, от 2 до 32 символов без учёта пробелов по краям
+}

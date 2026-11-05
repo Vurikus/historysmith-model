@@ -2,25 +2,25 @@
   {
     "modelName": "arid",
     "displayName": "TXT_CLIMATE_ARID",
-    "possibleWheaters": [],
+    "possibleWeathers": [],
     "icon": "stock"
   },
   {
     "modelName": "humid",
     "displayName": "TXT_CLIMATE_HUMID",
     "icon": "stock",
-    "possibleWheaters": ["heavyRain"]
+    "possibleWeathers": ["heavyRain"]
   },
   {
     "modelName": "cold",
     "displayName": "TXT_CLIMATE_COLD",
     "icon": "stock",
-    "possibleWheaters": ["winter"]
+    "possibleWeathers": ["winter"]
   },
   {
     "modelName": "temperate",
     "displayName": "TXT_CLIMATE_TEMPERATE",
     "icon": "stock",
-    "possibleWheaters": ["heavyRain", "winter"]
+    "possibleWeathers": ["heavyRain", "winter"]
   }
 ]

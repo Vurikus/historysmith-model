@@ -1,0 +1,59 @@
+{
+  "default": [
+    "nameless lands",
+    "forgotten lands",
+    "wild frontier"
+  ],
+  "mountain": {
+    "patterns": ["{{%}} caucasus", "{{%}} alps"],
+    "values": ["mountain", "range", "gorge"]
+  },
+  "volcano": {
+    "patterns": ["{{%}} etna"],
+    "values": ["volcano", "caldera"]
+  },
+  "hill": {
+    "patterns": ["{{%}} ardennes"],
+    "values": ["hills", "ridge"]
+  },
+  "plain": {
+    "patterns": ["{{%}} danube"],
+    "values": ["plain", "valley", "steppe"]
+  },
+  "lake": {
+    "patterns": ["{{%}} baikal"],
+    "values": ["lake", "shore"]
+  },
+  "river": {
+    "patterns": ["{{%}} volga"],
+    "values": ["river", "delta"]
+  },
+  "dune": {
+    "patterns": ["{{%}} sahara"],
+    "values": ["dunes", "erg"]
+  },
+  "marsh": {
+    "patterns": ["{{%}} polesia"],
+    "values": ["marsh", "bog"]
+  },
+  "sea": {
+    "patterns": ["{{%}} atlantic", "{{%}} aegean"],
+    "values": ["ocean", "sea", "bay"]
+  },
+  "reef": {
+    "patterns": ["{{%}} coral"],
+    "values": ["reef", "shoal"]
+  },
+  "rock": {
+    "patterns": ["{{%}} horn"],
+    "values": ["rock", "cape"]
+  },
+  "iceberg": {
+    "patterns": ["{{%}} arctic"],
+    "values": ["iceberg", "ice field"]
+  },
+  "island": {
+    "patterns": ["{{%}} crete"],
+    "values": ["island", "isle"]
+  }
+}
