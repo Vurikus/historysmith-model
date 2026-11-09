@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package proto.gameevent;
+
+option java_multiple_files = true;
+option java_outer_classname = "PlayerReadyGameEventProtoOuter";
+
+// Игрок подтвердил готовность завершить ход. Рассылается всем игрокам партии после каждого подтверждения
+message PlayerReadyGameEventProto {
+  string civilization_id = 1; // UUID цивилизации игрока, подтвердившего готовность
+  int32 turn = 2;             // Номер хода, завершение которого подтвердил игрок
+  int32 waiting_players = 3;  // Сколько игроков, включая ИИ, ещё не подтвердили готовность завершить этот ход
+}
