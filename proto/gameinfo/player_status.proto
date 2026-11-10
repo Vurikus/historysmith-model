@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package proto.gameinfo;
+
+option java_multiple_files = true;
+option java_outer_classname = "PlayerStatusProtoOuter";
+
+// Статус игрока в партии, который сервер отдаёт в ответ на подключение игрока к партии
+message PlayerStatusProto {
+  string civilization_id = 1; // UUID цивилизации, которой управляет игрок
+  int32 current_turn = 2;     // Номер текущего хода партии
+  bool turn_ready = 3;        // Цивилизация уже подтвердила готовность завершить текущий ход: до начала следующего хода игровые действия недоступны
+}

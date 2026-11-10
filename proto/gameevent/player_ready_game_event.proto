@@ -9,5 +9,5 @@ option java_outer_classname = "PlayerReadyGameEventProtoOuter";
 message PlayerReadyGameEventProto {
   string civilization_id = 1; // UUID цивилизации игрока, подтвердившего готовность
   int32 turn = 2;             // Номер хода, завершение которого подтвердил игрок
-  int32 waiting_players = 3;  // Сколько игроков, включая ИИ, ещё не подтвердили готовность завершить этот ход
+  int32 waiting_players = 3;  // Сколько цивилизаций, включая цивилизации ИИ и цивилизации без игрока, ещё не подтвердили готовность завершить этот ход
 }
