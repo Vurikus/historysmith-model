@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package proto.gameinfo;
+
+option java_multiple_files = true;
+option java_outer_classname = "GameJoinProtoOuter";
+
+// Вход сессии в партию: игрок начинает её загрузку. Ответ — состояние мира: sync_state с WorldProto.
+// Остальные запросы партии (сетка, список игроков, лок цивилизации, подключение, статус, синхронизация и действия)
+// относятся к партии, в которую вошла сессия. Повторный вход в ту же партию ничего не меняет
+message GameJoinProto {
+  string game_id = 1; // UUID игровой партии
+}

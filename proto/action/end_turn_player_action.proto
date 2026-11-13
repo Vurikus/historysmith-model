@@ -7,5 +7,4 @@ option java_outer_classname = "EndTurnPlayerActionProtoOuter";
 
 message EndTurnPlayerActionProto {
   int32 turn = 1;
-  string client_id = 2;
 }

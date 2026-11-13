@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package proto.gameinfo;
+
+option java_multiple_files = true;
+option java_outer_classname = "CivilizationLockRequestProtoOuter";
+
+// Лок цивилизации партии сессии за игроком, пока он загружает партию; ответ — civilization_lock
+message CivilizationLockRequestProto {
+  string civilization_id = 1; // UUID цивилизации
+}

@@ -7,11 +7,26 @@ option java_outer_classname = "GameRequestProtoOuter";
 
 import "proto/gameinfo/game_configuration.proto";
 import "proto/gameinfo/game_connect.proto";
+import "proto/gameinfo/session_open.proto";
+import "proto/gameinfo/ping.proto";
+import "proto/gameinfo/game_join.proto";
+import "proto/gameinfo/grid_request.proto";
+import "proto/gameinfo/player_list_request.proto";
+import "proto/gameinfo/civilization_lock_request.proto";
+import "proto/gameinfo/player_status_request.proto";
 
-// Действия и запросы информации, относящиеся к самой игре (партии), а не к внутреннему игровому состоянию
+// Действия и запросы информации, относящиеся к самой игре (партии), а не к внутреннему игровому состоянию.
+// Создание партии идёт по REST, остальное — по websocket сессии
 message GameRequestProto {
   oneof payload {
-    proto.gameinfo.GameConfigurationProto create_game_configuration = 1; // Создание новой партии с заданными настройками
-    proto.gameinfo.GameConnectProto game_connect = 2;                    // Подключение игрока к партии
+    proto.gameinfo.GameConfigurationProto create_game_configuration = 1;           // Создание новой партии с заданными настройками
+    proto.gameinfo.GameConnectProto game_connect = 2;                              // Подключение игрока к цивилизации партии сессии
+    proto.gameinfo.SessionOpenProto session_open = 3;                              // Открытие или возобновление сессии: первое сообщение websocket
+    proto.gameinfo.PingProto ping = 4;                                             // Проверка соединения
+    proto.gameinfo.GameJoinProto game_join = 5;                                    // Вход сессии в партию и состояние её мира
+    proto.gameinfo.GridRequestProto grid_request = 6;                              // Игровая сетка партии сессии
+    proto.gameinfo.PlayerListRequestProto player_list_request = 7;                 // Сводка по цивилизациям партии сессии
+    proto.gameinfo.CivilizationLockRequestProto civilization_lock_request = 8;     // Лок цивилизации за игроком на время загрузки
+    proto.gameinfo.PlayerStatusRequestProto player_status_request = 9;             // Статус игрока в партии сессии
   }
 }

@@ -11,7 +11,7 @@ import "proto/gameinfo/player_list.proto";
 import "proto/gameinfo/civilization_lock.proto";
 import "proto/grid/grid.proto";
 import "proto/gameinfo/player_status.proto";
-import "proto/gameinfo/connection_established.proto";
+import "proto/gameinfo/session_opened.proto";
 
 // Ответы на действия и запросы информации, относящиеся к самой игре (партии)
 message GameResponseProto {
@@ -21,7 +21,7 @@ message GameResponseProto {
     proto.common.PlayerListResponseProto player_list = 3;             // Цивилизации мира и вид их игрока для экрана выбора
     proto.common.CivilizationLockResponseProto civilization_lock = 4; // Результат блокировки цивилизации за игроком
     proto.grid.GridProto grid = 5;                                    // Игровая сетка партии: расположение клеток в игровом пространстве
-    proto.gameinfo.PlayerStatusProto player_status = 6;               // Статус игрока: ответ на подключение к партии
-    proto.gameinfo.ConnectionEstablishedProto connection_established = 7; // Подтверждение подключения клиента по websocket
+    proto.gameinfo.PlayerStatusProto player_status = 6;               // Статус игрока: ответ на подключение к партии и запрос статуса
+    proto.gameinfo.SessionOpenedProto session_opened = 7;             // Сессия открыта или возобновлена
   }
 }

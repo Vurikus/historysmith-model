@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package proto.gameinfo;
+
+option java_multiple_files = true;
+option java_outer_classname = "GridRequestProtoOuter";
+
+// Запрос игровой сетки партии сессии; ответ — grid
+message GridRequestProto {
+}
