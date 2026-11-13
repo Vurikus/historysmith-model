@@ -21,9 +21,13 @@ Every concrete protobuf transport message belongs to one of these categories:
 - `syncstate`: a client request for the current state of an object.
 - `intention`: a request that represents an attempted action or intent, such as hovering an attack button to check whether attacking is possible.
 - `gameinfo`: actions and information requests about the game (match) itself, not its internal game state.
-- `grid`: the game grid, i.e. placement of tiles in game space. It is a response-only payload; the client requests it via a REST endpoint.
+- `grid`: the game grid, i.e. placement of tiles in game space. It is a response-only payload; the client requests it with the websocket game request `grid_request` (`GridRequestProto` in `gameinfo`).
 
 When adding a concrete protobuf file for one of these categories, place it in the matching package directory under `proto/`: `proto/action/`, `proto/syncstate/`, `proto/intention/`, `proto/gameinfo/`, or `proto/grid/`.
+
+The requests of the game a session joined belong to `gameinfo` (`game_join`, `grid_request`, `player_list_request`, `civilization_lock_request`, `game_connect`, `player_status_request`) and are routed through `GameRequestProto`/`GameResponseProto`.
+
+Service messages of the connection and session that are not about the game are not a category: they are direct envelope payloads declared in `proto/common/` as `*_req.proto`/`*_resp.proto`, next to `SuccessResponseProto`. These are the connection healthcheck `PingRequestProto` (answered with `SuccessResponseProto`) and the session open/resume `SessionOpenRequestProto` -> `SessionOpenResponseProto` (`EnvelopeRequestProto.session_open` / `EnvelopeResponseProto.session_open`). Do not route them through `gameinfo` or another category.
 
 ## Envelope rules
 

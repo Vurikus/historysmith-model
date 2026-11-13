@@ -12,6 +12,7 @@ import "proto/common/success_resp.proto";
 import "proto/common/intention_resp.proto";
 import "proto/common/game_resp.proto";
 import "proto/common/game_event_resp.proto";
+import "proto/common/session_open_resp.proto";
 
 message EnvelopeResponseProto {
   int32 message_id = 1; // Идентификатор запроса клиента, на который дан ответ; 0 — сообщение инициировано сервером
@@ -24,5 +25,6 @@ message EnvelopeResponseProto {
     proto.common.IntentionResponseProto intention = 6;
     proto.common.GameResponseProto game = 7;
     proto.common.GameEventResponseProto game_event = 8;
+    proto.common.SessionOpenResponseProto session_open = 9; // Сессия открыта или возобновлена
   }
 }

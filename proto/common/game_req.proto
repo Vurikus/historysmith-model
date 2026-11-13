@@ -7,7 +7,6 @@ option java_outer_classname = "GameRequestProtoOuter";
 
 import "proto/gameinfo/game_configuration.proto";
 import "proto/gameinfo/game_connect.proto";
-import "proto/gameinfo/session_open.proto";
 import "proto/gameinfo/game_join.proto";
 import "proto/gameinfo/grid_request.proto";
 import "proto/gameinfo/player_list_request.proto";
@@ -20,11 +19,10 @@ message GameRequestProto {
   oneof payload {
     proto.gameinfo.GameConfigurationProto create_game_configuration = 1;           // Создание новой партии с заданными настройками
     proto.gameinfo.GameConnectProto game_connect = 2;                              // Подключение игрока к цивилизации партии сессии
-    proto.gameinfo.SessionOpenProto session_open = 3;                              // Открытие или возобновление сессии: первое сообщение websocket
-    proto.gameinfo.GameJoinProto game_join = 4;                                    // Вход сессии в партию и состояние её мира
-    proto.gameinfo.GridRequestProto grid_request = 5;                              // Игровая сетка партии сессии
-    proto.gameinfo.PlayerListRequestProto player_list_request = 6;                 // Сводка по цивилизациям партии сессии
-    proto.gameinfo.CivilizationLockRequestProto civilization_lock_request = 7;     // Лок цивилизации за игроком на время загрузки
-    proto.gameinfo.PlayerStatusRequestProto player_status_request = 8;             // Статус игрока в партии сессии
+    proto.gameinfo.GameJoinProto game_join = 3;                                    // Вход сессии в партию и состояние её мира
+    proto.gameinfo.GridRequestProto grid_request = 4;                              // Игровая сетка партии сессии
+    proto.gameinfo.PlayerListRequestProto player_list_request = 5;                 // Сводка по цивилизациям партии сессии
+    proto.gameinfo.CivilizationLockRequestProto civilization_lock_request = 6;     // Лок цивилизации за игроком на время загрузки
+    proto.gameinfo.PlayerStatusRequestProto player_status_request = 7;             // Статус игрока в партии сессии
   }
 }

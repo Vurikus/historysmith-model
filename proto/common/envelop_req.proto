@@ -10,6 +10,7 @@ import "proto/common/action_req.proto";
 import "proto/common/game_req.proto";
 import "proto/common/intention_req.proto";
 import "proto/common/ping_req.proto";
+import "proto/common/session_open_req.proto";
 
 message EnvelopeRequestProto {
   int32 message_id = 1;
@@ -19,5 +20,6 @@ message EnvelopeRequestProto {
     proto.common.IntentionRequestProto intention = 4;         // Запросы на попытку совершить действие, намерение. Например игрок навел кнопку с попыткой атаковать
     proto.common.GameRequestProto game = 5;                   // Действия и запросы информации, относящиеся к самой игре: создание партии, получение списка партий, подключение игрока к партии
     proto.common.PingRequestProto ping = 6;                   // Служебная проверка соединения; ответ — success
+    proto.common.SessionOpenRequestProto session_open = 7;    // Служебное открытие или возобновление сессии: первое сообщение websocket
   }
 }
