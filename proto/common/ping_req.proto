@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package proto.common;
+
+option java_multiple_files = true;
+option java_outer_classname = "PingRequestProtoOuter";
+
+// Служебная проверка соединения клиентом (healthcheck), к партии не относится. Сервер отвечает success в соединение
+// пинга, даже если сессия по нему ещё не открыта. Соединение без входящих сообщений сервер закрывает
+message PingRequestProto {
+}

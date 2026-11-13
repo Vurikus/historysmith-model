@@ -9,6 +9,7 @@ import "proto/common/sync_state_req.proto";
 import "proto/common/action_req.proto";
 import "proto/common/game_req.proto";
 import "proto/common/intention_req.proto";
+import "proto/common/ping_req.proto";
 
 message EnvelopeRequestProto {
   int32 message_id = 1;
@@ -17,5 +18,6 @@ message EnvelopeRequestProto {
     proto.common.ActionRequestProto action = 3;               // Объект с конкретным действием игрока. Например переместить отряд. Построить здание...
     proto.common.IntentionRequestProto intention = 4;         // Запросы на попытку совершить действие, намерение. Например игрок навел кнопку с попыткой атаковать
     proto.common.GameRequestProto game = 5;                   // Действия и запросы информации, относящиеся к самой игре: создание партии, получение списка партий, подключение игрока к партии
+    proto.common.PingRequestProto ping = 6;                   // Служебная проверка соединения; ответ — success
   }
 }
