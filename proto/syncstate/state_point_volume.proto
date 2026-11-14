@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package proto.syncstate;
+
+option java_multiple_files = true;
+option java_outer_classname = "StatePointVolumeProtoOuter";
+
+// Объём одного вида очков государства
+message StatePointVolumeProto {
+  string model_name = 1;           // Имя модели очков государства
+  int32 volume = 2;                // Объём очков, единицы очков этого вида
+}

@@ -8,8 +8,9 @@ option java_outer_classname = "WorldProtoOuter";
 // Изменяемое состояние игрового мира
 message WorldProto {
   string id = 1;                        // UUID мира, совпадает с UUID игровой партии
-  int64 version = 2;                    // Версия состояния мира; растёт каждый ход и при изменении состава цивилизаций
+  int64 version = 2;                    // Версия состояния мира; растёт каждый ход, при изменении состава цивилизаций и смене мировой эпохи
   repeated string tile_ids = 3;         // UUID клеток мира
   repeated string civilization_ids = 4; // UUID цивилизаций мира
   int32 current_turn = 5;               // Номер текущего хода: 0 до завершения первого хода, +1 за каждый завершённый ход
+  string epoch_model_name = 6;          // Имя модели текущей мировой эпохи; не эпоха отдельной цивилизации
 }

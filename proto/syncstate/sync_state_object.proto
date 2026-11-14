@@ -12,8 +12,9 @@ import "proto/syncstate/construction_progress.proto";
 import "proto/syncstate/civilization.proto";
 import "proto/syncstate/tile.proto";
 import "proto/syncstate/world.proto";
+import "proto/syncstate/state_point_secretary.proto";
 
-// Один синхронизируемый игровой объект. Версия хранится внутри каждого объекта.
+// Один синхронизируемый игровой объект или секретарь цивилизации. Версия хранится внутри каждого объекта.
 message SyncStateObjectProto {
   oneof object {
     proto.syncstate.FeatureProto feature = 1;
@@ -23,5 +24,6 @@ message SyncStateObjectProto {
     proto.syncstate.CivilizationProto civilization = 5;
     proto.syncstate.TileProto tile = 6;
     proto.syncstate.WorldProto world = 7;
+    proto.syncstate.StatePointSecretaryProto state_point_secretary = 8; // Секретарь очков государства цивилизации
   }
 }
