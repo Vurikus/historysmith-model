@@ -13,6 +13,7 @@
   "government": {
     "baseManagerialPointPerTurn": 1,
     "authorityRatingChangeCoefficient": 1,
-    "taxRate": 10
+    "taxRate": 10,
+    "constructionCancelRefundPercent": 50
   }
 }

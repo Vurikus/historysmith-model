@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package proto.common;
+
+option java_multiple_files = true;
+option java_outer_classname = "CancelConstructionPlayerActionProtoOuter";
+
+// Отмена активного строительства цивилизации игрока. Возвращается часть стоимости заказа по настройке сложности
+// (constructionCancelRefundPercent), вложенные управленческие очки сгорают
+message CancelConstructionPlayerActionProto {
+  string construction_id = 1;       // UUID активного строительства
+}

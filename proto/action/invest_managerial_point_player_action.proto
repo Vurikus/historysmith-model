@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package proto.common;
+
+option java_multiple_files = true;
+option java_outer_classname = "InvestManagerialPointPlayerActionProtoOuter";
+
+// Вложение управленческих очков цивилизации в активное строительство. Только так растёт прогресс строительства:
+// сервер по своей инициативе очки на строительство не списывает, заполненное строительство завершается при пересчёте хода
+message InvestManagerialPointPlayerActionProto {
+  string construction_id = 1;       // UUID активного строительства
+  int32 points = 2;                 // Сколько очков вложить: больше нуля и не больше остатка стоимости
+}

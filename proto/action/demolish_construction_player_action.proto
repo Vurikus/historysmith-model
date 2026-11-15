@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package proto.common;
+
+option java_multiple_files = true;
+option java_outer_classname = "DemolishConstructionPlayerActionProtoOuter";
+
+// Снос улучшения или здания до дефолтного: на микроклетку встаёт дефолтное улучшение рельефа и климата,
+// в слот — дефолтное здание улучшения. Выполняется сразу, без строительства и оплаты; жители сносимых зданий освобождаются
+message DemolishConstructionPlayerActionProto {
+  string construction_id = 1;       // UUID улучшения или здания
+}
