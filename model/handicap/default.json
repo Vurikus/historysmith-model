@@ -14,6 +14,7 @@
     "baseManagerialPointPerTurn": 1,
     "authorityRatingChangeCoefficient": 1,
     "taxRate": 10,
-    "constructionCancelRefundPercent": 50
+    "constructionCancelRefundPercent": 50,
+    "demolitionManagerialPointCost": 2
   }
 }
