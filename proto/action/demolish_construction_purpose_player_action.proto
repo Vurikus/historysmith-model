@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package proto.common;
+
+option java_multiple_files = true;
+option java_outer_classname = "DemolishConstructionPurposePlayerActionProtoOuter";
+
+// Запрос сноса улучшения или здания до дефолтного: начинается активное строительство дефолтной постройки на месте
+// сносимой. Снос не оплачивается товарами и очками государства, стоимость в управленческих очках задаёт настройка
+// сложности (demolitionManagerialPointCost). Действуют правила активного строительства: одно на клетку, очки
+// вкладывает клиент, отмена. Улучшение сносится только после сноса всех его зданий до дефолтных. Когда строительство
+// заполнено, жители сносимых зданий освобождаются и на место встаёт дефолтная постройка
+message DemolishConstructionPurposePlayerActionProto {
+  oneof target {
+    string feature_id = 1;          // UUID сносимого улучшения
+    string building_id = 2;         // UUID сносимого здания
+  }
+}

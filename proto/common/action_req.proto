@@ -14,9 +14,9 @@ import "proto/action/fire_citizen_player_action.proto";
 import "proto/action/hire_citizen_player_action.proto";
 import "proto/action/select_extraction_product_on_building_player_action.proto";
 import "proto/action/rename_tile_player_action.proto";
-import "proto/action/build_building_player_action.proto";
+import "proto/action/build_building_purpose_player_action.proto";
 import "proto/action/cancel_construction_player_action.proto";
-import "proto/action/demolish_construction_player_action.proto";
+import "proto/action/demolish_construction_purpose_player_action.proto";
 import "proto/action/invest_managerial_point_player_action.proto";
 
 message ActionRequestProto {
@@ -30,9 +30,9 @@ message ActionRequestProto {
     proto.common.HireCitizenPlayerActionProto hire_citizen = 7;                                        // Найм жителя в здание
     proto.common.SelectExtractionProductOnBuildingPlayerActionProto select_extraction_product = 8;     // Выбор добываемого товара в здании
     proto.common.RenameTilePlayerActionProto rename_tile = 9;                                          // Переименование клетки её владельцем
-    proto.common.BuildBuildingPlayerActionProto build_building = 10;                                   // Запрос строительства здания в слоте улучшения
+    proto.common.BuildBuildingPurposePlayerActionProto build_building_purpose = 10;                    // Запрос строительства здания в слоте улучшения
     proto.common.CancelConstructionPlayerActionProto cancel_construction = 11;                         // Отмена активного строительства с частичным возвратом стоимости заказа
-    proto.common.DemolishConstructionPlayerActionProto demolish_construction = 12;                     // Снос улучшения или здания до дефолтного
+    proto.common.DemolishConstructionPurposePlayerActionProto demolish_construction_purpose = 12;      // Запрос сноса улучшения или здания до дефолтного
     proto.common.InvestManagerialPointPlayerActionProto invest_managerial_point = 13;                  // Вложение управленческих очков в активное строительство
   }
 }

@@ -8,7 +8,7 @@ option java_outer_classname = "SyncStateObjectProtoOuter";
 import "proto/syncstate/feature.proto";
 import "proto/syncstate/building.proto";
 import "proto/syncstate/citizen.proto";
-import "proto/syncstate/construction_progress.proto";
+import "proto/syncstate/construction_secretary.proto";
 import "proto/syncstate/civilization.proto";
 import "proto/syncstate/tile.proto";
 import "proto/syncstate/world.proto";
@@ -20,10 +20,10 @@ message SyncStateObjectProto {
     proto.syncstate.FeatureProto feature = 1;
     proto.syncstate.BuildingProto building = 2;
     proto.syncstate.CitizenProto citizen = 3;
-    proto.syncstate.ConstructionProgressProto construction_progress = 4;
-    proto.syncstate.CivilizationProto civilization = 5;
-    proto.syncstate.TileProto tile = 6;
-    proto.syncstate.WorldProto world = 7;
-    proto.syncstate.StatePointSecretaryProto state_point_secretary = 8; // Секретарь очков государства цивилизации
+    proto.syncstate.CivilizationProto civilization = 4;
+    proto.syncstate.TileProto tile = 5;
+    proto.syncstate.WorldProto world = 6;
+    proto.syncstate.StatePointSecretaryProto state_point_secretary = 7;     // Секретарь очков государства цивилизации
+    proto.syncstate.ConstructionSecretaryProto construction_secretary = 8;  // Секретарь активных строительств цивилизации
   }
 }

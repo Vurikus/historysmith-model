@@ -3,11 +3,11 @@ syntax = "proto3";
 package proto.common;
 
 option java_multiple_files = true;
-option java_outer_classname = "BuildBuildingPlayerActionProtoOuter";
+option java_outer_classname = "BuildBuildingPurposePlayerActionProtoOuter";
 
 // Запрос строительства здания в слоте улучшения. На клетке может идти не больше одного строительства:
 // при активном строительстве сервер отвечает ошибкой, клиент должен сначала явно отменить его
-message BuildBuildingPlayerActionProto {
+message BuildBuildingPurposePlayerActionProto {
   string building_model_name = 1;   // Имя модели здания
   string feature_id = 2;            // UUID улучшения, в слот которого ставится здание
   uint32 feature_slot_index = 3;    // Индекс слота в улучшении, начиная с нуля

@@ -8,7 +8,6 @@ option java_outer_classname = "SyncStateRequestProtoOuter";
 import "proto/syncstate/filter/filter_id.proto";
 import "proto/syncstate/filter/filter_feature.proto";
 import "proto/syncstate/filter/filter_version.proto";
-import "proto/syncstate/filter/filter_active_construction.proto";
 import "proto/syncstate/filter/filter_secretary.proto";
 
 // Мессадж для синхронизации состояния игровой партии на клиенте. Мессадж идет только со стороны клиента.
@@ -18,7 +17,6 @@ message SyncStateRequestProto {
     proto.syncstate.FilterIdProto filter_id = 1;                                  // Объекты одного типа по идентификаторам
     proto.syncstate.FilterFeatureProto filter_feature = 2;                        // Улучшение по расположению на микроклетке
     proto.syncstate.FilterVersionProto filter_version = 3;                        // Сверка версий объектов любых типов
-    proto.syncstate.FilterActiveConstructionProto filter_active_construction = 4; // Активные строительства своей цивилизации
-    proto.syncstate.FilterSecretaryProto filter_secretary = 5;                    // Сверка версий секретарей цивилизаций
+    proto.syncstate.FilterSecretaryProto filter_secretary = 4;                    // Сверка версий секретарей цивилизаций
   }
 }

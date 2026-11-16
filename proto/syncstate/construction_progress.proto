@@ -5,10 +5,10 @@ package proto.syncstate;
 option java_multiple_files = true;
 option java_outer_classname = "ConstructionProgressProtoOuter";
 
-// Активное строительство цивилизации и его прогресс
+// Активное строительство цивилизации и его прогресс; приходит в составе секретаря строительств
 message ConstructionProgressProto {
-  string construction_id = 1;              // UUID будущей конструкции; после завершения строительства станет id улучшения или здания
-  string model_name = 2;                   // Имя модели строящегося улучшения или здания; при сносе - дефолтной постройки
+  string construction_id = 1;              // UUID строительства; постройка после завершения получает свой UUID
+  string model_name = 2;                   // Имя модели строящегося улучшения или здания; снос - строительство дефолтной постройки
   string tile_id = 3;                      // UUID клетки строительства
   uint32 mt_index = 4;                     // Индекс микроклетки внутри клетки, начиная с нуля
   int32 managerial_point_invested = 5;     // Вложено управленческих очков, от 0 до managerial_point_cost
@@ -17,7 +17,6 @@ message ConstructionProgressProto {
     proto.syncstate.FeatureConstructionTargetProto feature = 7;    // Строится улучшение на микроклетке
     proto.syncstate.BuildingConstructionTargetProto building = 8;  // Строится здание в слоте улучшения
   }
-  bool demolition = 9;                     // Снос до дефолтной постройки: товары и очки государства не оплачиваются, при отмене возвращать нечего
 }
 
 message FeatureConstructionTargetProto {
