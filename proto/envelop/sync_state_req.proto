@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-package proto.common;
+package proto.envelop;
 
 option java_multiple_files = true;
 option java_outer_classname = "SyncStateRequestProtoOuter";
@@ -14,10 +14,6 @@ import "proto/syncstate/filter/filter_secretary.proto";
 // Способ отбора объектов задаётся фильтром; тип объекта передаётся только там, где он нужен для проверки запроса.
 message SyncStateRequestProto {
   oneof payload {
-    proto.syncstate.FilterIdProto filter_id = 1;                                  // Объекты одного типа по идентификаторам
-    proto.syncstate.FilterFeatureProto filter_feature = 2;                        // Улучшение по расположению на микроклетке
-    proto.syncstate.FilterVersionProto filter_version = 3;                        // Сверка версий объектов любых типов
-    proto.syncstate.FilterSecretaryProto filter_secretary = 4;                    // Сверка версий секретарей цивилизаций
     proto.syncstate.filter.FilterIdProto filter_id = 1;                                  // Объекты одного типа по идентификаторам
     proto.syncstate.filter.FilterFeatureProto filter_feature = 2;                        // Улучшение по расположению на микроклетке
     proto.syncstate.filter.FilterVersionProto filter_version = 3;                        // Сверка версий объектов любых типов

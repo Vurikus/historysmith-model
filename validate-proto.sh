@@ -20,7 +20,7 @@ if ! command -v docker &> /dev/null; then
 fi
 
 # Монтируем корень репозитория в /work
-# Ищем все .proto внутри /work/proto, передаём пути относительно /work (например, proto/common/file.proto)
+# Ищем все .proto внутри /work/proto, передаём пути относительно /work (например, proto/envelop/file.proto)
 # protoc видит импорты вида "proto/..." и правильно их разрешает относительно --proto_path=/work
 docker run --rm \
     -u "$(id -u):$(id -g)" \

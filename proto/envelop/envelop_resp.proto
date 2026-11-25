@@ -1,0 +1,30 @@
+syntax = "proto3";
+
+package proto.envelop;
+
+option java_multiple_files = true;
+option java_outer_classname = "EnvelopeResponseProtoOuter";
+
+import "proto/envelop/sync_state_resp.proto";
+import "proto/envelop/action_resp.proto";
+import "proto/envelop/error_resp.proto";
+import "proto/envelop/success_resp.proto";
+import "proto/envelop/intention_resp.proto";
+import "proto/envelop/game_resp.proto";
+import "proto/envelop/game_event_resp.proto";
+import "proto/envelop/session_open_resp.proto";
+
+message EnvelopeResponseProto {
+  int32 message_id = 1; // Идентификатор запроса клиента, на который дан ответ; 0 — сообщение инициировано сервером
+  oneof payload {
+    proto.envelop.ErrorResponseProto error = 2;
+    proto.envelop.SuccessResponseProto success = 3;
+
+    proto.envelop.SyncStateResponseProto sync_state = 4;
+    proto.envelop.ActionResponseProto action = 5;
+    proto.envelop.IntentionResponseProto intention = 6;
+    proto.envelop.GameResponseProto game = 7;
+    proto.envelop.GameEventResponseProto game_event = 8;
+    proto.envelop.SessionOpenResponseProto session_open = 9; // Сессия открыта или возобновлена
+  }
+}

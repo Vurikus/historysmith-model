@@ -10,7 +10,7 @@ Use this skill before making changes in this repository.
 ## Repository roles
 
 - `proto/` contains protobuf contracts used for exchange between the game client and server.
-- `proto/common/` contains the top-level request/response abstraction. All transport messages must be wrapped in `EnvelopeRequestProto` from `proto/common/envelop_req.proto` or `EnvelopeResponseProto` from `proto/common/envelop_resp.proto`.
+- `proto/envelop/` contains the top-level request/response abstraction. All transport messages must be wrapped in `EnvelopeRequestProto` from `proto/envelop/envelop_req.proto` or `EnvelopeResponseProto` from `proto/envelop/envelop_resp.proto`.
 - `model/` contains the single shared description of game model data so client and server use the same numbers and model definitions.
 
 ## Proto message categories
@@ -27,14 +27,14 @@ When adding a concrete protobuf file for one of these categories, place it in th
 
 The requests of the game a session joined belong to `gameinfo` (`game_join`, `grid_request`, `player_list_request`, `civilization_lock_request`, `game_connect`, `player_status_request`) and are routed through `GameRequestProto`/`GameResponseProto`.
 
-Service messages of the connection and session that are not about the game are not a category: they are direct envelope payloads declared in `proto/common/` as `*_req.proto`/`*_resp.proto`, next to `SuccessResponseProto`. These are the connection healthcheck `PingRequestProto` (answered with `SuccessResponseProto`) and the session open/resume `SessionOpenRequestProto` -> `SessionOpenResponseProto` (`EnvelopeRequestProto.session_open` / `EnvelopeResponseProto.session_open`). Do not route them through `gameinfo` or another category.
+Service messages of the connection and session that are not about the game are not a category: they are direct envelope payloads declared in `proto/envelop/` as `*_req.proto`/`*_resp.proto`, next to `SuccessResponseProto`. These are the connection healthcheck `PingRequestProto` (answered with `SuccessResponseProto`) and the session open/resume `SessionOpenRequestProto` -> `SessionOpenResponseProto` (`EnvelopeRequestProto.session_open` / `EnvelopeResponseProto.session_open`). Do not route them through `gameinfo` or another category.
 
 ## Envelope rules
 
-- Add only top-level aggregation and envelope payload messages to `proto/common/`.
+- Add only top-level aggregation and envelope payload messages to `proto/envelop/`.
 - Make new request flows reachable through `EnvelopeRequestProto`.
 - Make new response flows reachable through `EnvelopeResponseProto`.
-- Keep category-specific details out of `proto/common/`; `proto/common/` should route and wrap them.
+- Keep category-specific details out of `proto/envelop/`; `proto/envelop/` should route and wrap them.
 
 ## Model rules
 
