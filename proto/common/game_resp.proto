@@ -17,8 +17,8 @@ message GameResponseProto {
   oneof payload {
     proto.gameinfo.GameInfoProto game_info = 1;                       // Мета информация о партии
     proto.common.GameInfoListResponseProto game_info_list = 2;        // Список доступных партий
-    proto.common.PlayerListResponseProto player_list = 3;             // Цивилизации мира и вид их игрока для экрана выбора
-    proto.common.CivilizationLockResponseProto civilization_lock = 4; // Результат блокировки цивилизации за игроком
+    proto.gameinfo.PlayerListResponseProto player_list = 3;             // Цивилизации мира и вид их игрока для экрана выбора
+    proto.gameinfo.CivilizationLockResponseProto civilization_lock = 4; // Результат блокировки цивилизации за игроком
     proto.grid.GridProto grid = 5;                                    // Игровая сетка партии: расположение клеток в игровом пространстве
     proto.gameinfo.PlayerStatusProto player_status = 6;               // Статус игрока: ответ на подключение к партии и запрос статуса
   }

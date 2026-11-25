@@ -2,66 +2,79 @@
   {
     "modelName": "mountain",
     "displayName": "TXT_RELIEF_MOUNTAIN",
-    "waterProduction": 0
+    "waterProduction": 0,
+    "transportTariff": 8
   },
   {
     "modelName": "volcano",
     "displayName": "TXT_RELIEF_VOLCANO",
-    "waterProduction": 0
+    "waterProduction": 0,
+    "transportTariff": 9
   },
   {
     "modelName": "hill",
     "displayName": "TXT_RELIEF_HILL",
-    "waterProduction": 0
+    "waterProduction": 0,
+    "transportTariff": 4
   },
   {
     "modelName": "plain",
     "displayName": "TXT_RELIEF_PLAIN",
-    "waterProduction": 0
+    "waterProduction": 0,
+    "transportTariff": 2
   },
   {
     "modelName": "lake",
     "displayName": "TXT_RELIEF_LAKE",
-    "waterProduction": 0
+    "waterProduction": 0,
+    "transportTariff": 3
   },
   {
     "modelName": "river",
     "displayName": "TXT_RELIEF_RIVER",
-    "waterProduction": 0
+    "waterProduction": 0,
+    "transportTariff": 2
   },
   {
     "modelName": "dune",
     "displayName": "TXT_RELIEF_DUNE",
-    "waterProduction": 0
+    "waterProduction": 0,
+    "transportTariff": 5
   },
   {
     "modelName": "marsh",
     "displayName": "TXT_RELIEF_MARSH",
-    "waterProduction": 0
+    "waterProduction": 0,
+    "transportTariff": 6
   },
   {
     "modelName": "sea",
     "displayName": "TXT_RELIEF_SEA",
-    "waterProduction": 0
+    "waterProduction": 0,
+    "transportTariff": 1
   },
   {
     "modelName": "reef",
     "displayName": "TXT_RELIEF_REEF",
-    "waterProduction": 0
+    "waterProduction": 0,
+    "transportTariff": 4
   },
   {
     "modelName": "rock",
     "displayName": "TXT_RELIEF_ROCK",
-    "waterProduction": 0
+    "waterProduction": 0,
+    "transportTariff": 6
   },
   {
     "modelName": "iceberg",
     "displayName": "TXT_RELIEF_ICEBERG",
-    "waterProduction": 0
+    "waterProduction": 0,
+    "transportTariff": 7
   },
   {
     "modelName": "island",
     "displayName": "TXT_RELIEF_ISLAND",
-    "waterProduction": 0
+    "waterProduction": 0,
+    "transportTariff": 2
   }
 ]

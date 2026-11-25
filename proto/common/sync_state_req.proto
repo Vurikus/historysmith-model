@@ -18,5 +18,9 @@ message SyncStateRequestProto {
     proto.syncstate.FilterFeatureProto filter_feature = 2;                        // Улучшение по расположению на микроклетке
     proto.syncstate.FilterVersionProto filter_version = 3;                        // Сверка версий объектов любых типов
     proto.syncstate.FilterSecretaryProto filter_secretary = 4;                    // Сверка версий секретарей цивилизаций
+    proto.syncstate.filter.FilterIdProto filter_id = 1;                                  // Объекты одного типа по идентификаторам
+    proto.syncstate.filter.FilterFeatureProto filter_feature = 2;                        // Улучшение по расположению на микроклетке
+    proto.syncstate.filter.FilterVersionProto filter_version = 3;                        // Сверка версий объектов любых типов
+    proto.syncstate.filter.FilterSecretaryProto filter_secretary = 4;                    // Сверка версий секретарей цивилизаций
   }
 }

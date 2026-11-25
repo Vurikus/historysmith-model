@@ -5,8 +5,8 @@ package proto.syncstate;
 option java_multiple_files = true;
 option java_outer_classname = "CitizenRequirementProtoOuter";
 
-// Состояние одной потребности жителя за текущий ход
+// Норма потребности жителя и результат последнего завершённого хода
 message CitizenRequirementProto {
   int32 count_slot = 1;                              // Количество слотов потребности
-  repeated string consumed_product_model_names = 2;  // Имена моделей потреблённых товаров, один элемент на занятый слот
+  repeated string consumed_product_model_names = 2;  // Имена моделей товаров, потреблённых при завершении хода. Один элемент на заполненный слот
 }

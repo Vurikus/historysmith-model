@@ -34,5 +34,18 @@ message ActionRequestProto {
     proto.common.CancelConstructionPlayerActionProto cancel_construction = 11;                         // Отмена активного строительства с частичным возвратом стоимости заказа
     proto.common.DemolishConstructionPurposePlayerActionProto demolish_construction_purpose = 12;      // Запрос сноса улучшения или здания до дефолтного
     proto.common.InvestManagerialPointPlayerActionProto invest_managerial_point = 13;                  // Вложение управленческих очков в активное строительство
+    proto.action.EndTurnPlayerActionProto end_turn_player = 1;                                         // Завершение игрового хода игроком
+    proto.action.ApplyCraftToolPlayerActionProto apply_craft_tool = 2;                                 // Применение ремесленного инструмента к товару
+    proto.action.BuildFeaturePurposePlayerActionProto build_feature_purpose = 3;                       // Запрос строительства улучшения на микроклетке
+    proto.action.CancelCitizenResidencePlayerActionProto cancel_citizen_residence = 4;                 // Прекращение обучения жителя
+    proto.action.EducateCitizenPlayerActionProto educate_citizen = 5;                                  // Начало обучения жителя
+    proto.action.FireCitizenPlayerActionProto fire_citizen = 6;                                        // Увольнение жителя
+    proto.action.HireCitizenPlayerActionProto hire_citizen = 7;                                        // Найм жителя в здание
+    proto.action.SelectExtractionProductOnBuildingPlayerActionProto select_extraction_product = 8;     // Выбор добываемого товара в здании
+    proto.action.RenameTilePlayerActionProto rename_tile = 9;                                          // Переименование клетки её владельцем
+    proto.action.BuildBuildingPurposePlayerActionProto build_building_purpose = 10;                    // Запрос строительства здания в слоте улучшения
+    proto.action.CancelConstructionPlayerActionProto cancel_construction = 11;                         // Отмена активного строительства с частичным возвратом стоимости заказа
+    proto.action.DemolishConstructionPurposePlayerActionProto demolish_construction_purpose = 12;      // Запрос сноса улучшения или здания до дефолтного
+    proto.action.InvestManagerialPointPlayerActionProto invest_managerial_point = 13;                  // Вложение управленческих очков в активное строительство
   }
 }
